@@ -1,0 +1,163 @@
+[
+  {
+    "inputs": {
+      "string": "([])(){}(())()()"
+    },
+    "expected": "true",
+    "name": "Test Case 1"
+  },
+  {
+    "inputs": {
+      "string": "()[]{}{"
+    },
+    "expected": "false",
+    "name": "Test Case 2"
+  },
+  {
+    "inputs": {
+      "string": "(((((({{{{{[[[[[([)])]]]]]}}}}}))))))"
+    },
+    "expected": "false",
+    "name": "Test Case 3"
+  },
+  {
+    "inputs": {
+      "string": "()()[{()})]"
+    },
+    "expected": "false",
+    "name": "Test Case 4"
+  },
+  {
+    "inputs": {
+      "string": "(()())((()()()))"
+    },
+    "expected": "true",
+    "name": "Test Case 5"
+  },
+  {
+    "inputs": {
+      "string": "{}()"
+    },
+    "expected": "true",
+    "name": "Test Case 6"
+  },
+  {
+    "inputs": {
+      "string": "()([])"
+    },
+    "expected": "true",
+    "name": "Test Case 7"
+  },
+  {
+    "inputs": {
+      "string": "((){{{{[]}}}})"
+    },
+    "expected": "true",
+    "name": "Test Case 8"
+  },
+  {
+    "inputs": {
+      "string": "((({})()))"
+    },
+    "expected": "true",
+    "name": "Test Case 9"
+  },
+  {
+    "inputs": {
+      "string": "(([]()()){})"
+    },
+    "expected": "true",
+    "name": "Test Case 10"
+  },
+  {
+    "inputs": {
+      "string": "(((((([[[[[[{{{{{{{{{{{{()}}}}}}}}}}}}]]]]]]))))))((([])({})[])[])[]([]){}(())"
+    },
+    "expected": "true",
+    "name": "Test Case 11"
+  },
+  {
+    "inputs": {
+      "string": "{[[[[({(}))]]]]}"
+    },
+    "expected": "false",
+    "name": "Test Case 12"
+  },
+  {
+    "inputs": {
+      "string": "[((([])([]){}){}){}([])[]((())"
+    },
+    "expected": "false",
+    "name": "Test Case 13"
+  },
+  {
+    "inputs": {
+      "string": ")[]}"
+    },
+    "expected": "false",
+    "name": "Test Case 14"
+  },
+  {
+    "inputs": {
+      "string": "(a)"
+    },
+    "expected": "true",
+    "name": "Test Case 15"
+  },
+  {
+    "inputs": {
+      "string": "(a("
+    },
+    "expected": "false",
+    "name": "Test Case 16"
+  },
+  {
+    "inputs": {
+      "string": "(141[])(){waga}((51afaw))()hh()"
+    },
+    "expected": "true",
+    "name": "Test Case 17"
+  },
+  {
+    "inputs": {
+      "string": "aafwgaga()[]a{}{gggg"
+    },
+    "expected": "false",
+    "name": "Test Case 18"
+  },
+  {
+    "inputs": {
+      "string": "(((((({{{{{safaf[[[[[([)]safsafsa)]]]]]}}}gawga}}))))))"
+    },
+    "expected": "false",
+    "name": "Test Case 19"
+  },
+  {
+    "inputs": {
+      "string": "()(agawg)[{()gawggaw})]"
+    },
+    "expected": "false",
+    "name": "Test Case 20"
+  },
+  {
+    "inputs": {
+      "string": "(()agwg())((()agwga()())gawgwgag)"
+    },
+    "expected": "true",
+    "name": "Test Case 21"
+  },
+  {
+    "inputs": {
+      "string": "{}gawgw()"
+    },
+    "expected": "true",
+    "name": "Test Case 22"
+  },
+  {
+    "inputs": {
+      "string": "(agwgg)([ghhheah%&@Q])"
+    },
+    "expected": "true",
+    "name": "Test Case 23"
+  }
+]

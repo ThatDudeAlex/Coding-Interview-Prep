@@ -1,0 +1,235 @@
+[
+  {
+    "inputs": {
+      "heights": [
+        0,
+        8,
+        0,
+        0,
+        5,
+        0,
+        0,
+        10,
+        0,
+        0,
+        1,
+        1,
+        0,
+        3
+      ]
+    },
+    "expected": 48,
+    "name": "Test Case 1"
+  },
+  {
+    "inputs": {
+      "heights": []
+    },
+    "expected": 0,
+    "name": "Test Case 2"
+  },
+  {
+    "inputs": {
+      "heights": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "expected": 0,
+    "name": "Test Case 3"
+  },
+  {
+    "inputs": {
+      "heights": [
+        0,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    "expected": 0,
+    "name": "Test Case 4"
+  },
+  {
+    "inputs": {
+      "heights": [
+        0,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    "expected": 0,
+    "name": "Test Case 5"
+  },
+  {
+    "inputs": {
+      "heights": [
+        0,
+        1,
+        2,
+        1,
+        1
+      ]
+    },
+    "expected": 0,
+    "name": "Test Case 6"
+  },
+  {
+    "inputs": {
+      "heights": [
+        0,
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    "expected": 1,
+    "name": "Test Case 7"
+  },
+  {
+    "inputs": {
+      "heights": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        2,
+        0,
+        3
+      ]
+    },
+    "expected": 4,
+    "name": "Test Case 8"
+  },
+  {
+    "inputs": {
+      "heights": [
+        0,
+        8,
+        0,
+        0,
+        10,
+        0,
+        0,
+        10,
+        0,
+        0,
+        1,
+        1,
+        0,
+        3
+      ]
+    },
+    "expected": 49,
+    "name": "Test Case 9"
+  },
+  {
+    "inputs": {
+      "heights": [
+        0,
+        100,
+        0,
+        0,
+        10,
+        1,
+        1,
+        10,
+        1,
+        0,
+        1,
+        1,
+        0,
+        100
+      ]
+    },
+    "expected": 1075,
+    "name": "Test Case 10"
+  },
+  {
+    "inputs": {
+      "heights": [
+        0,
+        100,
+        0,
+        0,
+        10,
+        1,
+        1,
+        10,
+        1,
+        0,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    "expected": 39,
+    "name": "Test Case 11"
+  },
+  {
+    "inputs": {
+      "heights": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        8
+      ]
+    },
+    "expected": 10,
+    "name": "Test Case 12"
+  },
+  {
+    "inputs": {
+      "heights": [
+        8,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    "expected": 10,
+    "name": "Test Case 13"
+  },
+  {
+    "inputs": {
+      "heights": [
+        1,
+        8,
+        6,
+        2,
+        5,
+        4,
+        8,
+        3,
+        7
+      ]
+    },
+    "expected": 19,
+    "name": "Test Case 14"
+  }
+]

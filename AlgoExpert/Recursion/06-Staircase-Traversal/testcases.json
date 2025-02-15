@@ -1,0 +1,106 @@
+[
+  {
+    "inputs": {
+      "height": 4,
+      "maxSteps": 2
+    },
+    "expected": 5,
+    "name": "Test Case 1"
+  },
+  {
+    "inputs": {
+      "height": 10,
+      "maxSteps": 1
+    },
+    "expected": 1,
+    "name": "Test Case 2"
+  },
+  {
+    "inputs": {
+      "height": 10,
+      "maxSteps": 2
+    },
+    "expected": 89,
+    "name": "Test Case 3"
+  },
+  {
+    "inputs": {
+      "height": 4,
+      "maxSteps": 3
+    },
+    "expected": 7,
+    "name": "Test Case 4"
+  },
+  {
+    "inputs": {
+      "height": 1,
+      "maxSteps": 1
+    },
+    "expected": 1,
+    "name": "Test Case 5"
+  },
+  {
+    "inputs": {
+      "height": 5,
+      "maxSteps": 2
+    },
+    "expected": 8,
+    "name": "Test Case 6"
+  },
+  {
+    "inputs": {
+      "height": 4,
+      "maxSteps": 4
+    },
+    "expected": 8,
+    "name": "Test Case 7"
+  },
+  {
+    "inputs": {
+      "height": 6,
+      "maxSteps": 2
+    },
+    "expected": 13,
+    "name": "Test Case 8"
+  },
+  {
+    "inputs": {
+      "height": 100,
+      "maxSteps": 1
+    },
+    "expected": 1,
+    "name": "Test Case 9"
+  },
+  {
+    "inputs": {
+      "height": 15,
+      "maxSteps": 5
+    },
+    "expected": 13624,
+    "name": "Test Case 10"
+  },
+  {
+    "inputs": {
+      "height": 7,
+      "maxSteps": 2
+    },
+    "expected": 21,
+    "name": "Test Case 11"
+  },
+  {
+    "inputs": {
+      "height": 6,
+      "maxSteps": 3
+    },
+    "expected": 24,
+    "name": "Test Case 12"
+  },
+  {
+    "inputs": {
+      "height": 3,
+      "maxSteps": 2
+    },
+    "expected": 3,
+    "name": "Test Case 13"
+  }
+]

@@ -1,0 +1,1554 @@
+[
+  {
+    "inputs": {
+      "land": [
+        [
+          true
+        ]
+      ]
+    },
+    "expected": 0,
+    "name": "Test Case 1"
+  },
+  {
+    "inputs": {
+      "land": [
+        [
+          false
+        ]
+      ]
+    },
+    "expected": 1,
+    "name": "Test Case 2"
+  },
+  {
+    "inputs": {
+      "land": [
+        [
+          true,
+          false,
+          true
+        ]
+      ]
+    },
+    "expected": 1,
+    "name": "Test Case 3"
+  },
+  {
+    "inputs": {
+      "land": [
+        [
+          false,
+          true,
+          false
+        ]
+      ]
+    },
+    "expected": 1,
+    "name": "Test Case 4"
+  },
+  {
+    "inputs": {
+      "land": [
+        [
+          false,
+          false,
+          false
+        ]
+      ]
+    },
+    "expected": 3,
+    "name": "Test Case 5"
+  },
+  {
+    "inputs": {
+      "land": [
+        [
+          true,
+          true,
+          true
+        ]
+      ]
+    },
+    "expected": 0,
+    "name": "Test Case 6"
+  },
+  {
+    "inputs": {
+      "land": [
+        [
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false
+        ]
+      ]
+    },
+    "expected": 6,
+    "name": "Test Case 7"
+  },
+  {
+    "inputs": {
+      "land": [
+        [
+          false,
+          true,
+          false
+        ],
+        [
+          false,
+          false,
+          false
+        ]
+      ]
+    },
+    "expected": 3,
+    "name": "Test Case 8"
+  },
+  {
+    "inputs": {
+      "land": [
+        [
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          true,
+          false
+        ]
+      ]
+    },
+    "expected": 3,
+    "name": "Test Case 9"
+  },
+  {
+    "inputs": {
+      "land": [
+        [
+          false,
+          true,
+          false
+        ],
+        [
+          false,
+          true,
+          false
+        ]
+      ]
+    },
+    "expected": 2,
+    "name": "Test Case 10"
+  },
+  {
+    "inputs": {
+      "land": [
+        [
+          false,
+          true,
+          false
+        ],
+        [
+          false,
+          true,
+          false
+        ],
+        [
+          false,
+          true,
+          false
+        ]
+      ]
+    },
+    "expected": 3,
+    "name": "Test Case 11"
+  },
+  {
+    "inputs": {
+      "land": [
+        [
+          false,
+          true,
+          false
+        ],
+        [
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          true,
+          false
+        ]
+      ]
+    },
+    "expected": 3,
+    "name": "Test Case 12"
+  },
+  {
+    "inputs": {
+      "land": [
+        [
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          true,
+          false
+        ]
+      ]
+    },
+    "expected": 6,
+    "name": "Test Case 13"
+  },
+  {
+    "inputs": {
+      "land": [
+        [
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false
+        ]
+      ]
+    },
+    "expected": 9,
+    "name": "Test Case 14"
+  },
+  {
+    "inputs": {
+      "land": [
+        [
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          true
+        ]
+      ]
+    },
+    "expected": 6,
+    "name": "Test Case 15"
+  },
+  {
+    "inputs": {
+      "land": [
+        [
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false
+        ],
+        [
+          true,
+          false,
+          false
+        ]
+      ]
+    },
+    "expected": 6,
+    "name": "Test Case 16"
+  },
+  {
+    "inputs": {
+      "land": [
+        [
+          true,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false
+        ]
+      ]
+    },
+    "expected": 6,
+    "name": "Test Case 17"
+  },
+  {
+    "inputs": {
+      "land": [
+        [
+          false,
+          false,
+          true
+        ],
+        [
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false
+        ]
+      ]
+    },
+    "expected": 6,
+    "name": "Test Case 18"
+  },
+  {
+    "inputs": {
+      "land": [
+        [
+          true,
+          true,
+          false,
+          true,
+          false
+        ],
+        [
+          false,
+          true,
+          false,
+          false,
+          false
+        ],
+        [
+          true,
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          true,
+          true,
+          false,
+          true
+        ]
+      ]
+    },
+    "expected": 6,
+    "name": "Test Case 19"
+  },
+  {
+    "inputs": {
+      "land": [
+        [
+          true,
+          true,
+          true
+        ],
+        [
+          true,
+          true,
+          true
+        ],
+        [
+          true,
+          true,
+          true
+        ]
+      ]
+    },
+    "expected": 0,
+    "name": "Test Case 20"
+  },
+  {
+    "inputs": {
+      "land": [
+        [
+          false,
+          false
+        ],
+        [
+          false,
+          false
+        ]
+      ]
+    },
+    "expected": 4,
+    "name": "Test Case 21"
+  },
+  {
+    "inputs": {
+      "land": [
+        [
+          true,
+          false,
+          true,
+          false
+        ],
+        [
+          false,
+          true,
+          false,
+          true
+        ],
+        [
+          true,
+          false,
+          true,
+          false
+        ],
+        [
+          false,
+          true,
+          false,
+          true
+        ]
+      ]
+    },
+    "expected": 1,
+    "name": "Test Case 22"
+  },
+  {
+    "inputs": {
+      "land": [
+        [
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          true,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      ]
+    },
+    "expected": 10,
+    "name": "Test Case 23"
+  },
+  {
+    "inputs": {
+      "land": [
+        [
+          true,
+          false,
+          false,
+          true,
+          true,
+          false
+        ],
+        [
+          false,
+          true,
+          true,
+          false,
+          true,
+          false
+        ],
+        [
+          true,
+          true,
+          false,
+          false,
+          true,
+          false
+        ]
+      ]
+    },
+    "expected": 3,
+    "name": "Test Case 24"
+  },
+  {
+    "inputs": {
+      "land": [
+        [
+          false,
+          true,
+          true,
+          true
+        ],
+        [
+          true,
+          true,
+          true,
+          true
+        ],
+        [
+          true,
+          true,
+          true,
+          true
+        ],
+        [
+          true,
+          true,
+          true,
+          true
+        ]
+      ]
+    },
+    "expected": 1,
+    "name": "Test Case 25"
+  },
+  {
+    "inputs": {
+      "land": [
+        [
+          true,
+          false,
+          false,
+          true,
+          true,
+          false
+        ],
+        [
+          false,
+          true,
+          true,
+          false,
+          true,
+          false
+        ],
+        [
+          true,
+          true,
+          false,
+          true,
+          true,
+          false
+        ]
+      ]
+    },
+    "expected": 3,
+    "name": "Test Case 26"
+  },
+  {
+    "inputs": {
+      "land": [
+        [
+          true
+        ],
+        [
+          false
+        ],
+        [
+          true
+        ],
+        [
+          false
+        ],
+        [
+          true
+        ],
+        [
+          false
+        ],
+        [
+          true
+        ]
+      ]
+    },
+    "expected": 1,
+    "name": "Test Case 27"
+  },
+  {
+    "inputs": {
+      "land": [
+        [
+          true
+        ],
+        [
+          true
+        ],
+        [
+          true
+        ],
+        [
+          true
+        ],
+        [
+          true
+        ],
+        [
+          true
+        ],
+        [
+          true
+        ]
+      ]
+    },
+    "expected": 0,
+    "name": "Test Case 28"
+  },
+  {
+    "inputs": {
+      "land": [
+        [
+          false
+        ],
+        [
+          false
+        ],
+        [
+          false
+        ],
+        [
+          false
+        ],
+        [
+          false
+        ],
+        [
+          false
+        ],
+        [
+          false
+        ]
+      ]
+    },
+    "expected": 7,
+    "name": "Test Case 29"
+  },
+  {
+    "inputs": {
+      "land": [
+        [
+          false,
+          true,
+          false,
+          false,
+          true,
+          false
+        ],
+        [
+          true,
+          false,
+          true,
+          false,
+          false,
+          true
+        ],
+        [
+          false,
+          true,
+          false,
+          true,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          true,
+          false,
+          true,
+          false
+        ],
+        [
+          true,
+          false,
+          false,
+          true,
+          false,
+          true
+        ],
+        [
+          false,
+          true,
+          false,
+          false,
+          true,
+          false
+        ]
+      ]
+    },
+    "expected": 2,
+    "name": "Test Case 30"
+  },
+  {
+    "inputs": {
+      "land": [
+        [
+          true,
+          false,
+          true,
+          false,
+          false
+        ],
+        [
+          false,
+          true,
+          false,
+          true,
+          true
+        ],
+        [
+          false,
+          true,
+          true,
+          false,
+          false
+        ],
+        [
+          false,
+          true,
+          false,
+          false,
+          true
+        ],
+        [
+          true,
+          false,
+          true,
+          false,
+          false
+        ]
+      ]
+    },
+    "expected": 3,
+    "name": "Test Case 31"
+  },
+  {
+    "inputs": {
+      "land": [
+        [
+          true,
+          false,
+          true,
+          true,
+          false,
+          false,
+          true
+        ],
+        [
+          false,
+          true,
+          false,
+          false,
+          true,
+          true,
+          false
+        ],
+        [
+          true,
+          false,
+          true,
+          true,
+          false,
+          false,
+          true
+        ]
+      ]
+    },
+    "expected": 2,
+    "name": "Test Case 32"
+  },
+  {
+    "inputs": {
+      "land": [
+        [
+          false,
+          false,
+          true,
+          false,
+          false,
+          true,
+          true
+        ],
+        [
+          true,
+          true,
+          false,
+          true,
+          true,
+          false,
+          false
+        ],
+        [
+          false,
+          true,
+          false,
+          true,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          true,
+          false,
+          false,
+          true,
+          true,
+          true
+        ]
+      ]
+    },
+    "expected": 4,
+    "name": "Test Case 33"
+  },
+  {
+    "inputs": {
+      "land": [
+        [
+          true,
+          false,
+          true,
+          false,
+          false,
+          true,
+          false,
+          true,
+          false,
+          true
+        ],
+        [
+          false,
+          true,
+          false,
+          true,
+          true,
+          false,
+          true,
+          false,
+          true,
+          false
+        ],
+        [
+          true,
+          false,
+          true,
+          false,
+          false,
+          true,
+          false,
+          true,
+          false,
+          true
+        ],
+        [
+          false,
+          true,
+          false,
+          true,
+          true,
+          false,
+          true,
+          false,
+          true,
+          false
+        ],
+        [
+          true,
+          false,
+          true,
+          false,
+          false,
+          true,
+          false,
+          true,
+          false,
+          true
+        ],
+        [
+          false,
+          true,
+          false,
+          true,
+          true,
+          false,
+          true,
+          false,
+          true,
+          false
+        ],
+        [
+          true,
+          false,
+          true,
+          false,
+          false,
+          true,
+          false,
+          true,
+          false,
+          true
+        ],
+        [
+          false,
+          true,
+          false,
+          true,
+          true,
+          false,
+          true,
+          false,
+          true,
+          false
+        ],
+        [
+          true,
+          false,
+          true,
+          false,
+          false,
+          true,
+          false,
+          true,
+          false,
+          true
+        ],
+        [
+          false,
+          true,
+          false,
+          true,
+          true,
+          false,
+          true,
+          false,
+          true,
+          false
+        ]
+      ]
+    },
+    "expected": 2,
+    "name": "Test Case 34"
+  },
+  {
+    "inputs": {
+      "land": [
+        [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          true,
+          true,
+          true,
+          false
+        ],
+        [
+          false,
+          false,
+          true,
+          true,
+          true,
+          false
+        ],
+        [
+          false,
+          false,
+          true,
+          true,
+          true,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      ]
+    },
+    "expected": 14,
+    "name": "Test Case 35"
+  },
+  {
+    "inputs": {
+      "land": [
+        [
+          true,
+          true,
+          true,
+          false,
+          false,
+          false
+        ],
+        [
+          true,
+          true,
+          true,
+          false,
+          false,
+          false
+        ],
+        [
+          true,
+          true,
+          true,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      ]
+    },
+    "expected": 24,
+    "name": "Test Case 36"
+  },
+  {
+    "inputs": {
+      "land": [
+        [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        [
+          true,
+          false,
+          false,
+          false,
+          false,
+          true
+        ],
+        [
+          true,
+          false,
+          false,
+          false,
+          false,
+          true
+        ],
+        [
+          true,
+          false,
+          false,
+          false,
+          false,
+          true
+        ],
+        [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      ]
+    },
+    "expected": 12,
+    "name": "Test Case 37"
+  },
+  {
+    "inputs": {
+      "land": [
+        [
+          false,
+          false,
+          false,
+          true,
+          true,
+          true
+        ],
+        [
+          false,
+          false,
+          false,
+          true,
+          true,
+          true
+        ],
+        [
+          false,
+          false,
+          false,
+          true,
+          true,
+          true
+        ],
+        [
+          false,
+          false,
+          false,
+          true,
+          true,
+          true
+        ],
+        [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      ]
+    },
+    "expected": 12,
+    "name": "Test Case 38"
+  },
+  {
+    "inputs": {
+      "land": [
+        [
+          false,
+          false,
+          false,
+          true,
+          true,
+          true
+        ],
+        [
+          false,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        [
+          true,
+          false,
+          false,
+          false,
+          false,
+          true
+        ],
+        [
+          true,
+          false,
+          false,
+          false,
+          false,
+          true
+        ],
+        [
+          true,
+          false,
+          false,
+          false,
+          false,
+          true
+        ],
+        [
+          true,
+          true,
+          true,
+          true,
+          true,
+          false
+        ],
+        [
+          false,
+          false,
+          true,
+          true,
+          false,
+          false
+        ]
+      ]
+    },
+    "expected": 12,
+    "name": "Test Case 39"
+  },
+  {
+    "inputs": {
+      "land": [
+        [
+          true,
+          false,
+          true,
+          false,
+          true,
+          false,
+          true,
+          false,
+          false,
+          true,
+          false,
+          false,
+          true,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          true,
+          true,
+          false,
+          true,
+          false,
+          false,
+          true,
+          false,
+          true,
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          false,
+          false,
+          true,
+          true,
+          false,
+          false,
+          false
+        ],
+        [
+          true,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          false,
+          false,
+          true,
+          true,
+          false,
+          false,
+          true
+        ],
+        [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          false,
+          false,
+          true,
+          false,
+          true
+        ],
+        [
+          true,
+          false,
+          true,
+          true,
+          false,
+          true,
+          false,
+          true,
+          true,
+          false,
+          false,
+          true,
+          false,
+          false,
+          true
+        ],
+        [
+          false,
+          true,
+          false,
+          false,
+          true,
+          false,
+          true,
+          true,
+          false,
+          true,
+          false,
+          true,
+          false,
+          false,
+          true
+        ],
+        [
+          false,
+          true,
+          false,
+          true,
+          false,
+          true,
+          false,
+          false,
+          true,
+          false,
+          true,
+          true,
+          false,
+          true,
+          false
+        ],
+        [
+          false,
+          true,
+          true,
+          false,
+          false,
+          true,
+          false,
+          false,
+          true,
+          true,
+          false,
+          false,
+          true,
+          false,
+          true
+        ],
+        [
+          true,
+          false,
+          true,
+          true,
+          false,
+          true,
+          false,
+          true,
+          true,
+          false,
+          false,
+          true,
+          false,
+          false,
+          true
+        ],
+        [
+          false,
+          true,
+          false,
+          false,
+          true,
+          false,
+          true,
+          true,
+          false,
+          false,
+          false,
+          true,
+          false,
+          false,
+          true
+        ],
+        [
+          false,
+          true,
+          false,
+          true,
+          false,
+          true,
+          false,
+          false,
+          true,
+          false,
+          true,
+          true,
+          false,
+          true,
+          false
+        ],
+        [
+          false,
+          true,
+          true,
+          false,
+          false,
+          true,
+          false,
+          false,
+          true,
+          true,
+          false,
+          false,
+          true,
+          false,
+          true
+        ],
+        [
+          true,
+          false,
+          true,
+          true,
+          false,
+          true,
+          false,
+          true,
+          true,
+          false,
+          false,
+          true,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      ]
+    },
+    "expected": 15,
+    "name": "Test Case 40"
+  }
+]

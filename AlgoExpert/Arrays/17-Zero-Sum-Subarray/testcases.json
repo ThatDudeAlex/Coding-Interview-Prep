@@ -1,0 +1,230 @@
+[
+  {
+    "inputs": {
+      "nums": []
+    },
+    "expected": false,
+    "name": "Test Case 1"
+  },
+  {
+    "inputs": {
+      "nums": [
+        0
+      ]
+    },
+    "expected": true,
+    "name": "Test Case 2"
+  },
+  {
+    "inputs": {
+      "nums": [
+        1
+      ]
+    },
+    "expected": false,
+    "name": "Test Case 3"
+  },
+  {
+    "inputs": {
+      "nums": [
+        1,
+        2,
+        3
+      ]
+    },
+    "expected": false,
+    "name": "Test Case 4"
+  },
+  {
+    "inputs": {
+      "nums": [
+        1,
+        1,
+        1
+      ]
+    },
+    "expected": false,
+    "name": "Test Case 5"
+  },
+  {
+    "inputs": {
+      "nums": [
+        -1,
+        -1,
+        -1
+      ]
+    },
+    "expected": false,
+    "name": "Test Case 6"
+  },
+  {
+    "inputs": {
+      "nums": [
+        0,
+        0,
+        0
+      ]
+    },
+    "expected": true,
+    "name": "Test Case 7"
+  },
+  {
+    "inputs": {
+      "nums": [
+        1,
+        2,
+        -2,
+        3
+      ]
+    },
+    "expected": true,
+    "name": "Test Case 8"
+  },
+  {
+    "inputs": {
+      "nums": [
+        2,
+        -2
+      ]
+    },
+    "expected": true,
+    "name": "Test Case 9"
+  },
+  {
+    "inputs": {
+      "nums": [
+        -1,
+        2,
+        3,
+        4,
+        -5,
+        -3,
+        1,
+        2
+      ]
+    },
+    "expected": true,
+    "name": "Test Case 10"
+  },
+  {
+    "inputs": {
+      "nums": [
+        -2,
+        -3,
+        -1,
+        2,
+        3,
+        4,
+        -5,
+        -3,
+        1,
+        2
+      ]
+    },
+    "expected": true,
+    "name": "Test Case 11"
+  },
+  {
+    "inputs": {
+      "nums": [
+        2,
+        3,
+        4,
+        -5,
+        -3,
+        4,
+        5
+      ]
+    },
+    "expected": true,
+    "name": "Test Case 12"
+  },
+  {
+    "inputs": {
+      "nums": [
+        2,
+        3,
+        4,
+        -5,
+        -3,
+        5,
+        5
+      ]
+    },
+    "expected": false,
+    "name": "Test Case 13"
+  },
+  {
+    "inputs": {
+      "nums": [
+        1,
+        2,
+        3,
+        4,
+        0,
+        5,
+        6,
+        7
+      ]
+    },
+    "expected": true,
+    "name": "Test Case 14"
+  },
+  {
+    "inputs": {
+      "nums": [
+        1,
+        2,
+        3,
+        -2,
+        -1
+      ]
+    },
+    "expected": true,
+    "name": "Test Case 15"
+  },
+  {
+    "inputs": {
+      "nums": [
+        -8,
+        -22,
+        104,
+        73,
+        -120,
+        53,
+        22,
+        -12,
+        1,
+        14,
+        -90,
+        13,
+        -22
+      ]
+    },
+    "expected": false,
+    "name": "Test Case 16"
+  },
+  {
+    "inputs": {
+      "nums": [
+        -8,
+        -22,
+        104,
+        73,
+        -120,
+        53,
+        22,
+        20,
+        25,
+        -12,
+        1,
+        14,
+        -90,
+        13,
+        -22
+      ]
+    },
+    "expected": true,
+    "name": "Test Case 17"
+  }
+]

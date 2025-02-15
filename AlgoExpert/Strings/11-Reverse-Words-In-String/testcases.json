@@ -1,0 +1,109 @@
+[
+  {
+    "inputs": {
+      "string": "AlgoExpert is the best!"
+    },
+    "expected": "best! the is AlgoExpert",
+    "name": "Test Case 1"
+  },
+  {
+    "inputs": {
+      "string": "Reverse These Words"
+    },
+    "expected": "Words These Reverse",
+    "name": "Test Case 2"
+  },
+  {
+    "inputs": {
+      "string": "..H,, hello 678"
+    },
+    "name": "Test Case 3"
+  },
+  {
+    "inputs": {
+      "string": "this this words this this this words this"
+    },
+    "expected": "this words this this this words this this",
+    "name": "Test Case 4"
+  },
+  {
+    "inputs": {
+      "string": "1 12 23 34 56"
+    },
+    "name": "Test Case 5"
+  },
+  {
+    "inputs": {
+      "string": "APPLE PEAR PLUM ORANGE"
+    },
+    "expected": "ORANGE PLUM PEAR APPLE",
+    "name": "Test Case 6"
+  },
+  {
+    "inputs": {
+      "string": "this-is-one-word"
+    },
+    "expected": "this-is-one-word",
+    "name": "Test Case 7"
+  },
+  {
+    "inputs": {
+      "string": "a"
+    },
+    "expected": "a",
+    "name": "Test Case 8"
+  },
+  {
+    "inputs": {
+      "string": "ab"
+    },
+    "expected": "ab",
+    "name": "Test Case 9"
+  },
+  {
+    "inputs": {
+      "string": ""
+    },
+    "name": "Test Case 10"
+  },
+  {
+    "inputs": {
+      "string": "algoexpert is the best platform to use to prepare for coding interviews!"
+    },
+    "expected": "interviews! coding for prepare to use to platform best the is algoexpert",
+    "name": "Test Case 11"
+  },
+  {
+    "inputs": {
+      "string": "words, separated, by, commas"
+    },
+    "expected": "commas by, separated, words,",
+    "name": "Test Case 12"
+  },
+  {
+    "inputs": {
+      "string": "this      string     has a     lot of   whitespace"
+    },
+    "expected": "whitespace   of lot     a has     string      this",
+    "name": "Test Case 13"
+  },
+  {
+    "inputs": {
+      "string": "a ab a"
+    },
+    "expected": "a ab a",
+    "name": "Test Case 14"
+  },
+  {
+    "inputs": {
+      "string": "test        "
+    },
+    "name": "Test Case 15"
+  },
+  {
+    "inputs": {
+      "string": " "
+    },
+    "name": "Test Case 16"
+  }
+]

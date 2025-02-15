@@ -1,0 +1,98 @@
+[
+  {
+    "inputs": {
+      "string": "aefoaefcdaefcdaed",
+      "substring": "aefcdaed"
+    },
+    "expected": "true",
+    "name": "Test Case 1"
+  },
+  {
+    "inputs": {
+      "string": "testwafwafawfawfawfawfawfawfawfa",
+      "substring": "fawfawfawfawfa"
+    },
+    "expected": "true",
+    "name": "Test Case 2"
+  },
+  {
+    "inputs": {
+      "string": "tesseatesgawatewtesaffawgfawtteafawtesftawfawfawfwfawftest",
+      "substring": "test"
+    },
+    "expected": "true",
+    "name": "Test Case 3"
+  },
+  {
+    "inputs": {
+      "string": "aaabaabacdedfaabaabaaa",
+      "substring": "aabaabaaa"
+    },
+    "expected": "true",
+    "name": "Test Case 4"
+  },
+  {
+    "inputs": {
+      "string": "abxabcabcaby",
+      "substring": "abcaby"
+    },
+    "expected": "true",
+    "name": "Test Case 5"
+  },
+  {
+    "inputs": {
+      "string": "decadaafcdf",
+      "substring": "daf"
+    },
+    "expected": "false",
+    "name": "Test Case 6"
+  },
+  {
+    "inputs": {
+      "string": "aefoaefcdaefcdaed",
+      "substring": "aefcaefaeiaefcd"
+    },
+    "expected": "false",
+    "name": "Test Case 7"
+  },
+  {
+    "inputs": {
+      "string": "aefcdfaecdaefaefcdaefeaefcdcdeae",
+      "substring": "aefcdaefeaefcd"
+    },
+    "expected": "true",
+    "name": "Test Case 8"
+  },
+  {
+    "inputs": {
+      "string": "bccbefbcdabbbcabfdcfe",
+      "substring": "abc"
+    },
+    "expected": "false",
+    "name": "Test Case 9"
+  },
+  {
+    "inputs": {
+      "string": "adafccfefbbbfeeccbcfd",
+      "substring": "ecb"
+    },
+    "expected": "false",
+    "name": "Test Case 10"
+  },
+  {
+    "inputs": {
+      "string": "testwherethefullstringmatches",
+      "substring": "testwherethefullstringmatches"
+    },
+    "expected": "true",
+    "name": "Test Case 11"
+  },
+  {
+    "inputs": {
+      "string": "aabc",
+      "substring": "abc"
+    },
+    "expected": "true",
+    "name": "Test Case 12"
+  }
+]

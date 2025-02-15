@@ -1,0 +1,396 @@
+[
+  {
+    "inputs": {
+      "array": [
+        1,
+        2,
+        3,
+        4,
+        3,
+        3,
+        1,
+        2,
+        1
+      ],
+      "targetSum": 10
+    },
+    "expected": [
+      4,
+      8
+    ],
+    "name": "Test Case 1"
+  },
+  {
+    "inputs": {
+      "array": [
+        1,
+        2,
+        3,
+        4,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        3,
+        1,
+        2,
+        1
+      ],
+      "targetSum": 10
+    },
+    "expected": [
+      4,
+      13
+    ],
+    "name": "Test Case 2"
+  },
+  {
+    "inputs": {
+      "array": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "targetSum": 1
+    },
+    "expected": [
+      0,
+      9
+    ],
+    "name": "Test Case 3"
+  },
+  {
+    "inputs": {
+      "array": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "targetSum": 1
+    },
+    "expected": [
+      0,
+      9
+    ],
+    "name": "Test Case 4"
+  },
+  {
+    "inputs": {
+      "array": [
+        25,
+        25,
+        25,
+        25,
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "targetSum": 100
+    },
+    "expected": [
+      4,
+      11
+    ],
+    "name": "Test Case 5"
+  },
+  {
+    "inputs": {
+      "array": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        5,
+        5,
+        5
+      ],
+      "targetSum": 15
+    },
+    "expected": [
+      0,
+      4
+    ],
+    "name": "Test Case 6"
+  },
+  {
+    "inputs": {
+      "array": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        5,
+        5,
+        5,
+        5,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "targetSum": 20
+    },
+    "expected": [
+      11,
+      23
+    ],
+    "name": "Test Case 7"
+  },
+  {
+    "inputs": {
+      "array": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        0,
+        0,
+        0,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "targetSum": 15
+    },
+    "expected": [
+      0,
+      7
+    ],
+    "name": "Test Case 8"
+  },
+  {
+    "inputs": {
+      "array": [
+        61,
+        54,
+        1,
+        499,
+        2212,
+        4059,
+        1,
+        2,
+        3,
+        1,
+        3
+      ],
+      "targetSum": 19
+    },
+    "expected": [],
+    "name": "Test Case 9"
+  },
+  {
+    "inputs": {
+      "array": [
+        0
+      ],
+      "targetSum": 0
+    },
+    "expected": [
+      0,
+      0
+    ],
+    "name": "Test Case 10"
+  },
+  {
+    "inputs": {
+      "array": [
+        10
+      ],
+      "targetSum": 10
+    },
+    "expected": [
+      0,
+      0
+    ],
+    "name": "Test Case 11"
+  },
+  {
+    "inputs": {
+      "array": [
+        5
+      ],
+      "targetSum": 0
+    },
+    "expected": [],
+    "name": "Test Case 12"
+  },
+  {
+    "inputs": {
+      "array": [
+        5
+      ],
+      "targetSum": 10
+    },
+    "expected": [],
+    "name": "Test Case 13"
+  },
+  {
+    "inputs": {
+      "array": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "targetSum": 3
+    },
+    "expected": [],
+    "name": "Test Case 14"
+  },
+  {
+    "inputs": {
+      "array": [
+        0,
+        0,
+        0,
+        0,
+        39,
+        0,
+        0,
+        0,
+        0,
+        0,
+        28,
+        10
+      ],
+      "targetSum": 39
+    },
+    "expected": [
+      0,
+      9
+    ],
+    "name": "Test Case 15"
+  },
+  {
+    "inputs": {
+      "array": [
+        1,
+        4,
+        10,
+        15,
+        31,
+        7,
+        1,
+        40,
+        0,
+        20,
+        1,
+        1,
+        1,
+        1,
+        2,
+        1
+      ],
+      "targetSum": 68
+    },
+    "expected": [
+      6,
+      15
+    ],
+    "name": "Test Case 16"
+  },
+  {
+    "inputs": {
+      "array": [
+        1,
+        4,
+        10,
+        15,
+        31,
+        7,
+        1,
+        40,
+        0,
+        20,
+        1,
+        1,
+        1,
+        1,
+        2,
+        1
+      ],
+      "targetSum": 0
+    },
+    "expected": [
+      8,
+      8
+    ],
+    "name": "Test Case 17"
+  },
+  {
+    "inputs": {
+      "array": [
+        1,
+        4,
+        10,
+        15,
+        31,
+        7,
+        1,
+        40,
+        5,
+        20,
+        1,
+        1,
+        1,
+        1,
+        2,
+        1
+      ],
+      "targetSum": 0
+    },
+    "expected": [],
+    "name": "Test Case 18"
+  },
+  {
+    "inputs": {
+      "array": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "targetSum": 0
+    },
+    "expected": [],
+    "name": "Test Case 19"
+  }
+]

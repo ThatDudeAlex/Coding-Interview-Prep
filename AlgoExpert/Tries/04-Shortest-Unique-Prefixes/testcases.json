@@ -1,0 +1,287 @@
+[
+  {
+    "inputs": {
+      "strings": [
+        "hello"
+      ]
+    },
+    "expected": [
+      "h"
+    ],
+    "name": "Test Case 1"
+  },
+  {
+    "inputs": {
+      "strings": [
+        "hello",
+        "world"
+      ]
+    },
+    "expected": [
+      "h",
+      "w"
+    ],
+    "name": "Test Case 2"
+  },
+  {
+    "inputs": {
+      "strings": [
+        "algoexpert",
+        "algorithm",
+        "frontendexpert",
+        "mlexpert"
+      ]
+    },
+    "expected": [
+      "algoe",
+      "algor",
+      "f",
+      "m"
+    ],
+    "name": "Test Case 3"
+  },
+  {
+    "inputs": {
+      "strings": [
+        "foo",
+        "food"
+      ]
+    },
+    "expected": [
+      "foo",
+      "food"
+    ],
+    "name": "Test Case 4"
+  },
+  {
+    "inputs": {
+      "strings": [
+        "hello",
+        "world",
+        "he",
+        "foo",
+        "worldly",
+        "food",
+        "algoexpert"
+      ]
+    },
+    "expected": [
+      "hel",
+      "world",
+      "he",
+      "foo",
+      "worldl",
+      "food",
+      "a"
+    ],
+    "name": "Test Case 5"
+  },
+  {
+    "inputs": {
+      "strings": [
+        "foo",
+        "food",
+        "foods",
+        "foodie"
+      ]
+    },
+    "expected": [
+      "foo",
+      "food",
+      "foods",
+      "foodi"
+    ],
+    "name": "Test Case 6"
+  },
+  {
+    "inputs": {
+      "strings": [
+        "amazing",
+        "amaze",
+        "amazement",
+        "maze",
+        "may",
+        "apple"
+      ]
+    },
+    "expected": [
+      "amazi",
+      "amaze",
+      "amazem",
+      "maz",
+      "may",
+      "ap"
+    ],
+    "name": "Test Case 7"
+  },
+  {
+    "inputs": {
+      "strings": [
+        "aircraft",
+        "airplane",
+        "airy",
+        "plane",
+        "planter",
+        "plantation"
+      ]
+    },
+    "expected": [
+      "airc",
+      "airp",
+      "airy",
+      "plane",
+      "plante",
+      "planta"
+    ],
+    "name": "Test Case 8"
+  },
+  {
+    "inputs": {
+      "strings": [
+        "a",
+        "ab",
+        "abc",
+        "abcd",
+        "abcde",
+        "abcdef"
+      ]
+    },
+    "expected": [
+      "a",
+      "ab",
+      "abc",
+      "abcd",
+      "abcde",
+      "abcdef"
+    ],
+    "name": "Test Case 9"
+  },
+  {
+    "inputs": {
+      "strings": [
+        "abcdef",
+        "abcde",
+        "abcd",
+        "abc",
+        "ab",
+        "a"
+      ]
+    },
+    "expected": [
+      "abcdef",
+      "abcde",
+      "abcd",
+      "abc",
+      "ab",
+      "a"
+    ],
+    "name": "Test Case 10"
+  },
+  {
+    "inputs": {
+      "strings": [
+        "a",
+        "abc",
+        "abcdefg"
+      ]
+    },
+    "expected": [
+      "a",
+      "abc",
+      "abcd"
+    ],
+    "name": "Test Case 11"
+  },
+  {
+    "inputs": {
+      "strings": [
+        "code",
+        "coder",
+        "program",
+        "programmer",
+        "coding",
+        "programming"
+      ]
+    },
+    "expected": [
+      "code",
+      "coder",
+      "program",
+      "programme",
+      "codi",
+      "programmi"
+    ],
+    "name": "Test Case 12"
+  },
+  {
+    "inputs": {
+      "strings": [
+        "zig",
+        "zag",
+        "zap",
+        "zoo",
+        "zit"
+      ]
+    },
+    "expected": [
+      "zig",
+      "zag",
+      "zap",
+      "zo",
+      "zit"
+    ],
+    "name": "Test Case 13"
+  },
+  {
+    "inputs": {
+      "strings": [
+        "swap",
+        "paws",
+        "print",
+        "swing",
+        "kayak",
+        "trie",
+        "tree",
+        "king",
+        "queen",
+        "quilt"
+      ]
+    },
+    "expected": [
+      "swa",
+      "pa",
+      "pr",
+      "swi",
+      "ka",
+      "tri",
+      "tre",
+      "ki",
+      "que",
+      "qui"
+    ],
+    "name": "Test Case 14"
+  },
+  {
+    "inputs": {
+      "strings": [
+        "programmingexpert",
+        "programming",
+        "expert",
+        "frontendexpert",
+        "front",
+        "end",
+        "frontend"
+      ]
+    },
+    "expected": [
+      "programminge",
+      "programming",
+      "ex",
+      "frontende",
+      "front",
+      "en",
+      "frontend"
+    ],
+    "name": "Test Case 15"
+  }
+]

@@ -1,0 +1,152 @@
+[
+  {
+    "inputs": {
+      "strings": [
+        "abc",
+        "bcd",
+        "cbad"
+      ]
+    },
+    "expected": [
+      "b",
+      "c"
+    ],
+    "name": "Test Case 1"
+  },
+  {
+    "inputs": {
+      "strings": [
+        "a"
+      ]
+    },
+    "expected": [
+      "a"
+    ],
+    "name": "Test Case 2"
+  },
+  {
+    "inputs": {
+      "strings": [
+        "a",
+        "b",
+        "c"
+      ]
+    },
+    "expected": [],
+    "name": "Test Case 3"
+  },
+  {
+    "inputs": {
+      "strings": [
+        "aa",
+        "aa"
+      ]
+    },
+    "expected": [
+      "a"
+    ],
+    "name": "Test Case 4"
+  },
+  {
+    "inputs": {
+      "strings": [
+        "aaaa",
+        "a"
+      ]
+    },
+    "expected": [
+      "a"
+    ],
+    "name": "Test Case 5"
+  },
+  {
+    "inputs": {
+      "strings": [
+        "abcde",
+        "aa",
+        "foobar",
+        "foobaz",
+        "and this is a string",
+        "aaaaaaaa",
+        "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeea"
+      ]
+    },
+    "expected": [
+      "a"
+    ],
+    "name": "Test Case 6"
+  },
+  {
+    "inputs": {
+      "strings": [
+        "abcdef",
+        "fedcba",
+        "abcefd",
+        "aefbcd",
+        "efadbc",
+        "effffffffffffbcda",
+        "eeeeeffffffbbbbbaaaaaccccdddd",
+        "**************abdcef************"
+      ]
+    },
+    "expected": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "e",
+      "f"
+    ],
+    "name": "Test Case 7"
+  },
+  {
+    "inputs": {
+      "strings": [
+        "ab&cdef!",
+        "f!ed&cba",
+        "a&bce!d",
+        "ae&fb!cd",
+        "efa&!dbc",
+        "eff!&fff&fffffffbcda",
+        "eeee!efff&fffbbbbbaaaaaccccdddd",
+        "*******!***&****abdcef************",
+        "*******!***&****a***********f*",
+        "*******!***&****b***********c*"
+      ]
+    },
+    "expected": [
+      "!",
+      "&"
+    ],
+    "name": "Test Case 8"
+  },
+  {
+    "inputs": {
+      "strings": [
+        "*abcd",
+        "def*",
+        "******d*****"
+      ]
+    },
+    "expected": [
+      "*",
+      "d"
+    ],
+    "name": "Test Case 9"
+  },
+  {
+    "inputs": {
+      "strings": [
+        "*abc!d",
+        "de!f*",
+        "**!!!****d*****"
+      ]
+    },
+    "expected": [
+      "!",
+      "*",
+      "d"
+    ],
+    "name": "Test Case 10"
+  }
+]

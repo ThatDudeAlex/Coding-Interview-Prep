@@ -1,0 +1,243 @@
+[
+  {
+    "inputs": {
+      "edges": [
+        [
+          1
+        ],
+        [
+          0
+        ]
+      ]
+    },
+    "expected": "true",
+    "name": "Test Case 1"
+  },
+  {
+    "inputs": {
+      "edges": [
+        [
+          0
+        ]
+      ]
+    },
+    "expected": "false",
+    "name": "Test Case 2"
+  },
+  {
+    "inputs": {
+      "edges": [
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    "expected": "false",
+    "name": "Test Case 3"
+  },
+  {
+    "inputs": {
+      "edges": [
+        [
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1
+        ]
+      ]
+    },
+    "expected": "true",
+    "name": "Test Case 4"
+  },
+  {
+    "inputs": {
+      "edges": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ],
+        [
+          0
+        ]
+      ]
+    },
+    "expected": "true",
+    "name": "Test Case 5"
+  },
+  {
+    "inputs": {
+      "edges": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0
+        ]
+      ]
+    },
+    "expected": "false",
+    "name": "Test Case 6"
+  },
+  {
+    "inputs": {
+      "edges": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          2,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    "expected": "false",
+    "name": "Test Case 7"
+  },
+  {
+    "inputs": {
+      "edges": [
+        [
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1
+        ]
+      ]
+    },
+    "expected": "true",
+    "name": "Test Case 8"
+  },
+  {
+    "inputs": {
+      "edges": [
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    "expected": "false",
+    "name": "Test Case 9"
+  },
+  {
+    "inputs": {
+      "edges": [
+        [
+          1,
+          4
+        ],
+        [
+          0,
+          2,
+          3
+        ],
+        [
+          1,
+          3,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          2
+        ]
+      ]
+    },
+    "expected": "false",
+    "name": "Test Case 10"
+  },
+  {
+    "inputs": {
+      "edges": [
+        [
+          1,
+          4
+        ],
+        [
+          0,
+          2,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ]
+    },
+    "expected": "true",
+    "name": "Test Case 11"
+  }
+]

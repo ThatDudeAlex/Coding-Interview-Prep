@@ -1,0 +1,192 @@
+[
+  {
+    "inputs": {
+      "array": [
+        0,
+        1,
+        21,
+        33,
+        45,
+        45,
+        45,
+        45,
+        45,
+        45,
+        61,
+        71,
+        73
+      ],
+      "target": 45
+    },
+    "expected": [
+      4,
+      9
+    ],
+    "name": "Test Case 1"
+  },
+  {
+    "inputs": {
+      "array": [
+        5,
+        7,
+        7,
+        8,
+        8,
+        10
+      ],
+      "target": 5
+    },
+    "expected": [
+      0,
+      0
+    ],
+    "name": "Test Case 2"
+  },
+  {
+    "inputs": {
+      "array": [
+        5,
+        7,
+        7,
+        8,
+        8,
+        10
+      ],
+      "target": 7
+    },
+    "expected": [
+      1,
+      2
+    ],
+    "name": "Test Case 3"
+  },
+  {
+    "inputs": {
+      "array": [
+        5,
+        7,
+        7,
+        8,
+        8,
+        10
+      ],
+      "target": 8
+    },
+    "expected": [
+      3,
+      4
+    ],
+    "name": "Test Case 4"
+  },
+  {
+    "inputs": {
+      "array": [
+        5,
+        7,
+        7,
+        8,
+        8,
+        10
+      ],
+      "target": 10
+    },
+    "expected": [
+      5,
+      5
+    ],
+    "name": "Test Case 5"
+  },
+  {
+    "inputs": {
+      "array": [
+        5,
+        7,
+        7,
+        8,
+        8,
+        10
+      ],
+      "target": 9
+    },
+    "expected": [
+      -1,
+      -1
+    ],
+    "name": "Test Case 6"
+  },
+  {
+    "inputs": {
+      "array": [
+        0,
+        1,
+        21,
+        33,
+        45,
+        45,
+        45,
+        45,
+        45,
+        45,
+        61,
+        71,
+        73
+      ],
+      "target": 47
+    },
+    "expected": [
+      -1,
+      -1
+    ],
+    "name": "Test Case 7"
+  },
+  {
+    "inputs": {
+      "array": [
+        0,
+        1,
+        21,
+        33,
+        45,
+        45,
+        45,
+        45,
+        45,
+        45,
+        61,
+        71,
+        73
+      ],
+      "target": -1
+    },
+    "expected": [
+      -1,
+      -1
+    ],
+    "name": "Test Case 8"
+  },
+  {
+    "inputs": {
+      "array": [
+        0,
+        1,
+        21,
+        33,
+        45,
+        45,
+        45,
+        45,
+        45,
+        45,
+        45,
+        45,
+        45
+      ],
+      "target": 45
+    },
+    "expected": [
+      4,
+      12
+    ],
+    "name": "Test Case 9"
+  }
+]

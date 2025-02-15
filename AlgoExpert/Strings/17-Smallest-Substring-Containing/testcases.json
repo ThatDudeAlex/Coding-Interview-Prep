@@ -1,0 +1,123 @@
+[
+  {
+    "inputs": {
+      "bigString": "abcd$ef$axb$c$",
+      "smallString": "$$abf"
+    },
+    "expected": "f$axb$",
+    "name": "Test Case 1"
+  },
+  {
+    "inputs": {
+      "bigString": "abcdef",
+      "smallString": "fa"
+    },
+    "expected": "abcdef",
+    "name": "Test Case 2"
+  },
+  {
+    "inputs": {
+      "bigString": "abcdef",
+      "smallString": "d"
+    },
+    "expected": "d",
+    "name": "Test Case 3"
+  },
+  {
+    "inputs": {
+      "bigString": "abcdefghijklmnopqrstuvwxyz",
+      "smallString": "aajjttwwxxzz"
+    },
+    "name": "Test Case 4"
+  },
+  {
+    "inputs": {
+      "bigString": "abzacdwejxjftghiwjtklmnopqrstuvwxyz",
+      "smallString": "aajjttwwxxzz"
+    },
+    "expected": "abzacdwejxjftghiwjtklmnopqrstuvwxyz",
+    "name": "Test Case 5"
+  },
+  {
+    "inputs": {
+      "bigString": "abzacdwejxjfxztghiwjtklmnopqrstuvwxyz",
+      "smallString": "aajjttwwxxzz"
+    },
+    "expected": "abzacdwejxjfxztghiwjt",
+    "name": "Test Case 6"
+  },
+  {
+    "inputs": {
+      "bigString": "aaaa+a$+aaa++$+++++++aaa",
+      "smallString": "a+$aaAaaaa$++"
+    },
+    "name": "Test Case 7"
+  },
+  {
+    "inputs": {
+      "bigString": "a$fuu+afff+affaffa+a$Affab+a+a+$a$",
+      "smallString": "a+$aaAaaaa$++"
+    },
+    "expected": "affa+a$Affab+a+a+$a",
+    "name": "Test Case 8"
+  },
+  {
+    "inputs": {
+      "bigString": "a$fuu+afff+affaffa+a$Affab+a+a+$a$bccgtt+aaaacA+++aaa$",
+      "smallString": "a+$aaAaaaa$++"
+    },
+    "expected": "affa+a$Affab+a+a+$a",
+    "name": "Test Case 9"
+  },
+  {
+    "inputs": {
+      "bigString": "145624356128828193236336541277356789901",
+      "smallString": "123"
+    },
+    "expected": 1932,
+    "name": "Test Case 10"
+  },
+  {
+    "inputs": {
+      "bigString": "1456243561288281932363365412356789901!",
+      "smallString": "123!"
+    },
+    "name": "Test Case 11"
+  },
+  {
+    "inputs": {
+      "bigString": "14562435612!88281932363365$412356789901",
+      "smallString": "$123!"
+    },
+    "name": "Test Case 12"
+  },
+  {
+    "inputs": {
+      "bigString": "14562435612!88281932363365$412356789901",
+      "smallString": "#!123!"
+    },
+    "name": "Test Case 13"
+  },
+  {
+    "inputs": {
+      "bigString": "14562435612!88281932363365$412356789901",
+      "smallString": "#!333333123!"
+    },
+    "name": "Test Case 14"
+  },
+  {
+    "inputs": {
+      "bigString": "14562435612z!8828!193236!336!5$41!23!5!6789901#",
+      "smallString": "#!2z"
+    },
+    "expected": "z!8828!193236!336!5$41!23!5!6789901#",
+    "name": "Test Case 15"
+  },
+  {
+    "inputs": {
+      "bigString": "14562435612z!8828!193236!336!5$41!23!5!6789901#z2!",
+      "smallString": "#!2z"
+    },
+    "name": "Test Case 16"
+  }
+]

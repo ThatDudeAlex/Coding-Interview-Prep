@@ -1,0 +1,83 @@
+[
+  {
+    "inputs": {
+      "string": "testthis is a testtest to see if testestest it works",
+      "substring": "test"
+    },
+    "name": "Test Case 1"
+  },
+  {
+    "inputs": {
+      "string": "this is a test to see if it works",
+      "substring": "test"
+    },
+    "expected": "this is a _test_ to see if it works",
+    "name": "Test Case 2"
+  },
+  {
+    "inputs": {
+      "string": "test this is a test to see if it works",
+      "substring": "test"
+    },
+    "name": "Test Case 3"
+  },
+  {
+    "inputs": {
+      "string": "testthis is a test to see if it works",
+      "substring": "test"
+    },
+    "name": "Test Case 4"
+  },
+  {
+    "inputs": {
+      "string": "testthis is a testest to see if testestes it works",
+      "substring": "test"
+    },
+    "name": "Test Case 5"
+  },
+  {
+    "inputs": {
+      "string": "this is a test to see if it works and test",
+      "substring": "test"
+    },
+    "expected": "this is a _test_ to see if it works and _test_",
+    "name": "Test Case 6"
+  },
+  {
+    "inputs": {
+      "string": "this is a test to see if it works and test",
+      "substring": "bfjawkfja"
+    },
+    "expected": "this is a test to see if it works and test",
+    "name": "Test Case 7"
+  },
+  {
+    "inputs": {
+      "string": "ttttttttttttttbtttttctatawtatttttastvb",
+      "substring": "ttt"
+    },
+    "name": "Test Case 8"
+  },
+  {
+    "inputs": {
+      "string": "tzttztttz",
+      "substring": "ttt"
+    },
+    "expected": "tzttz_ttt_z",
+    "name": "Test Case 9"
+  },
+  {
+    "inputs": {
+      "string": "abababababababababababababaababaaabbababaa",
+      "substring": "a"
+    },
+    "name": "Test Case 10"
+  },
+  {
+    "inputs": {
+      "string": "abcabcabcabcabcabcabcabcabcabcabcabcabcabc",
+      "substring": "abc"
+    },
+    "name": "Test Case 11"
+  }
+]

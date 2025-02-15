@@ -1,0 +1,124 @@
+[
+  {
+    "inputs": {
+      "denoms": [
+        1,
+        5
+      ],
+      "n": 6
+    },
+    "expected": 2,
+    "name": "Test Case 1"
+  },
+  {
+    "inputs": {
+      "denoms": [
+        2,
+        3,
+        4,
+        7
+      ],
+      "n": 0
+    },
+    "expected": 1,
+    "name": "Test Case 2"
+  },
+  {
+    "inputs": {
+      "denoms": [
+        5
+      ],
+      "n": 9
+    },
+    "expected": 0,
+    "name": "Test Case 3"
+  },
+  {
+    "inputs": {
+      "denoms": [
+        2,
+        4
+      ],
+      "n": 7
+    },
+    "expected": 0,
+    "name": "Test Case 4"
+  },
+  {
+    "inputs": {
+      "denoms": [
+        1,
+        5,
+        10,
+        25
+      ],
+      "n": 4
+    },
+    "expected": 1,
+    "name": "Test Case 5"
+  },
+  {
+    "inputs": {
+      "denoms": [
+        1,
+        5,
+        10,
+        25
+      ],
+      "n": 5
+    },
+    "expected": 2,
+    "name": "Test Case 6"
+  },
+  {
+    "inputs": {
+      "denoms": [
+        1,
+        5,
+        10,
+        25
+      ],
+      "n": 10
+    },
+    "expected": 4,
+    "name": "Test Case 7"
+  },
+  {
+    "inputs": {
+      "denoms": [
+        1,
+        5,
+        10,
+        25
+      ],
+      "n": 25
+    },
+    "expected": 13,
+    "name": "Test Case 8"
+  },
+  {
+    "inputs": {
+      "denoms": [
+        2,
+        3,
+        7
+      ],
+      "n": 12
+    },
+    "expected": 4,
+    "name": "Test Case 9"
+  },
+  {
+    "inputs": {
+      "denoms": [
+        2,
+        3,
+        4,
+        7
+      ],
+      "n": 7
+    },
+    "expected": 3,
+    "name": "Test Case 10"
+  }
+]

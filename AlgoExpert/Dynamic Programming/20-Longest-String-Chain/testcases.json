@@ -1,0 +1,174 @@
+[
+  {
+    "inputs": {
+      "strings": [
+        "abde",
+        "abc",
+        "abd",
+        "abcde",
+        "ade",
+        "ae",
+        "1abde",
+        "abcdef"
+      ]
+    },
+    "expected": [
+      "abcdef",
+      "abcde",
+      "abde",
+      "ade",
+      "ae"
+    ],
+    "name": "Test Case 1"
+  },
+  {
+    "inputs": {
+      "strings": [
+        "abcdefg",
+        "abcdef",
+        "abcde",
+        "abcd",
+        "abc",
+        "ab",
+        "a"
+      ]
+    },
+    "expected": [
+      "abcdefg",
+      "abcdef",
+      "abcde",
+      "abcd",
+      "abc",
+      "ab",
+      "a"
+    ],
+    "name": "Test Case 2"
+  },
+  {
+    "inputs": {
+      "strings": [
+        "abcdefg",
+        "abdefg",
+        "abdfg",
+        "bdfg",
+        "bfg",
+        "bg",
+        "g"
+      ]
+    },
+    "expected": [
+      "abcdefg",
+      "abdefg",
+      "abdfg",
+      "bdfg",
+      "bfg",
+      "bg",
+      "g"
+    ],
+    "name": "Test Case 3"
+  },
+  {
+    "inputs": {
+      "strings": [
+        "abcdefg",
+        "1234",
+        "abdefg",
+        "abdfg",
+        "123",
+        "12",
+        "bg",
+        "g",
+        "12345",
+        "12a345"
+      ]
+    },
+    "expected": [
+      "12a345",
+      "12345",
+      "1234",
+      "123",
+      "12"
+    ],
+    "name": "Test Case 4"
+  },
+  {
+    "inputs": {
+      "strings": [
+        "abcdefg1",
+        "1234c",
+        "abdefg2",
+        "abdfg",
+        "123",
+        "122",
+        "bgg",
+        "g",
+        "1a2345",
+        "12a345"
+      ]
+    },
+    "expected": [],
+    "name": "Test Case 5"
+  },
+  {
+    "inputs": {
+      "strings": [
+        "lgoprt",
+        "12345678",
+        "algoxpert",
+        "abcde",
+        "123468",
+        "lgoxprt",
+        "abde",
+        "lgopt",
+        "1234678",
+        "ade",
+        "ae",
+        "algoxprt",
+        "a",
+        "1abde",
+        "lgpt",
+        "123456789",
+        "234678",
+        "algoexpert"
+      ]
+    },
+    "expected": [
+      "algoexpert",
+      "algoxpert",
+      "algoxprt",
+      "lgoxprt",
+      "lgoprt",
+      "lgopt",
+      "lgpt"
+    ],
+    "name": "Test Case 6"
+  },
+  {
+    "inputs": {
+      "strings": [
+        "12345678",
+        "algoxpert",
+        "123468",
+        "abde",
+        "lgopt",
+        "1234678",
+        "ade",
+        "ae",
+        "a",
+        "1abde",
+        "lgpt",
+        "123456789",
+        "234678",
+        "algoexpert"
+      ]
+    },
+    "expected": [
+      "1abde",
+      "abde",
+      "ade",
+      "ae",
+      "a"
+    ],
+    "name": "Test Case 7"
+  }
+]

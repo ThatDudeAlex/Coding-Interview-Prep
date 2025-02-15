@@ -1,0 +1,352 @@
+[
+  {
+    "inputs": {
+      "asteroids": [
+        5
+      ]
+    },
+    "expected": [
+      5
+    ],
+    "name": "Test Case 1"
+  },
+  {
+    "inputs": {
+      "asteroids": [
+        -5
+      ]
+    },
+    "expected": [
+      -5
+    ],
+    "name": "Test Case 2"
+  },
+  {
+    "inputs": {
+      "asteroids": [
+        5,
+        -5
+      ]
+    },
+    "expected": [],
+    "name": "Test Case 3"
+  },
+  {
+    "inputs": {
+      "asteroids": [
+        -5,
+        5
+      ]
+    },
+    "expected": [
+      -5,
+      5
+    ],
+    "name": "Test Case 4"
+  },
+  {
+    "inputs": {
+      "asteroids": [
+        -5,
+        -5
+      ]
+    },
+    "expected": [
+      -5,
+      -5
+    ],
+    "name": "Test Case 5"
+  },
+  {
+    "inputs": {
+      "asteroids": [
+        5,
+        5
+      ]
+    },
+    "expected": [
+      5,
+      5
+    ],
+    "name": "Test Case 6"
+  },
+  {
+    "inputs": {
+      "asteroids": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "expected": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "name": "Test Case 7"
+  },
+  {
+    "inputs": {
+      "asteroids": [
+        34,
+        2,
+        5,
+        42,
+        100,
+        20
+      ]
+    },
+    "expected": [
+      34,
+      2,
+      5,
+      42,
+      100,
+      20
+    ],
+    "name": "Test Case 8"
+  },
+  {
+    "inputs": {
+      "asteroids": [
+        -6,
+        -2,
+        -10,
+        -100,
+        -30
+      ]
+    },
+    "expected": [
+      -6,
+      -2,
+      -10,
+      -100,
+      -30
+    ],
+    "name": "Test Case 9"
+  },
+  {
+    "inputs": {
+      "asteroids": [
+        1,
+        2,
+        3,
+        -4
+      ]
+    },
+    "expected": [
+      -4
+    ],
+    "name": "Test Case 10"
+  },
+  {
+    "inputs": {
+      "asteroids": [
+        4,
+        -1,
+        -2,
+        -3
+      ]
+    },
+    "expected": [
+      4
+    ],
+    "name": "Test Case 11"
+  },
+  {
+    "inputs": {
+      "asteroids": [
+        -3,
+        7,
+        -8,
+        6,
+        7,
+        -5,
+        -7
+      ]
+    },
+    "expected": [
+      -3,
+      -8,
+      6
+    ],
+    "name": "Test Case 12"
+  },
+  {
+    "inputs": {
+      "asteroids": [
+        4,
+        -5,
+        -5,
+        -5
+      ]
+    },
+    "expected": [
+      -5,
+      -5,
+      -5
+    ],
+    "name": "Test Case 13"
+  },
+  {
+    "inputs": {
+      "asteroids": [
+        6,
+        -5,
+        -5,
+        -5
+      ]
+    },
+    "expected": [
+      6
+    ],
+    "name": "Test Case 14"
+  },
+  {
+    "inputs": {
+      "asteroids": [
+        4,
+        7,
+        -3,
+        -5,
+        6,
+        -10,
+        100,
+        -50,
+        99
+      ]
+    },
+    "expected": [
+      -10,
+      100,
+      99
+    ],
+    "name": "Test Case 15"
+  },
+  {
+    "inputs": {
+      "asteroids": [
+        -70,
+        100,
+        23,
+        42,
+        -50,
+        -75,
+        1,
+        -2,
+        -3
+      ]
+    },
+    "expected": [
+      -70,
+      100
+    ],
+    "name": "Test Case 16"
+  },
+  {
+    "inputs": {
+      "asteroids": [
+        -70,
+        10,
+        23,
+        42,
+        -50,
+        -75,
+        1,
+        -2,
+        -3
+      ]
+    },
+    "expected": [
+      -70,
+      -50,
+      -75,
+      -2,
+      -3
+    ],
+    "name": "Test Case 17"
+  },
+  {
+    "inputs": {
+      "asteroids": [
+        42,
+        30,
+        12,
+        65,
+        -50,
+        32,
+        -15,
+        -25
+      ]
+    },
+    "expected": [
+      42,
+      30,
+      12,
+      65,
+      32
+    ],
+    "name": "Test Case 18"
+  },
+  {
+    "inputs": {
+      "asteroids": [
+        5123,
+        -34,
+        654,
+        -3636,
+        2432,
+        4242,
+        1267,
+        1337,
+        -43,
+        -864,
+        38,
+        38,
+        1,
+        -400
+      ]
+    },
+    "expected": [
+      5123,
+      2432,
+      4242,
+      1267,
+      1337
+    ],
+    "name": "Test Case 19"
+  },
+  {
+    "inputs": {
+      "asteroids": [
+        651,
+        13,
+        -1246,
+        754,
+        1252,
+        -300,
+        5468,
+        -5200,
+        22,
+        17,
+        -100,
+        87,
+        100,
+        -250,
+        1
+      ]
+    },
+    "expected": [
+      -1246,
+      754,
+      1252,
+      5468,
+      1
+    ],
+    "name": "Test Case 20"
+  }
+]

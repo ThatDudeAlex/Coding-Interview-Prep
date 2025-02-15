@@ -1,0 +1,424 @@
+[
+  {
+    "inputs": {
+      "words": [
+        "this",
+        "that",
+        "did",
+        "deed",
+        "them!",
+        "a"
+      ]
+    },
+    "expected": [
+      "!",
+      "a",
+      "d",
+      "d",
+      "e",
+      "e",
+      "h",
+      "i",
+      "m",
+      "s",
+      "t",
+      "t"
+    ],
+    "name": "Test Case 1"
+  },
+  {
+    "inputs": {
+      "words": [
+        "a",
+        "abc",
+        "ab",
+        "boo"
+      ]
+    },
+    "expected": [
+      "a",
+      "b",
+      "c",
+      "o",
+      "o"
+    ],
+    "name": "Test Case 2"
+  },
+  {
+    "inputs": {
+      "words": [
+        "a"
+      ]
+    },
+    "expected": [
+      "a"
+    ],
+    "name": "Test Case 3"
+  },
+  {
+    "inputs": {
+      "words": [
+        "abc",
+        "ab",
+        "b",
+        "bac",
+        "c"
+      ]
+    },
+    "expected": [
+      "a",
+      "b",
+      "c"
+    ],
+    "name": "Test Case 4"
+  },
+  {
+    "inputs": {
+      "words": [
+        "!!!2",
+        "234",
+        "222",
+        "432"
+      ]
+    },
+    "expected": [
+      "!",
+      "!",
+      "!",
+      "2",
+      "2",
+      "2",
+      "3",
+      "4"
+    ],
+    "name": "Test Case 5"
+  },
+  {
+    "inputs": {
+      "words": [
+        "this",
+        "that",
+        "they",
+        "them",
+        "their",
+        "there",
+        "time",
+        "is"
+      ]
+    },
+    "expected": [
+      "a",
+      "e",
+      "e",
+      "h",
+      "i",
+      "m",
+      "r",
+      "s",
+      "t",
+      "t",
+      "y"
+    ],
+    "name": "Test Case 6"
+  },
+  {
+    "inputs": {
+      "words": [
+        "tim",
+        "is",
+        "great"
+      ]
+    },
+    "expected": [
+      "a",
+      "e",
+      "g",
+      "i",
+      "m",
+      "r",
+      "s",
+      "t"
+    ],
+    "name": "Test Case 7"
+  },
+  {
+    "inputs": {
+      "words": [
+        "abc",
+        "bavcc",
+        "aaaa",
+        "cde",
+        "efg",
+        "gead"
+      ]
+    },
+    "expected": [
+      "a",
+      "a",
+      "a",
+      "a",
+      "b",
+      "c",
+      "c",
+      "d",
+      "e",
+      "f",
+      "g",
+      "v"
+    ],
+    "name": "Test Case 8"
+  },
+  {
+    "inputs": {
+      "words": [
+        "a",
+        "a",
+        "a"
+      ]
+    },
+    "expected": [
+      "a"
+    ],
+    "name": "Test Case 9"
+  },
+  {
+    "inputs": {
+      "words": [
+        "them",
+        "they",
+        "that",
+        "that",
+        "yes",
+        "yo",
+        "no",
+        "boo",
+        "you",
+        "okay",
+        "too"
+      ]
+    },
+    "expected": [
+      "a",
+      "b",
+      "e",
+      "h",
+      "k",
+      "m",
+      "n",
+      "o",
+      "o",
+      "s",
+      "t",
+      "t",
+      "u",
+      "y"
+    ],
+    "name": "Test Case 10"
+  },
+  {
+    "inputs": {
+      "words": [
+        "cta",
+        "cat",
+        "tca",
+        "tac",
+        "a",
+        "c",
+        "t"
+      ]
+    },
+    "expected": [
+      "a",
+      "c",
+      "t"
+    ],
+    "name": "Test Case 11"
+  },
+  {
+    "inputs": {
+      "words": [
+        "my",
+        "coding",
+        "skills",
+        "are",
+        "great"
+      ]
+    },
+    "expected": [
+      "a",
+      "c",
+      "d",
+      "e",
+      "g",
+      "i",
+      "k",
+      "l",
+      "l",
+      "m",
+      "n",
+      "o",
+      "r",
+      "s",
+      "s",
+      "t",
+      "y"
+    ],
+    "name": "Test Case 12"
+  },
+  {
+    "inputs": {
+      "words": []
+    },
+    "expected": [],
+    "name": "Test Case 13"
+  },
+  {
+    "inputs": {
+      "words": [
+        "168712hn3;nlsdjhahjdksaxa097918@#$RT%T^&*()_"
+      ]
+    },
+    "expected": [
+      "#",
+      "$",
+      "%",
+      "&",
+      "(",
+      ")",
+      "*",
+      "0",
+      "1",
+      "1",
+      "1",
+      "2",
+      "3",
+      "6",
+      "7",
+      "7",
+      "8",
+      "8",
+      "9",
+      "9",
+      ";",
+      "@",
+      "R",
+      "T",
+      "T",
+      "^",
+      "_",
+      "a",
+      "a",
+      "a",
+      "d",
+      "d",
+      "h",
+      "h",
+      "h",
+      "j",
+      "j",
+      "k",
+      "l",
+      "n",
+      "n",
+      "s",
+      "s",
+      "x"
+    ],
+    "name": "Test Case 14"
+  },
+  {
+    "inputs": {
+      "words": [
+        "cat",
+        "cAt",
+        "tAc",
+        "Act",
+        "Cat"
+      ]
+    },
+    "expected": [
+      "A",
+      "C",
+      "a",
+      "c",
+      "t"
+    ],
+    "name": "Test Case 15"
+  },
+  {
+    "inputs": {
+      "words": [
+        "Abc",
+        "baVcc",
+        "aaaa",
+        "cdeE",
+        "efg",
+        "gead"
+      ]
+    },
+    "expected": [
+      "A",
+      "E",
+      "V",
+      "a",
+      "a",
+      "a",
+      "a",
+      "b",
+      "c",
+      "c",
+      "d",
+      "e",
+      "f",
+      "g"
+    ],
+    "name": "Test Case 16"
+  },
+  {
+    "inputs": {
+      "words": [
+        "mississippi",
+        "piper",
+        "icing",
+        "ice",
+        "pickle",
+        "piping",
+        "pie",
+        "pi",
+        "sassy",
+        "serpent",
+        "python",
+        "ascii",
+        "sister",
+        "mister"
+      ]
+    },
+    "expected": [
+      "a",
+      "c",
+      "e",
+      "e",
+      "g",
+      "h",
+      "i",
+      "i",
+      "i",
+      "i",
+      "k",
+      "l",
+      "m",
+      "n",
+      "o",
+      "p",
+      "p",
+      "r",
+      "s",
+      "s",
+      "s",
+      "s",
+      "t",
+      "y"
+    ],
+    "name": "Test Case 17"
+  }
+]

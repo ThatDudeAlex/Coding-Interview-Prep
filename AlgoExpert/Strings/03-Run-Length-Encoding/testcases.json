@@ -1,0 +1,94 @@
+[
+  {
+    "inputs": {
+      "string": "AAAAAAAAAAAAABBCCCCDD"
+    },
+    "name": "Test Case 1"
+  },
+  {
+    "inputs": {
+      "string": "aA"
+    },
+    "name": "Test Case 2"
+  },
+  {
+    "inputs": {
+      "string": "122333"
+    },
+    "expected": 112233,
+    "name": "Test Case 3"
+  },
+  {
+    "inputs": {
+      "string": "************^^^^^^^$$$$$$%%%%%%%!!!!!!AAAAAAAAAAAAAAAAAAAA"
+    },
+    "name": "Test Case 4"
+  },
+  {
+    "inputs": {
+      "string": "aAaAaaaaaAaaaAAAABbbbBBBB"
+    },
+    "name": "Test Case 5"
+  },
+  {
+    "inputs": {
+      "string": "                          "
+    },
+    "name": "Test Case 6"
+  },
+  {
+    "inputs": {
+      "string": "1  222 333    444  555"
+    },
+    "name": "Test Case 7"
+  },
+  {
+    "inputs": {
+      "string": "1A2BB3CCC4DDDD"
+    },
+    "name": "Test Case 8"
+  },
+  {
+    "inputs": {
+      "string": "........______=========AAAA   AAABBBB   BBB"
+    },
+    "name": "Test Case 9"
+  },
+  {
+    "inputs": {
+      "string": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+    },
+    "name": "Test Case 10"
+  },
+  {
+    "inputs": {
+      "string": "        aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+    },
+    "name": "Test Case 11"
+  },
+  {
+    "inputs": {
+      "string": " "
+    },
+    "expected": 1,
+    "name": "Test Case 12"
+  },
+  {
+    "inputs": {
+      "string": "[(aaaaaaa,bbbbbbb,ccccc,dddddd)]"
+    },
+    "name": "Test Case 13"
+  },
+  {
+    "inputs": {
+      "string": ";;;;;;;;;;;;''''''''''''''''''''1233333332222211112222111s"
+    },
+    "name": "Test Case 14"
+  },
+  {
+    "inputs": {
+      "string": "AAAAAAAAAAAAABBCCCCDDDDDDDDDDD"
+    },
+    "name": "Test Case 15"
+  }
+]

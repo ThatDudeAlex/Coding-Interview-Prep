@@ -1,0 +1,119 @@
+[
+  {
+    "inputs": {
+      "numDice": 1,
+      "numSides": 6,
+      "target": 7
+    },
+    "expected": 0,
+    "name": "Test Case 1"
+  },
+  {
+    "inputs": {
+      "numDice": 2,
+      "numSides": 1,
+      "target": 3
+    },
+    "expected": 0,
+    "name": "Test Case 2"
+  },
+  {
+    "inputs": {
+      "numDice": 1,
+      "numSides": 6,
+      "target": 5
+    },
+    "expected": 1,
+    "name": "Test Case 3"
+  },
+  {
+    "inputs": {
+      "numDice": 2,
+      "numSides": 6,
+      "target": 12
+    },
+    "expected": 1,
+    "name": "Test Case 4"
+  },
+  {
+    "inputs": {
+      "numDice": 2,
+      "numSides": 6,
+      "target": 7
+    },
+    "expected": 6,
+    "name": "Test Case 5"
+  },
+  {
+    "inputs": {
+      "numDice": 3,
+      "numSides": 10,
+      "target": 12
+    },
+    "expected": 55,
+    "name": "Test Case 6"
+  },
+  {
+    "inputs": {
+      "numDice": 12,
+      "numSides": 9,
+      "target": 108
+    },
+    "expected": 1,
+    "name": "Test Case 7"
+  },
+  {
+    "inputs": {
+      "numDice": 12,
+      "numSides": 9,
+      "target": 12
+    },
+    "expected": 1,
+    "name": "Test Case 8"
+  },
+  {
+    "inputs": {
+      "numDice": 7,
+      "numSides": 5,
+      "target": 22
+    },
+    "expected": 7875,
+    "name": "Test Case 9"
+  },
+  {
+    "inputs": {
+      "numDice": 4,
+      "numSides": 6,
+      "target": 15
+    },
+    "expected": 140,
+    "name": "Test Case 10"
+  },
+  {
+    "inputs": {
+      "numDice": 3,
+      "numSides": 9,
+      "target": 11
+    },
+    "expected": 45,
+    "name": "Test Case 11"
+  },
+  {
+    "inputs": {
+      "numDice": 6,
+      "numSides": 6,
+      "target": 20
+    },
+    "expected": 4221,
+    "name": "Test Case 12"
+  },
+  {
+    "inputs": {
+      "numDice": 11,
+      "numSides": 9,
+      "target": 32
+    },
+    "expected": 37254789,
+    "name": "Test Case 13"
+  }
+]

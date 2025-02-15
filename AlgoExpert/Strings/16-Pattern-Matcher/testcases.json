@@ -1,0 +1,125 @@
+[
+  {
+    "inputs": {
+      "pattern": "xxyxxy",
+      "string": "gogopowerrangergogopowerranger"
+    },
+    "expected": [
+      "go",
+      "powerranger"
+    ],
+    "name": "Test Case 1"
+  },
+  {
+    "inputs": {
+      "pattern": "xyxy",
+      "string": "abab"
+    },
+    "expected": [
+      "a",
+      "b"
+    ],
+    "name": "Test Case 2"
+  },
+  {
+    "inputs": {
+      "pattern": "yxyx",
+      "string": "abab"
+    },
+    "expected": [
+      "b",
+      "a"
+    ],
+    "name": "Test Case 3"
+  },
+  {
+    "inputs": {
+      "pattern": "yxx",
+      "string": "yomama"
+    },
+    "expected": [
+      "ma",
+      "yo"
+    ],
+    "name": "Test Case 4"
+  },
+  {
+    "inputs": {
+      "pattern": "yyxyyx",
+      "string": "gogopowerrangergogopowerranger"
+    },
+    "expected": [
+      "powerranger",
+      "go"
+    ],
+    "name": "Test Case 5"
+  },
+  {
+    "inputs": {
+      "pattern": "xyx",
+      "string": "thisshouldobviouslybewrong"
+    },
+    "expected": [],
+    "name": "Test Case 6"
+  },
+  {
+    "inputs": {
+      "pattern": "xxxx",
+      "string": "testtesttesttest"
+    },
+    "expected": [
+      "test",
+      ""
+    ],
+    "name": "Test Case 7"
+  },
+  {
+    "inputs": {
+      "pattern": "yyyy",
+      "string": "testtesttesttest"
+    },
+    "expected": [
+      "",
+      "test"
+    ],
+    "name": "Test Case 8"
+  },
+  {
+    "inputs": {
+      "pattern": "xxyxyy",
+      "string": "testtestwrongtestwrongtest"
+    },
+    "expected": [],
+    "name": "Test Case 9"
+  },
+  {
+    "inputs": {
+      "pattern": "xyxxxyyx",
+      "string": "baddaddoombaddadoomibaddaddoombaddaddoombaddaddoombaddaddoomibaddaddoomibaddaddoom"
+    },
+    "expected": [],
+    "name": "Test Case 10"
+  },
+  {
+    "inputs": {
+      "pattern": "yxyyyxxy",
+      "string": "baddaddoombaddaddoomibaddaddoombaddaddoombaddaddoombaddaddoomibaddaddoomibaddaddoom"
+    },
+    "expected": [
+      "baddaddoomi",
+      "baddaddoom"
+    ],
+    "name": "Test Case 11"
+  },
+  {
+    "inputs": {
+      "pattern": "xyxxxyyx",
+      "string": "baddaddoombaddaddoomibaddaddoombaddaddoombaddaddoombaddaddoomibaddaddoomibaddaddoom"
+    },
+    "expected": [
+      "baddaddoom",
+      "baddaddoomi"
+    ],
+    "name": "Test Case 12"
+  }
+]

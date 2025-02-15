@@ -1,0 +1,138 @@
+[
+  {
+    "inputs": {
+      "str1": "abc",
+      "str2": "yabd"
+    },
+    "expected": 2,
+    "name": "Test Case 1"
+  },
+  {
+    "inputs": {
+      "str1": "",
+      "str2": ""
+    },
+    "expected": 0,
+    "name": "Test Case 2"
+  },
+  {
+    "inputs": {
+      "str1": "",
+      "str2": "abc"
+    },
+    "expected": 3,
+    "name": "Test Case 3"
+  },
+  {
+    "inputs": {
+      "str1": "abc",
+      "str2": "abc"
+    },
+    "expected": 0,
+    "name": "Test Case 4"
+  },
+  {
+    "inputs": {
+      "str1": "abc",
+      "str2": "abx"
+    },
+    "expected": 1,
+    "name": "Test Case 5"
+  },
+  {
+    "inputs": {
+      "str1": "abc",
+      "str2": "abcx"
+    },
+    "expected": 1,
+    "name": "Test Case 6"
+  },
+  {
+    "inputs": {
+      "str1": "abc",
+      "str2": "yabcx"
+    },
+    "expected": 2,
+    "name": "Test Case 7"
+  },
+  {
+    "inputs": {
+      "str1": "algoexpert",
+      "str2": "algozexpert"
+    },
+    "expected": 1,
+    "name": "Test Case 8"
+  },
+  {
+    "inputs": {
+      "str1": "abcdefghij",
+      "str2": "1234567890"
+    },
+    "expected": 10,
+    "name": "Test Case 9"
+  },
+  {
+    "inputs": {
+      "str1": "abcdefghij",
+      "str2": "a234567890"
+    },
+    "expected": 9,
+    "name": "Test Case 10"
+  },
+  {
+    "inputs": {
+      "str1": "biting",
+      "str2": "mitten"
+    },
+    "expected": 4,
+    "name": "Test Case 11"
+  },
+  {
+    "inputs": {
+      "str1": "cereal",
+      "str2": "saturday"
+    },
+    "expected": 6,
+    "name": "Test Case 12"
+  },
+  {
+    "inputs": {
+      "str1": "cereal",
+      "str2": "saturdzz"
+    },
+    "expected": 7,
+    "name": "Test Case 13"
+  },
+  {
+    "inputs": {
+      "str1": "abbbbbbbbb",
+      "str2": "bbbbbbbbba"
+    },
+    "expected": 2,
+    "name": "Test Case 14"
+  },
+  {
+    "inputs": {
+      "str1": "xabc",
+      "str2": "abcx"
+    },
+    "expected": 2,
+    "name": "Test Case 15"
+  },
+  {
+    "inputs": {
+      "str1": "table",
+      "str2": "bal"
+    },
+    "expected": 3,
+    "name": "Test Case 16"
+  },
+  {
+    "inputs": {
+      "str1": "gumbo",
+      "str2": "gambol"
+    },
+    "expected": 2,
+    "name": "Test Case 17"
+  }
+]

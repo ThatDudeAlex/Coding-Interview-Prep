@@ -1,0 +1,872 @@
+[
+  {
+    "inputs": {
+      "classMethodsToCall": [
+        {
+          "arguments": [
+            5
+          ],
+          "method": "push"
+        },
+        {
+          "arguments": [],
+          "method": "getMin"
+        },
+        {
+          "arguments": [],
+          "method": "getMax"
+        },
+        {
+          "arguments": [],
+          "method": "peek"
+        },
+        {
+          "arguments": [
+            7
+          ],
+          "method": "push"
+        },
+        {
+          "arguments": [],
+          "method": "getMin"
+        },
+        {
+          "arguments": [],
+          "method": "getMax"
+        },
+        {
+          "arguments": [],
+          "method": "peek"
+        },
+        {
+          "arguments": [
+            2
+          ],
+          "method": "push"
+        },
+        {
+          "arguments": [],
+          "method": "getMin"
+        },
+        {
+          "arguments": [],
+          "method": "getMax"
+        },
+        {
+          "arguments": [],
+          "method": "peek"
+        },
+        {
+          "arguments": [],
+          "method": "pop"
+        },
+        {
+          "arguments": [],
+          "method": "pop"
+        },
+        {
+          "arguments": [],
+          "method": "getMin"
+        },
+        {
+          "arguments": [],
+          "method": "getMax"
+        },
+        {
+          "arguments": [],
+          "method": "peek"
+        }
+      ]
+    },
+    "name": "Test Case 1"
+  },
+  {
+    "inputs": {
+      "classMethodsToCall": [
+        {
+          "arguments": [
+            2
+          ],
+          "method": "push"
+        },
+        {
+          "arguments": [],
+          "method": "getMin"
+        },
+        {
+          "arguments": [],
+          "method": "getMax"
+        },
+        {
+          "arguments": [],
+          "method": "peek"
+        },
+        {
+          "arguments": [
+            7
+          ],
+          "method": "push"
+        },
+        {
+          "arguments": [],
+          "method": "getMin"
+        },
+        {
+          "arguments": [],
+          "method": "getMax"
+        },
+        {
+          "arguments": [],
+          "method": "peek"
+        },
+        {
+          "arguments": [
+            1
+          ],
+          "method": "push"
+        },
+        {
+          "arguments": [],
+          "method": "getMin"
+        },
+        {
+          "arguments": [],
+          "method": "getMax"
+        },
+        {
+          "arguments": [],
+          "method": "peek"
+        },
+        {
+          "arguments": [
+            8
+          ],
+          "method": "push"
+        },
+        {
+          "arguments": [],
+          "method": "getMin"
+        },
+        {
+          "arguments": [],
+          "method": "getMax"
+        },
+        {
+          "arguments": [],
+          "method": "peek"
+        },
+        {
+          "arguments": [
+            3
+          ],
+          "method": "push"
+        },
+        {
+          "arguments": [],
+          "method": "getMin"
+        },
+        {
+          "arguments": [],
+          "method": "getMax"
+        },
+        {
+          "arguments": [],
+          "method": "peek"
+        },
+        {
+          "arguments": [
+            9
+          ],
+          "method": "push"
+        },
+        {
+          "arguments": [],
+          "method": "getMin"
+        },
+        {
+          "arguments": [],
+          "method": "getMax"
+        },
+        {
+          "arguments": [],
+          "method": "peek"
+        },
+        {
+          "arguments": [],
+          "method": "pop"
+        },
+        {
+          "arguments": [],
+          "method": "getMin"
+        },
+        {
+          "arguments": [],
+          "method": "getMax"
+        },
+        {
+          "arguments": [],
+          "method": "peek"
+        },
+        {
+          "arguments": [],
+          "method": "pop"
+        },
+        {
+          "arguments": [],
+          "method": "getMin"
+        },
+        {
+          "arguments": [],
+          "method": "getMax"
+        },
+        {
+          "arguments": [],
+          "method": "peek"
+        },
+        {
+          "arguments": [],
+          "method": "pop"
+        },
+        {
+          "arguments": [],
+          "method": "getMin"
+        },
+        {
+          "arguments": [],
+          "method": "getMax"
+        },
+        {
+          "arguments": [],
+          "method": "peek"
+        },
+        {
+          "arguments": [],
+          "method": "pop"
+        },
+        {
+          "arguments": [],
+          "method": "getMin"
+        },
+        {
+          "arguments": [],
+          "method": "getMax"
+        },
+        {
+          "arguments": [],
+          "method": "peek"
+        },
+        {
+          "arguments": [],
+          "method": "pop"
+        },
+        {
+          "arguments": [],
+          "method": "getMin"
+        },
+        {
+          "arguments": [],
+          "method": "getMax"
+        },
+        {
+          "arguments": [],
+          "method": "peek"
+        },
+        {
+          "arguments": [],
+          "method": "pop"
+        }
+      ]
+    },
+    "name": "Test Case 2"
+  },
+  {
+    "inputs": {
+      "classMethodsToCall": [
+        {
+          "arguments": [
+            5
+          ],
+          "method": "push"
+        },
+        {
+          "arguments": [],
+          "method": "getMin"
+        },
+        {
+          "arguments": [],
+          "method": "getMax"
+        },
+        {
+          "arguments": [],
+          "method": "peek"
+        },
+        {
+          "arguments": [
+            5
+          ],
+          "method": "push"
+        },
+        {
+          "arguments": [],
+          "method": "getMin"
+        },
+        {
+          "arguments": [],
+          "method": "getMax"
+        },
+        {
+          "arguments": [],
+          "method": "peek"
+        },
+        {
+          "arguments": [
+            5
+          ],
+          "method": "push"
+        },
+        {
+          "arguments": [],
+          "method": "getMin"
+        },
+        {
+          "arguments": [],
+          "method": "getMax"
+        },
+        {
+          "arguments": [],
+          "method": "peek"
+        },
+        {
+          "arguments": [
+            5
+          ],
+          "method": "push"
+        },
+        {
+          "arguments": [],
+          "method": "getMin"
+        },
+        {
+          "arguments": [],
+          "method": "getMax"
+        },
+        {
+          "arguments": [],
+          "method": "peek"
+        },
+        {
+          "arguments": [
+            8
+          ],
+          "method": "push"
+        },
+        {
+          "arguments": [],
+          "method": "getMin"
+        },
+        {
+          "arguments": [],
+          "method": "getMax"
+        },
+        {
+          "arguments": [],
+          "method": "peek"
+        },
+        {
+          "arguments": [
+            8
+          ],
+          "method": "push"
+        },
+        {
+          "arguments": [],
+          "method": "getMin"
+        },
+        {
+          "arguments": [],
+          "method": "getMax"
+        },
+        {
+          "arguments": [],
+          "method": "peek"
+        },
+        {
+          "arguments": [
+            0
+          ],
+          "method": "push"
+        },
+        {
+          "arguments": [],
+          "method": "getMin"
+        },
+        {
+          "arguments": [],
+          "method": "getMax"
+        },
+        {
+          "arguments": [],
+          "method": "peek"
+        },
+        {
+          "arguments": [
+            8
+          ],
+          "method": "push"
+        },
+        {
+          "arguments": [],
+          "method": "getMin"
+        },
+        {
+          "arguments": [],
+          "method": "getMax"
+        },
+        {
+          "arguments": [],
+          "method": "peek"
+        },
+        {
+          "arguments": [
+            9
+          ],
+          "method": "push"
+        },
+        {
+          "arguments": [],
+          "method": "getMin"
+        },
+        {
+          "arguments": [],
+          "method": "getMax"
+        },
+        {
+          "arguments": [],
+          "method": "peek"
+        },
+        {
+          "arguments": [
+            5
+          ],
+          "method": "push"
+        },
+        {
+          "arguments": [],
+          "method": "getMin"
+        },
+        {
+          "arguments": [],
+          "method": "getMax"
+        },
+        {
+          "arguments": [],
+          "method": "peek"
+        },
+        {
+          "arguments": [],
+          "method": "pop"
+        },
+        {
+          "arguments": [],
+          "method": "getMin"
+        },
+        {
+          "arguments": [],
+          "method": "getMax"
+        },
+        {
+          "arguments": [],
+          "method": "peek"
+        },
+        {
+          "arguments": [],
+          "method": "pop"
+        },
+        {
+          "arguments": [],
+          "method": "getMin"
+        },
+        {
+          "arguments": [],
+          "method": "getMax"
+        },
+        {
+          "arguments": [],
+          "method": "peek"
+        },
+        {
+          "arguments": [],
+          "method": "pop"
+        },
+        {
+          "arguments": [],
+          "method": "getMin"
+        },
+        {
+          "arguments": [],
+          "method": "getMax"
+        },
+        {
+          "arguments": [],
+          "method": "peek"
+        },
+        {
+          "arguments": [],
+          "method": "pop"
+        },
+        {
+          "arguments": [],
+          "method": "getMin"
+        },
+        {
+          "arguments": [],
+          "method": "getMax"
+        },
+        {
+          "arguments": [],
+          "method": "peek"
+        },
+        {
+          "arguments": [],
+          "method": "pop"
+        },
+        {
+          "arguments": [],
+          "method": "getMin"
+        },
+        {
+          "arguments": [],
+          "method": "getMax"
+        },
+        {
+          "arguments": [],
+          "method": "peek"
+        },
+        {
+          "arguments": [],
+          "method": "pop"
+        },
+        {
+          "arguments": [],
+          "method": "getMin"
+        },
+        {
+          "arguments": [],
+          "method": "getMax"
+        },
+        {
+          "arguments": [],
+          "method": "peek"
+        },
+        {
+          "arguments": [],
+          "method": "pop"
+        },
+        {
+          "arguments": [],
+          "method": "getMin"
+        },
+        {
+          "arguments": [],
+          "method": "getMax"
+        },
+        {
+          "arguments": [],
+          "method": "peek"
+        },
+        {
+          "arguments": [],
+          "method": "pop"
+        },
+        {
+          "arguments": [],
+          "method": "getMin"
+        },
+        {
+          "arguments": [],
+          "method": "getMax"
+        },
+        {
+          "arguments": [],
+          "method": "peek"
+        },
+        {
+          "arguments": [],
+          "method": "pop"
+        },
+        {
+          "arguments": [],
+          "method": "getMin"
+        },
+        {
+          "arguments": [],
+          "method": "getMax"
+        },
+        {
+          "arguments": [],
+          "method": "peek"
+        },
+        {
+          "arguments": [],
+          "method": "pop"
+        }
+      ]
+    },
+    "name": "Test Case 3"
+  },
+  {
+    "inputs": {
+      "classMethodsToCall": [
+        {
+          "arguments": [
+            2
+          ],
+          "method": "push"
+        },
+        {
+          "arguments": [],
+          "method": "getMin"
+        },
+        {
+          "arguments": [],
+          "method": "getMax"
+        },
+        {
+          "arguments": [],
+          "method": "peek"
+        },
+        {
+          "arguments": [
+            0
+          ],
+          "method": "push"
+        },
+        {
+          "arguments": [],
+          "method": "getMin"
+        },
+        {
+          "arguments": [],
+          "method": "getMax"
+        },
+        {
+          "arguments": [],
+          "method": "peek"
+        },
+        {
+          "arguments": [
+            5
+          ],
+          "method": "push"
+        },
+        {
+          "arguments": [],
+          "method": "getMin"
+        },
+        {
+          "arguments": [],
+          "method": "getMax"
+        },
+        {
+          "arguments": [],
+          "method": "peek"
+        },
+        {
+          "arguments": [
+            4
+          ],
+          "method": "push"
+        },
+        {
+          "arguments": [],
+          "method": "getMin"
+        },
+        {
+          "arguments": [],
+          "method": "getMax"
+        },
+        {
+          "arguments": [],
+          "method": "peek"
+        },
+        {
+          "arguments": [],
+          "method": "pop"
+        },
+        {
+          "arguments": [],
+          "method": "getMin"
+        },
+        {
+          "arguments": [],
+          "method": "getMax"
+        },
+        {
+          "arguments": [],
+          "method": "peek"
+        },
+        {
+          "arguments": [],
+          "method": "pop"
+        },
+        {
+          "arguments": [],
+          "method": "getMin"
+        },
+        {
+          "arguments": [],
+          "method": "getMax"
+        },
+        {
+          "arguments": [],
+          "method": "peek"
+        },
+        {
+          "arguments": [
+            4
+          ],
+          "method": "push"
+        },
+        {
+          "arguments": [],
+          "method": "getMin"
+        },
+        {
+          "arguments": [],
+          "method": "getMax"
+        },
+        {
+          "arguments": [],
+          "method": "peek"
+        },
+        {
+          "arguments": [
+            11
+          ],
+          "method": "push"
+        },
+        {
+          "arguments": [],
+          "method": "getMin"
+        },
+        {
+          "arguments": [],
+          "method": "getMax"
+        },
+        {
+          "arguments": [],
+          "method": "peek"
+        },
+        {
+          "arguments": [
+            -11
+          ],
+          "method": "push"
+        },
+        {
+          "arguments": [],
+          "method": "getMin"
+        },
+        {
+          "arguments": [],
+          "method": "getMax"
+        },
+        {
+          "arguments": [],
+          "method": "peek"
+        },
+        {
+          "arguments": [],
+          "method": "pop"
+        },
+        {
+          "arguments": [],
+          "method": "getMin"
+        },
+        {
+          "arguments": [],
+          "method": "getMax"
+        },
+        {
+          "arguments": [],
+          "method": "peek"
+        },
+        {
+          "arguments": [],
+          "method": "pop"
+        },
+        {
+          "arguments": [],
+          "method": "getMin"
+        },
+        {
+          "arguments": [],
+          "method": "getMax"
+        },
+        {
+          "arguments": [],
+          "method": "peek"
+        },
+        {
+          "arguments": [],
+          "method": "pop"
+        },
+        {
+          "arguments": [],
+          "method": "getMin"
+        },
+        {
+          "arguments": [],
+          "method": "getMax"
+        },
+        {
+          "arguments": [],
+          "method": "peek"
+        },
+        {
+          "arguments": [],
+          "method": "pop"
+        },
+        {
+          "arguments": [],
+          "method": "getMin"
+        },
+        {
+          "arguments": [],
+          "method": "getMax"
+        },
+        {
+          "arguments": [],
+          "method": "peek"
+        },
+        {
+          "arguments": [],
+          "method": "pop"
+        },
+        {
+          "arguments": [
+            6
+          ],
+          "method": "push"
+        },
+        {
+          "arguments": [],
+          "method": "getMin"
+        },
+        {
+          "arguments": [],
+          "method": "getMax"
+        },
+        {
+          "arguments": [],
+          "method": "peek"
+        },
+        {
+          "arguments": [],
+          "method": "pop"
+        }
+      ]
+    },
+    "name": "Test Case 4"
+  }
+]

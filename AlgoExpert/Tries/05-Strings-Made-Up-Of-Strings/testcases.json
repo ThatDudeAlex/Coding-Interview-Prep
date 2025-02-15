@@ -1,0 +1,490 @@
+[
+  {
+    "inputs": {
+      "strings": [
+        "foobar"
+      ],
+      "substrings": [
+        "foo",
+        "bar"
+      ]
+    },
+    "expected": [
+      "foobar"
+    ],
+    "name": "Test Case 1"
+  },
+  {
+    "inputs": {
+      "strings": [
+        "foo"
+      ],
+      "substrings": [
+        "foo"
+      ]
+    },
+    "expected": [
+      "foo"
+    ],
+    "name": "Test Case 2"
+  },
+  {
+    "inputs": {
+      "strings": [
+        "foobar"
+      ],
+      "substrings": [
+        "foo",
+        "baz"
+      ]
+    },
+    "expected": [],
+    "name": "Test Case 3"
+  },
+  {
+    "inputs": {
+      "strings": [
+        "baz"
+      ],
+      "substrings": [
+        "b",
+        "a",
+        "z"
+      ]
+    },
+    "expected": [
+      "baz"
+    ],
+    "name": "Test Case 4"
+  },
+  {
+    "inputs": {
+      "strings": [
+        "algoexpert"
+      ],
+      "substrings": [
+        "algo",
+        "pert",
+        "ex"
+      ]
+    },
+    "expected": [
+      "algoexpert"
+    ],
+    "name": "Test Case 5"
+  },
+  {
+    "inputs": {
+      "strings": [
+        "bar"
+      ],
+      "substrings": [
+        "barely"
+      ]
+    },
+    "expected": [],
+    "name": "Test Case 6"
+  },
+  {
+    "inputs": {
+      "strings": [
+        "bar"
+      ],
+      "substrings": [
+        "b",
+        "a",
+        "r",
+        "ba",
+        "ar"
+      ]
+    },
+    "expected": [
+      "bar"
+    ],
+    "name": "Test Case 7"
+  },
+  {
+    "inputs": {
+      "strings": [
+        "bar"
+      ],
+      "substrings": [
+        "b",
+        "a",
+        "r",
+        "ba",
+        "ar",
+        "bar"
+      ]
+    },
+    "expected": [
+      "bar"
+    ],
+    "name": "Test Case 8"
+  },
+  {
+    "inputs": {
+      "strings": [
+        "bar",
+        "are",
+        "foo",
+        "ba",
+        "b",
+        "barely"
+      ],
+      "substrings": [
+        "b",
+        "a",
+        "r",
+        "ba",
+        "ar",
+        "bar"
+      ]
+    },
+    "expected": [
+      "b",
+      "ba",
+      "bar"
+    ],
+    "name": "Test Case 9"
+  },
+  {
+    "inputs": {
+      "strings": [
+        "barbar",
+        "algoexpert",
+        "frontendexpert"
+      ],
+      "substrings": [
+        "algo",
+        "bar",
+        "expert",
+        "end",
+        "front"
+      ]
+    },
+    "expected": [
+      "algoexpert",
+      "barbar",
+      "frontendexpert"
+    ],
+    "name": "Test Case 10"
+  },
+  {
+    "inputs": {
+      "strings": [
+        "foo123",
+        "bar$%"
+      ],
+      "substrings": [
+        "foo",
+        "123",
+        "bar",
+        "$%"
+      ]
+    },
+    "expected": [
+      "bar$%",
+      "foo123"
+    ],
+    "name": "Test Case 11"
+  },
+  {
+    "inputs": {
+      "strings": [
+        "foo123",
+        "bar$%"
+      ],
+      "substrings": [
+        "123",
+        "foo",
+        "bar"
+      ]
+    },
+    "expected": [
+      "foo123"
+    ],
+    "name": "Test Case 12"
+  },
+  {
+    "inputs": {
+      "strings": [
+        "foobarfoobar"
+      ],
+      "substrings": [
+        "foo",
+        "bar"
+      ]
+    },
+    "expected": [
+      "foobarfoobar"
+    ],
+    "name": "Test Case 13"
+  },
+  {
+    "inputs": {
+      "strings": [
+        "foobarfoobar",
+        "foo",
+        "bar",
+        "barfoobar",
+        "fobaro",
+        "foobaro"
+      ],
+      "substrings": [
+        "foo",
+        "bar"
+      ]
+    },
+    "expected": [
+      "bar",
+      "barfoobar",
+      "foo",
+      "foobarfoobar"
+    ],
+    "name": "Test Case 14"
+  },
+  {
+    "inputs": {
+      "strings": [
+        "foo",
+        "bar",
+        "baz",
+        "qux",
+        "quux"
+      ],
+      "substrings": [
+        "foo",
+        "ba",
+        "qu",
+        "ux"
+      ]
+    },
+    "expected": [
+      "foo",
+      "quux"
+    ],
+    "name": "Test Case 15"
+  },
+  {
+    "inputs": {
+      "strings": [
+        "foofoo",
+        "barbar",
+        "bazbaz",
+        "foobaz"
+      ],
+      "substrings": [
+        "foo",
+        "bar",
+        "baz"
+      ]
+    },
+    "expected": [
+      "barbar",
+      "bazbaz",
+      "foobaz",
+      "foofoo"
+    ],
+    "name": "Test Case 16"
+  },
+  {
+    "inputs": {
+      "strings": [
+        "foo",
+        "bar",
+        "baz",
+        "qux",
+        "quux",
+        "foobar"
+      ],
+      "substrings": [
+        "foo",
+        "ba",
+        "qux"
+      ]
+    },
+    "expected": [
+      "foo",
+      "qux"
+    ],
+    "name": "Test Case 17"
+  },
+  {
+    "inputs": {
+      "strings": [
+        "foobarbaz",
+        "bazbarfoo",
+        "foobaz",
+        "quxquux",
+        "quuxqux"
+      ],
+      "substrings": [
+        "foo",
+        "ba",
+        "bar",
+        "baz",
+        "qux",
+        "qu"
+      ]
+    },
+    "expected": [
+      "bazbarfoo",
+      "foobarbaz",
+      "foobaz"
+    ],
+    "name": "Test Case 18"
+  },
+  {
+    "inputs": {
+      "strings": [
+        "java",
+        "javascript",
+        "python",
+        "ruby",
+        "c",
+        "cplusplus",
+        "assembly"
+      ],
+      "substrings": [
+        "ja",
+        "script",
+        "py",
+        "thon",
+        "ruby",
+        "c",
+        "plus",
+        "va",
+        "assembly"
+      ]
+    },
+    "expected": [
+      "assembly",
+      "c",
+      "cplusplus",
+      "java",
+      "javascript",
+      "python",
+      "ruby"
+    ],
+    "name": "Test Case 19"
+  },
+  {
+    "inputs": {
+      "strings": [
+        "java",
+        "javascript",
+        "python",
+        "ruby",
+        "c",
+        "cplusplus",
+        "assembly"
+      ],
+      "substrings": [
+        "ja",
+        "py",
+        "thone",
+        "ruby",
+        "c",
+        "minus",
+        "va",
+        "assembler"
+      ]
+    },
+    "expected": [
+      "c",
+      "java",
+      "ruby"
+    ],
+    "name": "Test Case 20"
+  },
+  {
+    "inputs": {
+      "strings": [
+        "linkedlist",
+        "binarysearchtree",
+        "depthfirstsearch",
+        "breadthfirstsearch",
+        "quicksort"
+      ],
+      "substrings": [
+        "linked",
+        "list",
+        "binary",
+        "search",
+        "tree",
+        "depth",
+        "first",
+        "breadth",
+        "quick",
+        "sort"
+      ]
+    },
+    "expected": [
+      "binarysearchtree",
+      "breadthfirstsearch",
+      "depthfirstsearch",
+      "linkedlist",
+      "quicksort"
+    ],
+    "name": "Test Case 21"
+  },
+  {
+    "inputs": {
+      "strings": [
+        "linkedlist",
+        "binarysearchtree",
+        "depthfirstsearch",
+        "breadthfirstsearch",
+        "quicksort"
+      ],
+      "substrings": [
+        "so",
+        "se",
+        "rt",
+        "arch",
+        "tre",
+        "e",
+        "binary",
+        "depth",
+        "link",
+        "ed",
+        "list",
+        "first"
+      ]
+    },
+    "expected": [
+      "binarysearchtree",
+      "depthfirstsearch",
+      "linkedlist"
+    ],
+    "name": "Test Case 22"
+  },
+  {
+    "inputs": {
+      "strings": [
+        "linkedlist",
+        "binarysearchtree",
+        "depthfirstsearch",
+        "breadthfirstsearch",
+        "quicksort"
+      ],
+      "substrings": [
+        "so",
+        "se",
+        "rt",
+        "arch",
+        "tre",
+        "binary",
+        "depth",
+        "link",
+        "list",
+        "first"
+      ]
+    },
+    "expected": [
+      "depthfirstsearch"
+    ],
+    "name": "Test Case 23"
+  }
+]

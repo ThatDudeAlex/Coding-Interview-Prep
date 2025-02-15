@@ -1,0 +1,79 @@
+[
+  {
+    "inputs": {
+      "string": "noonabbad"
+    },
+    "expected": 2,
+    "name": "Test Case 1"
+  },
+  {
+    "inputs": {
+      "string": "a"
+    },
+    "expected": 0,
+    "name": "Test Case 2"
+  },
+  {
+    "inputs": {
+      "string": "abba"
+    },
+    "expected": 0,
+    "name": "Test Case 3"
+  },
+  {
+    "inputs": {
+      "string": "abbba"
+    },
+    "expected": 0,
+    "name": "Test Case 4"
+  },
+  {
+    "inputs": {
+      "string": "abb"
+    },
+    "expected": 1,
+    "name": "Test Case 5"
+  },
+  {
+    "inputs": {
+      "string": "abbb"
+    },
+    "expected": 1,
+    "name": "Test Case 6"
+  },
+  {
+    "inputs": {
+      "string": "abcbm"
+    },
+    "expected": 2,
+    "name": "Test Case 7"
+  },
+  {
+    "inputs": {
+      "string": "ababbbabbababa"
+    },
+    "expected": 3,
+    "name": "Test Case 8"
+  },
+  {
+    "inputs": {
+      "string": "abbbacecffgbgffab"
+    },
+    "expected": 4,
+    "name": "Test Case 9"
+  },
+  {
+    "inputs": {
+      "string": "abcdefghijklmonpqrstuvwxyz"
+    },
+    "expected": 25,
+    "name": "Test Case 10"
+  },
+  {
+    "inputs": {
+      "string": "abcdefghijklmracecaronpqrstuvwxyz"
+    },
+    "expected": 26,
+    "name": "Test Case 11"
+  }
+]

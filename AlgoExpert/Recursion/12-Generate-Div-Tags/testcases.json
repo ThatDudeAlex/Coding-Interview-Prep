@@ -1,0 +1,68 @@
+[
+  {
+    "inputs": {
+      "numberOfTags": 3
+    },
+    "expected": [
+      "<div><div><div></div></div></div>",
+      "<div><div></div><div></div></div>",
+      "<div><div></div></div><div></div>",
+      "<div></div><div><div></div></div>",
+      "<div></div><div></div><div></div>"
+    ],
+    "name": "Test Case 1"
+  },
+  {
+    "inputs": {
+      "numberOfTags": 2
+    },
+    "expected": [
+      "<div><div></div></div>",
+      "<div></div><div></div>"
+    ],
+    "name": "Test Case 2"
+  },
+  {
+    "inputs": {
+      "numberOfTags": 1
+    },
+    "expected": [
+      "<div></div>"
+    ],
+    "name": "Test Case 3"
+  },
+  {
+    "inputs": {
+      "numberOfTags": 4
+    },
+    "expected": [
+      "<div><div><div><div></div></div></div></div>",
+      "<div><div><div></div><div></div></div></div>",
+      "<div><div><div></div></div><div></div></div>",
+      "<div><div><div></div></div></div><div></div>",
+      "<div><div></div><div><div></div></div></div>",
+      "<div><div></div><div></div><div></div></div>",
+      "<div><div></div><div></div></div><div></div>",
+      "<div><div></div></div><div><div></div></div>",
+      "<div><div></div></div><div></div><div></div>",
+      "<div></div><div><div><div></div></div></div>",
+      "<div></div><div><div></div><div></div></div>",
+      "<div></div><div><div></div></div><div></div>",
+      "<div></div><div></div><div><div></div></div>",
+      "<div></div><div></div><div></div><div></div>"
+    ],
+    "name": "Test Case 4"
+  },
+  {
+    "inputs": {
+      "numberOfTags": 5
+    },
+    "name": "Test Case 5"
+  },
+  {
+    "inputs": {
+      "numberOfTags": 6
+    },
+    "name": "Test Case 6"
+  }
+]

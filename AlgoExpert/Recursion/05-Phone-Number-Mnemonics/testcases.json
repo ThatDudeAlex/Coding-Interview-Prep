@@ -1,0 +1,209 @@
+[
+  {
+    "inputs": {
+      "phoneNumber": "1905"
+    },
+    "expected": [
+      "1w0j",
+      "1w0k",
+      "1w0l",
+      "1x0j",
+      "1x0k",
+      "1x0l",
+      "1y0j",
+      "1y0k",
+      "1y0l",
+      "1z0j",
+      "1z0k",
+      "1z0l"
+    ],
+    "name": "Test Case 1"
+  },
+  {
+    "inputs": {
+      "phoneNumber": "1111"
+    },
+    "expected": [
+      "1111"
+    ],
+    "name": "Test Case 2"
+  },
+  {
+    "inputs": {
+      "phoneNumber": "002"
+    },
+    "expected": [
+      "00a",
+      "00b",
+      "00c"
+    ],
+    "name": "Test Case 3"
+  },
+  {
+    "inputs": {
+      "phoneNumber": "444"
+    },
+    "expected": [
+      "ggg",
+      "ggh",
+      "ggi",
+      "ghg",
+      "ghh",
+      "ghi",
+      "gig",
+      "gih",
+      "gii",
+      "hgg",
+      "hgh",
+      "hgi",
+      "hhg",
+      "hhh",
+      "hhi",
+      "hig",
+      "hih",
+      "hii",
+      "igg",
+      "igh",
+      "igi",
+      "ihg",
+      "ihh",
+      "ihi",
+      "iig",
+      "iih",
+      "iii"
+    ],
+    "name": "Test Case 4"
+  },
+  {
+    "inputs": {
+      "phoneNumber": "9056661234"
+    },
+    "name": "Test Case 5"
+  },
+  {
+    "inputs": {
+      "phoneNumber": "4163420000"
+    },
+    "name": "Test Case 6"
+  },
+  {
+    "inputs": {
+      "phoneNumber": "1"
+    },
+    "expected": [
+      "1"
+    ],
+    "name": "Test Case 7"
+  },
+  {
+    "inputs": {
+      "phoneNumber": "0"
+    },
+    "expected": [
+      "0"
+    ],
+    "name": "Test Case 8"
+  },
+  {
+    "inputs": {
+      "phoneNumber": "23"
+    },
+    "expected": [
+      "ad",
+      "ae",
+      "af",
+      "bd",
+      "be",
+      "bf",
+      "cd",
+      "ce",
+      "cf"
+    ],
+    "name": "Test Case 9"
+  },
+  {
+    "inputs": {
+      "phoneNumber": "1212"
+    },
+    "expected": [
+      "1a1a",
+      "1a1b",
+      "1a1c",
+      "1b1a",
+      "1b1b",
+      "1b1c",
+      "1c1a",
+      "1c1b",
+      "1c1c"
+    ],
+    "name": "Test Case 10"
+  },
+  {
+    "inputs": {
+      "phoneNumber": "97"
+    },
+    "expected": [
+      "wp",
+      "wq",
+      "wr",
+      "ws",
+      "xp",
+      "xq",
+      "xr",
+      "xs",
+      "yp",
+      "yq",
+      "yr",
+      "ys",
+      "zp",
+      "zq",
+      "zr",
+      "zs"
+    ],
+    "name": "Test Case 11"
+  },
+  {
+    "inputs": {
+      "phoneNumber": "980016"
+    },
+    "expected": [
+      "wt001m",
+      "wt001n",
+      "wt001o",
+      "wu001m",
+      "wu001n",
+      "wu001o",
+      "wv001m",
+      "wv001n",
+      "wv001o",
+      "xt001m",
+      "xt001n",
+      "xt001o",
+      "xu001m",
+      "xu001n",
+      "xu001o",
+      "xv001m",
+      "xv001n",
+      "xv001o",
+      "yt001m",
+      "yt001n",
+      "yt001o",
+      "yu001m",
+      "yu001n",
+      "yu001o",
+      "yv001m",
+      "yv001n",
+      "yv001o",
+      "zt001m",
+      "zt001n",
+      "zt001o",
+      "zu001m",
+      "zu001n",
+      "zu001o",
+      "zv001m",
+      "zv001n",
+      "zv001o"
+    ],
+    "name": "Test Case 12"
+  }
+]

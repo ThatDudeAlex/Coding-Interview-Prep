@@ -1,0 +1,107 @@
+[
+  {
+    "inputs": {
+      "string": "abcdcaf"
+    },
+    "expected": 1,
+    "name": "Test Case 1"
+  },
+  {
+    "inputs": {
+      "string": "faadabcbbebdf"
+    },
+    "expected": 6,
+    "name": "Test Case 2"
+  },
+  {
+    "inputs": {
+      "string": "a"
+    },
+    "expected": 0,
+    "name": "Test Case 3"
+  },
+  {
+    "inputs": {
+      "string": "ab"
+    },
+    "expected": 0,
+    "name": "Test Case 4"
+  },
+  {
+    "inputs": {
+      "string": "abc"
+    },
+    "expected": 0,
+    "name": "Test Case 5"
+  },
+  {
+    "inputs": {
+      "string": "abac"
+    },
+    "expected": 1,
+    "name": "Test Case 6"
+  },
+  {
+    "inputs": {
+      "string": "ababac"
+    },
+    "expected": 5,
+    "name": "Test Case 7"
+  },
+  {
+    "inputs": {
+      "string": "ababacc"
+    },
+    "expected": -1,
+    "name": "Test Case 8"
+  },
+  {
+    "inputs": {
+      "string": "lmnopqldsafmnopqsa"
+    },
+    "expected": 7,
+    "name": "Test Case 9"
+  },
+  {
+    "inputs": {
+      "string": "abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxy"
+    },
+    "expected": 25,
+    "name": "Test Case 10"
+  },
+  {
+    "inputs": {
+      "string": "abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz"
+    },
+    "expected": -1,
+    "name": "Test Case 11"
+  },
+  {
+    "inputs": {
+      "string": ""
+    },
+    "expected": -1,
+    "name": "Test Case 12"
+  },
+  {
+    "inputs": {
+      "string": "ggyllaylacrhdzedddjsc"
+    },
+    "expected": 10,
+    "name": "Test Case 13"
+  },
+  {
+    "inputs": {
+      "string": "aaaaaaaaaaaaaaaaaaaabbbbbbbbbbcccccccccccdddddddddddeeeeeeeeffghgh"
+    },
+    "expected": -1,
+    "name": "Test Case 14"
+  },
+  {
+    "inputs": {
+      "string": "aabbccddeeff"
+    },
+    "expected": -1,
+    "name": "Test Case 15"
+  }
+]

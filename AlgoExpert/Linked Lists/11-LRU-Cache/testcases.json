@@ -1,0 +1,551 @@
+[
+  {
+    "inputs": {
+      "classMethodsToCall": [
+        {
+          "arguments": [
+            "b",
+            2
+          ],
+          "method": "insertKeyValuePair"
+        },
+        {
+          "arguments": [
+            "a",
+            1
+          ],
+          "method": "insertKeyValuePair"
+        },
+        {
+          "arguments": [
+            "c",
+            3
+          ],
+          "method": "insertKeyValuePair"
+        },
+        {
+          "arguments": [],
+          "method": "getMostRecentKey"
+        },
+        {
+          "arguments": [
+            "a"
+          ],
+          "method": "getValueFromKey"
+        },
+        {
+          "arguments": [],
+          "method": "getMostRecentKey"
+        },
+        {
+          "arguments": [
+            "d",
+            4
+          ],
+          "method": "insertKeyValuePair"
+        },
+        {
+          "arguments": [
+            "b"
+          ],
+          "method": "getValueFromKey"
+        },
+        {
+          "arguments": [
+            "a",
+            5
+          ],
+          "method": "insertKeyValuePair"
+        },
+        {
+          "arguments": [
+            "a"
+          ],
+          "method": "getValueFromKey"
+        }
+      ],
+      "maxSize": 3
+    },
+    "expected": [
+      {
+        "arguments": [
+          "b",
+          2
+        ],
+        "method": "insertKeyValuePair",
+        "output": null
+      },
+      {
+        "arguments": [
+          "a",
+          1
+        ],
+        "method": "insertKeyValuePair",
+        "output": null
+      },
+      {
+        "arguments": [
+          "c",
+          3
+        ],
+        "method": "insertKeyValuePair",
+        "output": null
+      },
+      {
+        "arguments": [],
+        "method": "getMostRecentKey",
+        "output": "c"
+      },
+      {
+        "arguments": [
+          "a"
+        ],
+        "method": "getValueFromKey",
+        "output": 1
+      },
+      {
+        "arguments": [],
+        "method": "getMostRecentKey",
+        "output": "a"
+      },
+      {
+        "arguments": [
+          "d",
+          4
+        ],
+        "method": "insertKeyValuePair",
+        "output": null
+      },
+      {
+        "arguments": [
+          "b"
+        ],
+        "method": "getValueFromKey",
+        "output": null
+      },
+      {
+        "arguments": [
+          "a",
+          5
+        ],
+        "method": "insertKeyValuePair",
+        "output": null
+      },
+      {
+        "arguments": [
+          "a"
+        ],
+        "method": "getValueFromKey",
+        "output": 5
+      }
+    ],
+    "name": "Test Case 1"
+  },
+  {
+    "inputs": {
+      "classMethodsToCall": [
+        {
+          "arguments": [
+            "a"
+          ],
+          "method": "getValueFromKey"
+        },
+        {
+          "arguments": [
+            "a",
+            1
+          ],
+          "method": "insertKeyValuePair"
+        },
+        {
+          "arguments": [
+            "a"
+          ],
+          "method": "getValueFromKey"
+        },
+        {
+          "arguments": [
+            "a",
+            9001
+          ],
+          "method": "insertKeyValuePair"
+        },
+        {
+          "arguments": [
+            "a"
+          ],
+          "method": "getValueFromKey"
+        },
+        {
+          "arguments": [
+            "b",
+            2
+          ],
+          "method": "insertKeyValuePair"
+        },
+        {
+          "arguments": [
+            "a"
+          ],
+          "method": "getValueFromKey"
+        },
+        {
+          "arguments": [
+            "b"
+          ],
+          "method": "getValueFromKey"
+        },
+        {
+          "arguments": [
+            "c",
+            3
+          ],
+          "method": "insertKeyValuePair"
+        },
+        {
+          "arguments": [
+            "a"
+          ],
+          "method": "getValueFromKey"
+        },
+        {
+          "arguments": [
+            "b"
+          ],
+          "method": "getValueFromKey"
+        },
+        {
+          "arguments": [
+            "c"
+          ],
+          "method": "getValueFromKey"
+        }
+      ],
+      "maxSize": 1
+    },
+    "name": "Test Case 2"
+  },
+  {
+    "inputs": {
+      "classMethodsToCall": [
+        {
+          "arguments": [
+            "a",
+            1
+          ],
+          "method": "insertKeyValuePair"
+        },
+        {
+          "arguments": [
+            "b",
+            2
+          ],
+          "method": "insertKeyValuePair"
+        },
+        {
+          "arguments": [
+            "c",
+            3
+          ],
+          "method": "insertKeyValuePair"
+        },
+        {
+          "arguments": [
+            "d",
+            4
+          ],
+          "method": "insertKeyValuePair"
+        },
+        {
+          "arguments": [
+            "a"
+          ],
+          "method": "getValueFromKey"
+        },
+        {
+          "arguments": [
+            "b"
+          ],
+          "method": "getValueFromKey"
+        },
+        {
+          "arguments": [
+            "c"
+          ],
+          "method": "getValueFromKey"
+        },
+        {
+          "arguments": [
+            "d"
+          ],
+          "method": "getValueFromKey"
+        },
+        {
+          "arguments": [
+            "e",
+            5
+          ],
+          "method": "insertKeyValuePair"
+        },
+        {
+          "arguments": [
+            "a"
+          ],
+          "method": "getValueFromKey"
+        },
+        {
+          "arguments": [
+            "b"
+          ],
+          "method": "getValueFromKey"
+        },
+        {
+          "arguments": [
+            "c"
+          ],
+          "method": "getValueFromKey"
+        },
+        {
+          "arguments": [
+            "d"
+          ],
+          "method": "getValueFromKey"
+        },
+        {
+          "arguments": [
+            "e"
+          ],
+          "method": "getValueFromKey"
+        }
+      ],
+      "maxSize": 4
+    },
+    "name": "Test Case 3"
+  },
+  {
+    "inputs": {
+      "classMethodsToCall": [
+        {
+          "arguments": [
+            "a",
+            1
+          ],
+          "method": "insertKeyValuePair"
+        },
+        {
+          "arguments": [],
+          "method": "getMostRecentKey"
+        },
+        {
+          "arguments": [
+            "b",
+            2
+          ],
+          "method": "insertKeyValuePair"
+        },
+        {
+          "arguments": [],
+          "method": "getMostRecentKey"
+        },
+        {
+          "arguments": [
+            "c",
+            3
+          ],
+          "method": "insertKeyValuePair"
+        },
+        {
+          "arguments": [],
+          "method": "getMostRecentKey"
+        },
+        {
+          "arguments": [
+            "d",
+            4
+          ],
+          "method": "insertKeyValuePair"
+        },
+        {
+          "arguments": [],
+          "method": "getMostRecentKey"
+        },
+        {
+          "arguments": [
+            "a"
+          ],
+          "method": "getValueFromKey"
+        },
+        {
+          "arguments": [],
+          "method": "getMostRecentKey"
+        },
+        {
+          "arguments": [
+            "b"
+          ],
+          "method": "getValueFromKey"
+        },
+        {
+          "arguments": [],
+          "method": "getMostRecentKey"
+        },
+        {
+          "arguments": [
+            "c"
+          ],
+          "method": "getValueFromKey"
+        },
+        {
+          "arguments": [],
+          "method": "getMostRecentKey"
+        },
+        {
+          "arguments": [
+            "d"
+          ],
+          "method": "getValueFromKey"
+        },
+        {
+          "arguments": [],
+          "method": "getMostRecentKey"
+        },
+        {
+          "arguments": [
+            "e",
+            5
+          ],
+          "method": "insertKeyValuePair"
+        },
+        {
+          "arguments": [],
+          "method": "getMostRecentKey"
+        }
+      ],
+      "maxSize": 4
+    },
+    "name": "Test Case 4"
+  },
+  {
+    "inputs": {
+      "classMethodsToCall": [
+        {
+          "arguments": [
+            "a",
+            1
+          ],
+          "method": "insertKeyValuePair"
+        },
+        {
+          "arguments": [
+            "b",
+            2
+          ],
+          "method": "insertKeyValuePair"
+        },
+        {
+          "arguments": [
+            "c",
+            3
+          ],
+          "method": "insertKeyValuePair"
+        },
+        {
+          "arguments": [
+            "d",
+            4
+          ],
+          "method": "insertKeyValuePair"
+        },
+        {
+          "arguments": [
+            "a"
+          ],
+          "method": "getValueFromKey"
+        },
+        {
+          "arguments": [
+            "e",
+            5
+          ],
+          "method": "insertKeyValuePair"
+        },
+        {
+          "arguments": [
+            "a"
+          ],
+          "method": "getValueFromKey"
+        },
+        {
+          "arguments": [
+            "b"
+          ],
+          "method": "getValueFromKey"
+        },
+        {
+          "arguments": [
+            "c"
+          ],
+          "method": "getValueFromKey"
+        },
+        {
+          "arguments": [
+            "f",
+            5
+          ],
+          "method": "insertKeyValuePair"
+        },
+        {
+          "arguments": [
+            "c"
+          ],
+          "method": "getValueFromKey"
+        },
+        {
+          "arguments": [
+            "d"
+          ],
+          "method": "getValueFromKey"
+        },
+        {
+          "arguments": [
+            "g",
+            5
+          ],
+          "method": "insertKeyValuePair"
+        },
+        {
+          "arguments": [
+            "e"
+          ],
+          "method": "getValueFromKey"
+        },
+        {
+          "arguments": [
+            "a"
+          ],
+          "method": "getValueFromKey"
+        },
+        {
+          "arguments": [
+            "c"
+          ],
+          "method": "getValueFromKey"
+        },
+        {
+          "arguments": [
+            "f"
+          ],
+          "method": "getValueFromKey"
+        },
+        {
+          "arguments": [
+            "g"
+          ],
+          "method": "getValueFromKey"
+        }
+      ],
+      "maxSize": 4
+    },
+    "name": "Test Case 5"
+  }
+]

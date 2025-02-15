@@ -1,0 +1,195 @@
+[
+  {
+    "inputs": {
+      "words": []
+    },
+    "expected": [],
+    "name": "Test Case 1"
+  },
+  {
+    "inputs": {
+      "words": [
+        "aaa",
+        "bbbb"
+      ]
+    },
+    "expected": [],
+    "name": "Test Case 2"
+  },
+  {
+    "inputs": {
+      "words": [
+        "dog",
+        "god"
+      ]
+    },
+    "expected": [
+      [
+        "dog",
+        "god"
+      ]
+    ],
+    "name": "Test Case 3"
+  },
+  {
+    "inputs": {
+      "words": [
+        "dog",
+        "hello",
+        "god"
+      ]
+    },
+    "expected": [
+      [
+        "dog",
+        "god"
+      ]
+    ],
+    "name": "Test Case 4"
+  },
+  {
+    "inputs": {
+      "words": [
+        "dog",
+        "desserts",
+        "god",
+        "stressed"
+      ]
+    },
+    "expected": [
+      [
+        "dog",
+        "god"
+      ],
+      [
+        "desserts",
+        "stressed"
+      ]
+    ],
+    "name": "Test Case 5"
+  },
+  {
+    "inputs": {
+      "words": [
+        "dog",
+        "hello",
+        "desserts",
+        "test",
+        "god",
+        "stressed"
+      ]
+    },
+    "expected": [
+      [
+        "dog",
+        "god"
+      ],
+      [
+        "desserts",
+        "stressed"
+      ]
+    ],
+    "name": "Test Case 6"
+  },
+  {
+    "inputs": {
+      "words": [
+        "abcde",
+        "edcba",
+        "edbc",
+        "edb",
+        "cbde",
+        "abc"
+      ]
+    },
+    "expected": [
+      [
+        "abcde",
+        "edcba"
+      ],
+      [
+        "cbde",
+        "edbc"
+      ]
+    ],
+    "name": "Test Case 7"
+  },
+  {
+    "inputs": {
+      "words": [
+        "abcde",
+        "bcd",
+        "dcb",
+        "edcba",
+        "aaa"
+      ]
+    },
+    "expected": [
+      [
+        "abcde",
+        "edcba"
+      ],
+      [
+        "bcd",
+        "dcb"
+      ]
+    ],
+    "name": "Test Case 8"
+  },
+  {
+    "inputs": {
+      "words": [
+        "abcdefghijk",
+        "aaa",
+        "hello",
+        "racecar",
+        "kjihgfedcba"
+      ]
+    },
+    "expected": [
+      [
+        "abcdefghijk",
+        "kjihgfedcba"
+      ]
+    ],
+    "name": "Test Case 9"
+  },
+  {
+    "inputs": {
+      "words": [
+        "liver",
+        "dog",
+        "hello",
+        "desserts",
+        "evil",
+        "test",
+        "god",
+        "stressed",
+        "racecar",
+        "palindromes",
+        "semordnilap",
+        "abcd",
+        "live"
+      ]
+    },
+    "expected": [
+      [
+        "dog",
+        "god"
+      ],
+      [
+        "desserts",
+        "stressed"
+      ],
+      [
+        "evil",
+        "live"
+      ],
+      [
+        "palindromes",
+        "semordnilap"
+      ]
+    ],
+    "name": "Test Case 10"
+  }
+]

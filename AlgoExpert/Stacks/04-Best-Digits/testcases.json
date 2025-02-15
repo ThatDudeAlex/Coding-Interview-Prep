@@ -1,0 +1,146 @@
+[
+  {
+    "inputs": {
+      "numDigits": 2,
+      "number": "462839"
+    },
+    "expected": 6839,
+    "name": "Test Case 1"
+  },
+  {
+    "inputs": {
+      "numDigits": 4,
+      "number": "129847563"
+    },
+    "expected": 98763,
+    "name": "Test Case 2"
+  },
+  {
+    "inputs": {
+      "numDigits": 1,
+      "number": "19"
+    },
+    "expected": 9,
+    "name": "Test Case 3"
+  },
+  {
+    "inputs": {
+      "numDigits": 1,
+      "number": "22"
+    },
+    "expected": 2,
+    "name": "Test Case 4"
+  },
+  {
+    "inputs": {
+      "numDigits": 1,
+      "number": "23"
+    },
+    "expected": 3,
+    "name": "Test Case 5"
+  },
+  {
+    "inputs": {
+      "numDigits": 1,
+      "number": "123"
+    },
+    "expected": 23,
+    "name": "Test Case 6"
+  },
+  {
+    "inputs": {
+      "numDigits": 1,
+      "number": "321"
+    },
+    "expected": 32,
+    "name": "Test Case 7"
+  },
+  {
+    "inputs": {
+      "numDigits": 2,
+      "number": "123"
+    },
+    "expected": 3,
+    "name": "Test Case 8"
+  },
+  {
+    "inputs": {
+      "numDigits": 2,
+      "number": "321"
+    },
+    "expected": 3,
+    "name": "Test Case 9"
+  },
+  {
+    "inputs": {
+      "numDigits": 10,
+      "number": "11111111119999999999"
+    },
+    "expected": 9999999999,
+    "name": "Test Case 10"
+  },
+  {
+    "inputs": {
+      "numDigits": 9,
+      "number": "10000000002"
+    },
+    "expected": 12,
+    "name": "Test Case 11"
+  },
+  {
+    "inputs": {
+      "numDigits": 10,
+      "number": "10000000002"
+    },
+    "expected": 2,
+    "name": "Test Case 12"
+  },
+  {
+    "inputs": {
+      "numDigits": 5,
+      "number": "1020304050"
+    },
+    "expected": 34050,
+    "name": "Test Case 13"
+  },
+  {
+    "inputs": {
+      "numDigits": 4,
+      "number": "100300200004"
+    },
+    "expected": 30200004,
+    "name": "Test Case 14"
+  },
+  {
+    "inputs": {
+      "numDigits": 9,
+      "number": "9999999999"
+    },
+    "expected": 9,
+    "name": "Test Case 15"
+  },
+  {
+    "inputs": {
+      "numDigits": 3,
+      "number": "111221"
+    },
+    "expected": 221,
+    "name": "Test Case 16"
+  },
+  {
+    "inputs": {
+      "numDigits": 0,
+      "number": "12345"
+    },
+    "expected": 12345,
+    "name": "Test Case 17"
+  },
+  {
+    "inputs": {
+      "numDigits": 0,
+      "number": "54321"
+    },
+    "expected": 54321,
+    "name": "Test Case 18"
+  }
+]

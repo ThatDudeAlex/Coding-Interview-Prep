@@ -1,0 +1,266 @@
+[
+  {
+    "inputs": {
+      "stringOne": "a",
+      "stringTwo": "a"
+    },
+    "expected": "true",
+    "name": "Test Case 1"
+  },
+  {
+    "inputs": {
+      "stringOne": "aaa",
+      "stringTwo": "aaa"
+    },
+    "expected": "true",
+    "name": "Test Case 2"
+  },
+  {
+    "inputs": {
+      "stringOne": "a",
+      "stringTwo": "b"
+    },
+    "expected": "true",
+    "name": "Test Case 3"
+  },
+  {
+    "inputs": {
+      "stringOne": "ab",
+      "stringTwo": "b"
+    },
+    "expected": "true",
+    "name": "Test Case 4"
+  },
+  {
+    "inputs": {
+      "stringOne": "abc",
+      "stringTwo": "b"
+    },
+    "expected": "false",
+    "name": "Test Case 5"
+  },
+  {
+    "inputs": {
+      "stringOne": "ab",
+      "stringTwo": "a"
+    },
+    "expected": "true",
+    "name": "Test Case 6"
+  },
+  {
+    "inputs": {
+      "stringOne": "b",
+      "stringTwo": "ab"
+    },
+    "expected": "true",
+    "name": "Test Case 7"
+  },
+  {
+    "inputs": {
+      "stringOne": "bb",
+      "stringTwo": "a"
+    },
+    "expected": "false",
+    "name": "Test Case 8"
+  },
+  {
+    "inputs": {
+      "stringOne": "a",
+      "stringTwo": "ab"
+    },
+    "expected": "true",
+    "name": "Test Case 9"
+  },
+  {
+    "inputs": {
+      "stringOne": "bb",
+      "stringTwo": "ab"
+    },
+    "expected": "true",
+    "name": "Test Case 10"
+  },
+  {
+    "inputs": {
+      "stringOne": "ab",
+      "stringTwo": "bb"
+    },
+    "expected": "true",
+    "name": "Test Case 11"
+  },
+  {
+    "inputs": {
+      "stringOne": "hello",
+      "stringTwo": "helo"
+    },
+    "expected": "true",
+    "name": "Test Case 12"
+  },
+  {
+    "inputs": {
+      "stringOne": "hello",
+      "stringTwo": "heo"
+    },
+    "expected": "false",
+    "name": "Test Case 13"
+  },
+  {
+    "inputs": {
+      "stringOne": "hello",
+      "stringTwo": "heloo"
+    },
+    "expected": "true",
+    "name": "Test Case 14"
+  },
+  {
+    "inputs": {
+      "stringOne": "hello",
+      "stringTwo": "heloos"
+    },
+    "expected": "false",
+    "name": "Test Case 15"
+  },
+  {
+    "inputs": {
+      "stringOne": "hello",
+      "stringTwo": "heloos"
+    },
+    "expected": "false",
+    "name": "Test Case 16"
+  },
+  {
+    "inputs": {
+      "stringOne": "hello",
+      "stringTwo": "helllo"
+    },
+    "expected": "true",
+    "name": "Test Case 17"
+  },
+  {
+    "inputs": {
+      "stringOne": "hello",
+      "stringTwo": "helllos"
+    },
+    "expected": "false",
+    "name": "Test Case 18"
+  },
+  {
+    "inputs": {
+      "stringOne": "hello",
+      "stringTwo": "ello"
+    },
+    "expected": "true",
+    "name": "Test Case 19"
+  },
+  {
+    "inputs": {
+      "stringOne": "hello",
+      "stringTwo": "llo"
+    },
+    "expected": "false",
+    "name": "Test Case 20"
+  },
+  {
+    "inputs": {
+      "stringOne": "hello",
+      "stringTwo": "ellos"
+    },
+    "expected": "false",
+    "name": "Test Case 21"
+  },
+  {
+    "inputs": {
+      "stringOne": "hello",
+      "stringTwo": "elllos"
+    },
+    "expected": "false",
+    "name": "Test Case 22"
+  },
+  {
+    "inputs": {
+      "stringOne": "helo",
+      "stringTwo": "helle"
+    },
+    "expected": "false",
+    "name": "Test Case 23"
+  },
+  {
+    "inputs": {
+      "stringOne": "abcdefghijklmnopqrstuvwxyz",
+      "stringTwo": "abcdefghijklmnopqrstuvwxyz"
+    },
+    "expected": "true",
+    "name": "Test Case 24"
+  },
+  {
+    "inputs": {
+      "stringOne": "bcdefghijklmnopqrstuvwxyz",
+      "stringTwo": "abcdefghijklmnopqrstuvwxyz"
+    },
+    "expected": "true",
+    "name": "Test Case 25"
+  },
+  {
+    "inputs": {
+      "stringOne": "bcdefgijklmnopqrstuvwxyz",
+      "stringTwo": "abcdefghijklmnopqrstuvwxyz"
+    },
+    "expected": "false",
+    "name": "Test Case 26"
+  },
+  {
+    "inputs": {
+      "stringOne": "bcdefghijklmnopqrstuvwxyz",
+      "stringTwo": "acdefghijklmnopqrstuvwxyz"
+    },
+    "expected": "true",
+    "name": "Test Case 27"
+  },
+  {
+    "inputs": {
+      "stringOne": "bcdefghijklmnopqrstuvwxyz",
+      "stringTwo": "abdefghijklmnopqrstuvwxyz"
+    },
+    "expected": "false",
+    "name": "Test Case 28"
+  },
+  {
+    "inputs": {
+      "stringOne": "bcdefghijklmnopqrstuvwxyz",
+      "stringTwo": "abcdefghijklmnopqrstuvwxy"
+    },
+    "expected": "false",
+    "name": "Test Case 29"
+  },
+  {
+    "inputs": {
+      "stringOne": "bcdefghijklmnopqrstuvwxyz",
+      "stringTwo": "abcdefghijklmnopqrstuvwxyza"
+    },
+    "expected": "false",
+    "name": "Test Case 30"
+  },
+  {
+    "inputs": {
+      "stringOne": "abcdefghijklmnopqrstuvwxyz",
+      "stringTwo": "abcdefghijklnopqrstuvwxyz"
+    },
+    "expected": "true",
+    "name": "Test Case 31"
+  },
+  {
+    "inputs": {
+      "stringOne": "abcdefghijklmnopqrstuvwxyz",
+      "stringTwo": "abcdefghijklmmnopqrstuvwxyz"
+    },
+    "expected": "true",
+    "name": "Test Case 32"
+  },
+  {
+    "inputs": {
+      "stringOne": "abcdefghijklmnopqrstuvwxyz",
+      "stringTwo": "abcdefghijklnnopqrstuvwxyz"
+    },
+    "expected": "true",
+    "name": "Test Case 33"
+  }
+]

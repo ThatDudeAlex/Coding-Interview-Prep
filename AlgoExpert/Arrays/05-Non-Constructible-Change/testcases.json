@@ -1,0 +1,172 @@
+[
+  {
+    "inputs": {
+      "coins": [
+        5,
+        7,
+        1,
+        1,
+        2,
+        3,
+        22
+      ]
+    },
+    "expected": 20,
+    "name": "Test Case 1"
+  },
+  {
+    "inputs": {
+      "coins": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "expected": 6,
+    "name": "Test Case 2"
+  },
+  {
+    "inputs": {
+      "coins": [
+        1,
+        5,
+        1,
+        1,
+        1,
+        10,
+        15,
+        20,
+        100
+      ]
+    },
+    "expected": 55,
+    "name": "Test Case 3"
+  },
+  {
+    "inputs": {
+      "coins": [
+        6,
+        4,
+        5,
+        1,
+        1,
+        8,
+        9
+      ]
+    },
+    "expected": 3,
+    "name": "Test Case 4"
+  },
+  {
+    "inputs": {
+      "coins": []
+    },
+    "expected": 1,
+    "name": "Test Case 5"
+  },
+  {
+    "inputs": {
+      "coins": [
+        87
+      ]
+    },
+    "expected": 1,
+    "name": "Test Case 6"
+  },
+  {
+    "inputs": {
+      "coins": [
+        5,
+        6,
+        1,
+        1,
+        2,
+        3,
+        4,
+        9
+      ]
+    },
+    "expected": 32,
+    "name": "Test Case 7"
+  },
+  {
+    "inputs": {
+      "coins": [
+        5,
+        6,
+        1,
+        1,
+        2,
+        3,
+        43
+      ]
+    },
+    "expected": 19,
+    "name": "Test Case 8"
+  },
+  {
+    "inputs": {
+      "coins": [
+        1,
+        1
+      ]
+    },
+    "expected": 3,
+    "name": "Test Case 9"
+  },
+  {
+    "inputs": {
+      "coins": [
+        2
+      ]
+    },
+    "expected": 1,
+    "name": "Test Case 10"
+  },
+  {
+    "inputs": {
+      "coins": [
+        1
+      ]
+    },
+    "expected": 2,
+    "name": "Test Case 11"
+  },
+  {
+    "inputs": {
+      "coins": [
+        109,
+        2000,
+        8765,
+        19,
+        18,
+        17,
+        16,
+        8,
+        1,
+        1,
+        2,
+        4
+      ]
+    },
+    "expected": 87,
+    "name": "Test Case 12"
+  },
+  {
+    "inputs": {
+      "coins": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "expected": 29,
+    "name": "Test Case 13"
+  }
+]

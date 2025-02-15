@@ -1,0 +1,65 @@
+[
+  {
+    "inputs": {
+      "string": "abcdcba"
+    },
+    "expected": "true",
+    "name": "Test Case 1"
+  },
+  {
+    "inputs": {
+      "string": "a"
+    },
+    "expected": "true",
+    "name": "Test Case 2"
+  },
+  {
+    "inputs": {
+      "string": "ab"
+    },
+    "expected": "false",
+    "name": "Test Case 3"
+  },
+  {
+    "inputs": {
+      "string": "aba"
+    },
+    "expected": "true",
+    "name": "Test Case 4"
+  },
+  {
+    "inputs": {
+      "string": "abb"
+    },
+    "expected": "false",
+    "name": "Test Case 5"
+  },
+  {
+    "inputs": {
+      "string": "abba"
+    },
+    "expected": "true",
+    "name": "Test Case 6"
+  },
+  {
+    "inputs": {
+      "string": "abcdefghhgfedcba"
+    },
+    "expected": "true",
+    "name": "Test Case 7"
+  },
+  {
+    "inputs": {
+      "string": "abcdefghihgfedcba"
+    },
+    "expected": "true",
+    "name": "Test Case 8"
+  },
+  {
+    "inputs": {
+      "string": "abcdefghihgfeddcba"
+    },
+    "expected": "false",
+    "name": "Test Case 9"
+  }
+]

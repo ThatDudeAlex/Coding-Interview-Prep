@@ -1,0 +1,127 @@
+[
+  {
+    "inputs": {
+      "str1": "ZXVVYZW",
+      "str2": "XKYKZPW"
+    },
+    "expected": [
+      "X",
+      "Y",
+      "Z",
+      "W"
+    ],
+    "name": "Test Case 1"
+  },
+  {
+    "inputs": {
+      "str1": "",
+      "str2": ""
+    },
+    "expected": [],
+    "name": "Test Case 2"
+  },
+  {
+    "inputs": {
+      "str1": "",
+      "str2": "ABCDEFG"
+    },
+    "expected": [],
+    "name": "Test Case 3"
+  },
+  {
+    "inputs": {
+      "str1": "ABCDEFG",
+      "str2": ""
+    },
+    "expected": [],
+    "name": "Test Case 4"
+  },
+  {
+    "inputs": {
+      "str1": "ABCDEFG",
+      "str2": "ABCDEFG"
+    },
+    "expected": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G"
+    ],
+    "name": "Test Case 5"
+  },
+  {
+    "inputs": {
+      "str1": "ABCDEFG",
+      "str2": "APPLES"
+    },
+    "expected": [
+      "A",
+      "E"
+    ],
+    "name": "Test Case 6"
+  },
+  {
+    "inputs": {
+      "str1": "clement",
+      "str2": "antoine"
+    },
+    "expected": [
+      "n",
+      "t"
+    ],
+    "name": "Test Case 7"
+  },
+  {
+    "inputs": {
+      "str1": "8111111111111111142",
+      "str2": "222222222822222222222222222222433333333332"
+    },
+    "expected": [
+      "8",
+      "4",
+      "2"
+    ],
+    "name": "Test Case 8"
+  },
+  {
+    "inputs": {
+      "str1": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+      "str2": "CCCDDEGDHAGKGLWAJWKJAWGKGWJAKLGGWAFWLFFWAGJWKAG"
+    },
+    "expected": [
+      "C",
+      "D",
+      "E",
+      "G",
+      "H",
+      "J",
+      "K",
+      "L",
+      "W"
+    ],
+    "name": "Test Case 9"
+  },
+  {
+    "inputs": {
+      "str1": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+      "str2": "CCCDDEGDHAGKGLWAJWKJAWGKGWJAKLGGWAFWLFFWAGJWKAGTUV"
+    },
+    "expected": [
+      "C",
+      "D",
+      "E",
+      "G",
+      "H",
+      "J",
+      "K",
+      "L",
+      "T",
+      "U",
+      "V"
+    ],
+    "name": "Test Case 10"
+  }
+]

@@ -1,0 +1,392 @@
+[
+  {
+    "inputs": {
+      "competitions": [
+        [
+          "HTML",
+          "C#"
+        ],
+        [
+          "C#",
+          "Python"
+        ],
+        [
+          "Python",
+          "HTML"
+        ]
+      ],
+      "results": [
+        0,
+        0,
+        1
+      ]
+    },
+    "expected": "Python",
+    "name": "Test Case 1"
+  },
+  {
+    "inputs": {
+      "competitions": [
+        [
+          "HTML",
+          "Java"
+        ],
+        [
+          "Java",
+          "Python"
+        ],
+        [
+          "Python",
+          "HTML"
+        ]
+      ],
+      "results": [
+        0,
+        1,
+        1
+      ]
+    },
+    "expected": "Java",
+    "name": "Test Case 2"
+  },
+  {
+    "inputs": {
+      "competitions": [
+        [
+          "HTML",
+          "Java"
+        ],
+        [
+          "Java",
+          "Python"
+        ],
+        [
+          "Python",
+          "HTML"
+        ],
+        [
+          "C#",
+          "Python"
+        ],
+        [
+          "Java",
+          "C#"
+        ],
+        [
+          "C#",
+          "HTML"
+        ]
+      ],
+      "results": [
+        0,
+        1,
+        1,
+        1,
+        0,
+        1
+      ]
+    },
+    "expected": "C#",
+    "name": "Test Case 3"
+  },
+  {
+    "inputs": {
+      "competitions": [
+        [
+          "HTML",
+          "Java"
+        ],
+        [
+          "Java",
+          "Python"
+        ],
+        [
+          "Python",
+          "HTML"
+        ],
+        [
+          "C#",
+          "Python"
+        ],
+        [
+          "Java",
+          "C#"
+        ],
+        [
+          "C#",
+          "HTML"
+        ],
+        [
+          "SQL",
+          "C#"
+        ],
+        [
+          "HTML",
+          "SQL"
+        ],
+        [
+          "SQL",
+          "Python"
+        ],
+        [
+          "SQL",
+          "Java"
+        ]
+      ],
+      "results": [
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    "expected": "C#",
+    "name": "Test Case 4"
+  },
+  {
+    "inputs": {
+      "competitions": [
+        [
+          "Bulls",
+          "Eagles"
+        ]
+      ],
+      "results": [
+        1
+      ]
+    },
+    "expected": "Bulls",
+    "name": "Test Case 5"
+  },
+  {
+    "inputs": {
+      "competitions": [
+        [
+          "Bulls",
+          "Eagles"
+        ],
+        [
+          "Bulls",
+          "Bears"
+        ],
+        [
+          "Bears",
+          "Eagles"
+        ]
+      ],
+      "results": [
+        0,
+        0,
+        0
+      ]
+    },
+    "expected": "Eagles",
+    "name": "Test Case 6"
+  },
+  {
+    "inputs": {
+      "competitions": [
+        [
+          "Bulls",
+          "Eagles"
+        ],
+        [
+          "Bulls",
+          "Bears"
+        ],
+        [
+          "Bulls",
+          "Monkeys"
+        ],
+        [
+          "Eagles",
+          "Bears"
+        ],
+        [
+          "Eagles",
+          "Monkeys"
+        ],
+        [
+          "Bears",
+          "Monkeys"
+        ]
+      ],
+      "results": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "expected": "Bulls",
+    "name": "Test Case 7"
+  },
+  {
+    "inputs": {
+      "competitions": [
+        [
+          "AlgoMasters",
+          "FrontPage Freebirds"
+        ],
+        [
+          "Runtime Terror",
+          "Static Startup"
+        ],
+        [
+          "WeC#",
+          "Hypertext Assassins"
+        ],
+        [
+          "AlgoMasters",
+          "WeC#"
+        ],
+        [
+          "Static Startup",
+          "Hypertext Assassins"
+        ],
+        [
+          "Runtime Terror",
+          "FrontPage Freebirds"
+        ],
+        [
+          "AlgoMasters",
+          "Runtime Terror"
+        ],
+        [
+          "Hypertext Assassins",
+          "FrontPage Freebirds"
+        ],
+        [
+          "Static Startup",
+          "WeC#"
+        ],
+        [
+          "AlgoMasters",
+          "Static Startup"
+        ],
+        [
+          "FrontPage Freebirds",
+          "WeC#"
+        ],
+        [
+          "Hypertext Assassins",
+          "Runtime Terror"
+        ],
+        [
+          "AlgoMasters",
+          "Hypertext Assassins"
+        ],
+        [
+          "WeC#",
+          "Runtime Terror"
+        ],
+        [
+          "FrontPage Freebirds",
+          "Static Startup"
+        ]
+      ],
+      "results": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    "expected": "AlgoMasters",
+    "name": "Test Case 8"
+  },
+  {
+    "inputs": {
+      "competitions": [
+        [
+          "HTML",
+          "Java"
+        ],
+        [
+          "Java",
+          "Python"
+        ],
+        [
+          "Python",
+          "HTML"
+        ],
+        [
+          "C#",
+          "Python"
+        ],
+        [
+          "Java",
+          "C#"
+        ],
+        [
+          "C#",
+          "HTML"
+        ],
+        [
+          "SQL",
+          "C#"
+        ],
+        [
+          "HTML",
+          "SQL"
+        ],
+        [
+          "SQL",
+          "Python"
+        ],
+        [
+          "SQL",
+          "Java"
+        ]
+      ],
+      "results": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1
+      ]
+    },
+    "expected": "SQL",
+    "name": "Test Case 9"
+  },
+  {
+    "inputs": {
+      "competitions": [
+        [
+          "A",
+          "B"
+        ]
+      ],
+      "results": [
+        0
+      ]
+    },
+    "expected": "B",
+    "name": "Test Case 10"
+  }
+]

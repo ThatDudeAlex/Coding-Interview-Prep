@@ -1,0 +1,107 @@
+[
+  {
+    "inputs": {
+      "path": "/foo/../test/../test/../foo//bar/./baz"
+    },
+    "name": "Test Case 1"
+  },
+  {
+    "inputs": {
+      "path": "/foo/bar/baz"
+    },
+    "name": "Test Case 2"
+  },
+  {
+    "inputs": {
+      "path": "foo/bar/baz"
+    },
+    "expected": "foo/bar/baz",
+    "name": "Test Case 3"
+  },
+  {
+    "inputs": {
+      "path": "/../../foo/bar/baz"
+    },
+    "name": "Test Case 4"
+  },
+  {
+    "inputs": {
+      "path": "../../foo/bar/baz"
+    },
+    "name": "Test Case 5"
+  },
+  {
+    "inputs": {
+      "path": "/../../foo/../../bar/baz"
+    },
+    "name": "Test Case 6"
+  },
+  {
+    "inputs": {
+      "path": "../../foo/../../bar/baz"
+    },
+    "name": "Test Case 7"
+  },
+  {
+    "inputs": {
+      "path": "/foo/./././bar/./baz///////////test/../../../kappa"
+    },
+    "name": "Test Case 8"
+  },
+  {
+    "inputs": {
+      "path": "../../../this////one/./../../is/../../going/../../to/be/./././../../../just/eight/double/dots/../../../../../.."
+    },
+    "name": "Test Case 9"
+  },
+  {
+    "inputs": {
+      "path": "/../../../this////one/./../../is/../../going/../../to/be/./././../../../just/a/forward/slash/../../../../../.."
+    },
+    "name": "Test Case 10"
+  },
+  {
+    "inputs": {
+      "path": "../../../this////one/./../../is/../../going/../../to/be/./././../../../just/eight/double/dots/../../../../../../foo"
+    },
+    "name": "Test Case 11"
+  },
+  {
+    "inputs": {
+      "path": "/../../../this////one/./../../is/../../going/../../to/be/./././../../../just/a/forward/slash/../../../../../../foo"
+    },
+    "name": "Test Case 12"
+  },
+  {
+    "inputs": {
+      "path": "foo/bar/.."
+    },
+    "expected": "foo",
+    "name": "Test Case 13"
+  },
+  {
+    "inputs": {
+      "path": "./foo/bar"
+    },
+    "expected": "foo/bar",
+    "name": "Test Case 14"
+  },
+  {
+    "inputs": {
+      "path": "foo/../.."
+    },
+    "name": "Test Case 15"
+  },
+  {
+    "inputs": {
+      "path": "/"
+    },
+    "name": "Test Case 16"
+  },
+  {
+    "inputs": {
+      "path": "./.."
+    },
+    "name": "Test Case 17"
+  }
+]

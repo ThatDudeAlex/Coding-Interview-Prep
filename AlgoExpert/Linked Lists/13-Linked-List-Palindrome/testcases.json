@@ -1,0 +1,696 @@
+[
+  {
+    "inputs": {
+      "linkedList": {
+        "head": "0",
+        "nodes": [
+          {
+            "id": "0",
+            "next": "1",
+            "value": 0
+          },
+          {
+            "id": "1",
+            "next": "2",
+            "value": 1
+          },
+          {
+            "id": "2",
+            "next": "2-2",
+            "value": 2
+          },
+          {
+            "id": "2-2",
+            "next": "1-2",
+            "value": 2
+          },
+          {
+            "id": "1-2",
+            "next": "0-2",
+            "value": 1
+          },
+          {
+            "id": "0-2",
+            "next": null,
+            "value": 0
+          }
+        ]
+      }
+    },
+    "expected": "true",
+    "name": "Test Case 1"
+  },
+  {
+    "inputs": {
+      "linkedList": {
+        "head": "0",
+        "nodes": [
+          {
+            "id": "0",
+            "next": null,
+            "value": 0
+          }
+        ]
+      }
+    },
+    "expected": "true",
+    "name": "Test Case 2"
+  },
+  {
+    "inputs": {
+      "linkedList": {
+        "head": "0",
+        "nodes": [
+          {
+            "id": "0",
+            "next": "1",
+            "value": 0
+          },
+          {
+            "id": "1",
+            "next": null,
+            "value": 1
+          }
+        ]
+      }
+    },
+    "expected": "false",
+    "name": "Test Case 3"
+  },
+  {
+    "inputs": {
+      "linkedList": {
+        "head": "0",
+        "nodes": [
+          {
+            "id": "0",
+            "next": "0-2",
+            "value": 0
+          },
+          {
+            "id": "0-2",
+            "next": null,
+            "value": 0
+          }
+        ]
+      }
+    },
+    "expected": "true",
+    "name": "Test Case 4"
+  },
+  {
+    "inputs": {
+      "linkedList": {
+        "head": "0",
+        "nodes": [
+          {
+            "id": "0",
+            "next": "1",
+            "value": 0
+          },
+          {
+            "id": "1",
+            "next": "2",
+            "value": 1
+          },
+          {
+            "id": "2",
+            "next": "3",
+            "value": 2
+          },
+          {
+            "id": "3",
+            "next": null,
+            "value": 3
+          }
+        ]
+      }
+    },
+    "expected": "false",
+    "name": "Test Case 5"
+  },
+  {
+    "inputs": {
+      "linkedList": {
+        "head": "6",
+        "nodes": [
+          {
+            "id": "6",
+            "next": "5",
+            "value": 6
+          },
+          {
+            "id": "5",
+            "next": "4",
+            "value": 5
+          },
+          {
+            "id": "4",
+            "next": "3",
+            "value": 4
+          },
+          {
+            "id": "3",
+            "next": "4-2",
+            "value": 3
+          },
+          {
+            "id": "4-2",
+            "next": "5-2",
+            "value": 4
+          },
+          {
+            "id": "5-2",
+            "next": "6-2",
+            "value": 5
+          },
+          {
+            "id": "6-2",
+            "next": null,
+            "value": 6
+          }
+        ]
+      }
+    },
+    "expected": "true",
+    "name": "Test Case 6"
+  },
+  {
+    "inputs": {
+      "linkedList": {
+        "head": "0",
+        "nodes": [
+          {
+            "id": "0",
+            "next": "1",
+            "value": 0
+          },
+          {
+            "id": "1",
+            "next": "2",
+            "value": 1
+          },
+          {
+            "id": "2",
+            "next": "3",
+            "value": 2
+          },
+          {
+            "id": "3",
+            "next": "4",
+            "value": 3
+          },
+          {
+            "id": "4",
+            "next": "5",
+            "value": 4
+          },
+          {
+            "id": "5",
+            "next": "5-2",
+            "value": 5
+          },
+          {
+            "id": "5-2",
+            "next": "4-2",
+            "value": 5
+          },
+          {
+            "id": "4-2",
+            "next": "3-2",
+            "value": 4
+          },
+          {
+            "id": "3-2",
+            "next": "2-2",
+            "value": 3
+          },
+          {
+            "id": "2-2",
+            "next": "1-2",
+            "value": 2
+          },
+          {
+            "id": "1-2",
+            "next": "0-2",
+            "value": 1
+          },
+          {
+            "id": "0-2",
+            "next": "12",
+            "value": 0
+          },
+          {
+            "id": "12",
+            "next": null,
+            "value": 12
+          }
+        ]
+      }
+    },
+    "expected": "false",
+    "name": "Test Case 7"
+  },
+  {
+    "inputs": {
+      "linkedList": {
+        "head": "0",
+        "nodes": [
+          {
+            "id": "0",
+            "next": "1",
+            "value": 0
+          },
+          {
+            "id": "1",
+            "next": "2",
+            "value": 1
+          },
+          {
+            "id": "2",
+            "next": "3",
+            "value": 2
+          },
+          {
+            "id": "3",
+            "next": "4",
+            "value": 3
+          },
+          {
+            "id": "4",
+            "next": "5",
+            "value": 4
+          },
+          {
+            "id": "5",
+            "next": "5-2",
+            "value": 5
+          },
+          {
+            "id": "5-2",
+            "next": "4-2",
+            "value": 5
+          },
+          {
+            "id": "4-2",
+            "next": "3-2",
+            "value": 4
+          },
+          {
+            "id": "3-2",
+            "next": "2-2",
+            "value": 3
+          },
+          {
+            "id": "2-2",
+            "next": "1-2",
+            "value": 2
+          },
+          {
+            "id": "1-2",
+            "next": "0-2",
+            "value": 1
+          },
+          {
+            "id": "0-2",
+            "next": null,
+            "value": 0
+          }
+        ]
+      }
+    },
+    "expected": "true",
+    "name": "Test Case 8"
+  },
+  {
+    "inputs": {
+      "linkedList": {
+        "head": "10000",
+        "nodes": [
+          {
+            "id": "10000",
+            "next": "10000-2",
+            "value": 10000
+          },
+          {
+            "id": "10000-2",
+            "next": "10000-3",
+            "value": 10000
+          },
+          {
+            "id": "10000-3",
+            "next": null,
+            "value": 10000
+          }
+        ]
+      }
+    },
+    "expected": "true",
+    "name": "Test Case 9"
+  },
+  {
+    "inputs": {
+      "linkedList": {
+        "head": "10000",
+        "nodes": [
+          {
+            "id": "10000",
+            "next": "10000-2",
+            "value": 10000
+          },
+          {
+            "id": "10000-2",
+            "next": "10000-3",
+            "value": 10000
+          },
+          {
+            "id": "10000-3",
+            "next": "10000-4",
+            "value": 10000
+          },
+          {
+            "id": "10000-4",
+            "next": null,
+            "value": 10000
+          }
+        ]
+      }
+    },
+    "expected": "true",
+    "name": "Test Case 10"
+  },
+  {
+    "inputs": {
+      "linkedList": {
+        "head": "3",
+        "nodes": [
+          {
+            "id": "3",
+            "next": "1",
+            "value": 3
+          },
+          {
+            "id": "1",
+            "next": "2",
+            "value": 1
+          },
+          {
+            "id": "2",
+            "next": "3-2",
+            "value": 2
+          },
+          {
+            "id": "3-2",
+            "next": null,
+            "value": 3
+          }
+        ]
+      }
+    },
+    "expected": "false",
+    "name": "Test Case 11"
+  },
+  {
+    "inputs": {
+      "linkedList": {
+        "head": "0",
+        "nodes": [
+          {
+            "id": "0",
+            "next": "1",
+            "value": 0
+          },
+          {
+            "id": "1",
+            "next": "2",
+            "value": 1
+          },
+          {
+            "id": "2",
+            "next": "3",
+            "value": 2
+          },
+          {
+            "id": "3",
+            "next": "4",
+            "value": 3
+          },
+          {
+            "id": "4",
+            "next": "5",
+            "value": 4
+          },
+          {
+            "id": "5",
+            "next": "6",
+            "value": 5
+          },
+          {
+            "id": "6",
+            "next": "7",
+            "value": 6
+          },
+          {
+            "id": "7",
+            "next": "8",
+            "value": 7
+          },
+          {
+            "id": "8",
+            "next": "9",
+            "value": 8
+          },
+          {
+            "id": "9",
+            "next": "10",
+            "value": 9
+          },
+          {
+            "id": "10",
+            "next": "11",
+            "value": 10
+          },
+          {
+            "id": "11",
+            "next": "10-2",
+            "value": 11
+          },
+          {
+            "id": "10-2",
+            "next": "9-2",
+            "value": 10
+          },
+          {
+            "id": "9-2",
+            "next": "8-2",
+            "value": 9
+          },
+          {
+            "id": "8-2",
+            "next": "7-2",
+            "value": 8
+          },
+          {
+            "id": "7-2",
+            "next": "6-2",
+            "value": 7
+          },
+          {
+            "id": "6-2",
+            "next": "5-2",
+            "value": 6
+          },
+          {
+            "id": "5-2",
+            "next": "4-2",
+            "value": 5
+          },
+          {
+            "id": "4-2",
+            "next": "3-2",
+            "value": 4
+          },
+          {
+            "id": "3-2",
+            "next": "2-2",
+            "value": 3
+          },
+          {
+            "id": "2-2",
+            "next": "1-2",
+            "value": 2
+          },
+          {
+            "id": "1-2",
+            "next": null,
+            "value": 1
+          }
+        ]
+      }
+    },
+    "expected": "false",
+    "name": "Test Case 12"
+  },
+  {
+    "inputs": {
+      "linkedList": {
+        "head": "0",
+        "nodes": [
+          {
+            "id": "0",
+            "next": "1",
+            "value": 0
+          },
+          {
+            "id": "1",
+            "next": "2",
+            "value": 1
+          },
+          {
+            "id": "2",
+            "next": "3",
+            "value": 2
+          },
+          {
+            "id": "3",
+            "next": "4",
+            "value": 3
+          },
+          {
+            "id": "4",
+            "next": "5",
+            "value": 4
+          },
+          {
+            "id": "5",
+            "next": "6",
+            "value": 5
+          },
+          {
+            "id": "6",
+            "next": "7",
+            "value": 6
+          },
+          {
+            "id": "7",
+            "next": "8",
+            "value": 7
+          },
+          {
+            "id": "8",
+            "next": "9",
+            "value": 8
+          },
+          {
+            "id": "9",
+            "next": "10",
+            "value": 9
+          },
+          {
+            "id": "10",
+            "next": "11",
+            "value": 10
+          },
+          {
+            "id": "11",
+            "next": "10-2",
+            "value": 11
+          },
+          {
+            "id": "10-2",
+            "next": "9-2",
+            "value": 10
+          },
+          {
+            "id": "9-2",
+            "next": "8-2",
+            "value": 9
+          },
+          {
+            "id": "8-2",
+            "next": "7-2",
+            "value": 8
+          },
+          {
+            "id": "7-2",
+            "next": "6-2",
+            "value": 7
+          },
+          {
+            "id": "6-2",
+            "next": "5-2",
+            "value": 6
+          },
+          {
+            "id": "5-2",
+            "next": "4-2",
+            "value": 5
+          },
+          {
+            "id": "4-2",
+            "next": "3-2",
+            "value": 4
+          },
+          {
+            "id": "3-2",
+            "next": "2-2",
+            "value": 3
+          },
+          {
+            "id": "2-2",
+            "next": "1-2",
+            "value": 2
+          },
+          {
+            "id": "1-2",
+            "next": "0-2",
+            "value": 1
+          },
+          {
+            "id": "0-2",
+            "next": null,
+            "value": 0
+          }
+        ]
+      }
+    },
+    "expected": "true",
+    "name": "Test Case 13"
+  },
+  {
+    "inputs": {
+      "linkedList": {
+        "head": "1",
+        "nodes": [
+          {
+            "id": "1",
+            "next": "2",
+            "value": 1
+          },
+          {
+            "id": "2",
+            "next": "3",
+            "value": 2
+          },
+          {
+            "id": "3",
+            "next": "1-2",
+            "value": 3
+          },
+          {
+            "id": "1-2",
+            "next": "2-2",
+            "value": 1
+          },
+          {
+            "id": "2-2",
+            "next": null,
+            "value": 2
+          }
+        ]
+      }
+    },
+    "expected": "false",
+    "name": "Test Case 14"
+  }
+]

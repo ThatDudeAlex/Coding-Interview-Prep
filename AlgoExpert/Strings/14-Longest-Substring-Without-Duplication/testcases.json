@@ -1,0 +1,72 @@
+[
+  {
+    "inputs": {
+      "string": "clementisacap"
+    },
+    "expected": "mentisac",
+    "name": "Test Case 1"
+  },
+  {
+    "inputs": {
+      "string": "a"
+    },
+    "expected": "a",
+    "name": "Test Case 2"
+  },
+  {
+    "inputs": {
+      "string": "abc"
+    },
+    "expected": "abc",
+    "name": "Test Case 3"
+  },
+  {
+    "inputs": {
+      "string": "abcb"
+    },
+    "expected": "abc",
+    "name": "Test Case 4"
+  },
+  {
+    "inputs": {
+      "string": "abcdeabcdefc"
+    },
+    "expected": "abcdef",
+    "name": "Test Case 5"
+  },
+  {
+    "inputs": {
+      "string": "abccdeaabbcddef"
+    },
+    "expected": "cdea",
+    "name": "Test Case 6"
+  },
+  {
+    "inputs": {
+      "string": "abacacacaaabacaaaeaaafa"
+    },
+    "expected": "bac",
+    "name": "Test Case 7"
+  },
+  {
+    "inputs": {
+      "string": "abcdabcef"
+    },
+    "expected": "dabcef",
+    "name": "Test Case 8"
+  },
+  {
+    "inputs": {
+      "string": "abcbde"
+    },
+    "expected": "cbde",
+    "name": "Test Case 9"
+  },
+  {
+    "inputs": {
+      "string": "clementisanarm"
+    },
+    "expected": "mentisa",
+    "name": "Test Case 10"
+  }
+]

@@ -1,0 +1,575 @@
+[
+  {
+    "inputs": {
+      "array": [
+        45,
+        61,
+        71,
+        72,
+        73,
+        0,
+        1,
+        21,
+        33,
+        37
+      ],
+      "target": 33
+    },
+    "expected": 8,
+    "name": "Test Case 1"
+  },
+  {
+    "inputs": {
+      "array": [
+        5,
+        23,
+        111,
+        1
+      ],
+      "target": 111
+    },
+    "expected": 2,
+    "name": "Test Case 2"
+  },
+  {
+    "inputs": {
+      "array": [
+        111,
+        1,
+        5,
+        23
+      ],
+      "target": 5
+    },
+    "expected": 2,
+    "name": "Test Case 3"
+  },
+  {
+    "inputs": {
+      "array": [
+        23,
+        111,
+        1,
+        5
+      ],
+      "target": 35
+    },
+    "expected": -1,
+    "name": "Test Case 4"
+  },
+  {
+    "inputs": {
+      "array": [
+        61,
+        71,
+        72,
+        73,
+        0,
+        1,
+        21,
+        33,
+        37,
+        45
+      ],
+      "target": 33
+    },
+    "expected": 7,
+    "name": "Test Case 5"
+  },
+  {
+    "inputs": {
+      "array": [
+        72,
+        73,
+        0,
+        1,
+        21,
+        33,
+        37,
+        45,
+        61,
+        71
+      ],
+      "target": 72
+    },
+    "expected": 0,
+    "name": "Test Case 6"
+  },
+  {
+    "inputs": {
+      "array": [
+        71,
+        72,
+        73,
+        0,
+        1,
+        21,
+        33,
+        37,
+        45,
+        61
+      ],
+      "target": 73
+    },
+    "expected": 2,
+    "name": "Test Case 7"
+  },
+  {
+    "inputs": {
+      "array": [
+        73,
+        0,
+        1,
+        21,
+        33,
+        37,
+        45,
+        61,
+        71,
+        72
+      ],
+      "target": 70
+    },
+    "expected": -1,
+    "name": "Test Case 8"
+  },
+  {
+    "inputs": {
+      "array": [
+        33,
+        37,
+        45,
+        61,
+        71,
+        72,
+        73,
+        355,
+        0,
+        1,
+        21
+      ],
+      "target": 355
+    },
+    "expected": 7,
+    "name": "Test Case 9"
+  },
+  {
+    "inputs": {
+      "array": [
+        33,
+        37,
+        45,
+        61,
+        71,
+        72,
+        73,
+        355,
+        0,
+        1,
+        21
+      ],
+      "target": 354
+    },
+    "expected": -1,
+    "name": "Test Case 10"
+  },
+  {
+    "inputs": {
+      "array": [
+        45,
+        61,
+        71,
+        72,
+        73,
+        0,
+        1,
+        21,
+        33,
+        37
+      ],
+      "target": 45
+    },
+    "expected": 0,
+    "name": "Test Case 11"
+  },
+  {
+    "inputs": {
+      "array": [
+        45,
+        61,
+        71,
+        72,
+        73,
+        0,
+        1,
+        21,
+        33,
+        37
+      ],
+      "target": 61
+    },
+    "expected": 1,
+    "name": "Test Case 12"
+  },
+  {
+    "inputs": {
+      "array": [
+        45,
+        61,
+        71,
+        72,
+        73,
+        0,
+        1,
+        21,
+        33,
+        37
+      ],
+      "target": 71
+    },
+    "expected": 2,
+    "name": "Test Case 13"
+  },
+  {
+    "inputs": {
+      "array": [
+        45,
+        61,
+        71,
+        72,
+        73,
+        0,
+        1,
+        21,
+        33,
+        37
+      ],
+      "target": 72
+    },
+    "expected": 3,
+    "name": "Test Case 14"
+  },
+  {
+    "inputs": {
+      "array": [
+        45,
+        61,
+        71,
+        72,
+        73,
+        0,
+        1,
+        21,
+        33,
+        37
+      ],
+      "target": 73
+    },
+    "expected": 4,
+    "name": "Test Case 15"
+  },
+  {
+    "inputs": {
+      "array": [
+        45,
+        61,
+        71,
+        72,
+        73,
+        0,
+        1,
+        21,
+        33,
+        37
+      ],
+      "target": 0
+    },
+    "expected": 5,
+    "name": "Test Case 16"
+  },
+  {
+    "inputs": {
+      "array": [
+        45,
+        61,
+        71,
+        72,
+        73,
+        0,
+        1,
+        21,
+        33,
+        37
+      ],
+      "target": 1
+    },
+    "expected": 6,
+    "name": "Test Case 17"
+  },
+  {
+    "inputs": {
+      "array": [
+        45,
+        61,
+        71,
+        72,
+        73,
+        0,
+        1,
+        21,
+        33,
+        37
+      ],
+      "target": 21
+    },
+    "expected": 7,
+    "name": "Test Case 18"
+  },
+  {
+    "inputs": {
+      "array": [
+        45,
+        61,
+        71,
+        72,
+        73,
+        0,
+        1,
+        21,
+        33,
+        37
+      ],
+      "target": 37
+    },
+    "expected": 9,
+    "name": "Test Case 19"
+  },
+  {
+    "inputs": {
+      "array": [
+        45,
+        61,
+        71,
+        72,
+        73,
+        0,
+        1,
+        21,
+        33,
+        37
+      ],
+      "target": 38
+    },
+    "expected": -1,
+    "name": "Test Case 20"
+  },
+  {
+    "inputs": {
+      "array": [
+        0,
+        1,
+        21,
+        33,
+        37,
+        45,
+        61,
+        71,
+        72,
+        73
+      ],
+      "target": 0
+    },
+    "expected": 0,
+    "name": "Test Case 21"
+  },
+  {
+    "inputs": {
+      "array": [
+        0,
+        1,
+        21,
+        33,
+        37,
+        45,
+        61,
+        71,
+        72,
+        73
+      ],
+      "target": 1
+    },
+    "expected": 1,
+    "name": "Test Case 22"
+  },
+  {
+    "inputs": {
+      "array": [
+        0,
+        1,
+        21,
+        33,
+        37,
+        45,
+        61,
+        71,
+        72,
+        73
+      ],
+      "target": 21
+    },
+    "expected": 2,
+    "name": "Test Case 23"
+  },
+  {
+    "inputs": {
+      "array": [
+        0,
+        1,
+        21,
+        33,
+        37,
+        45,
+        61,
+        71,
+        72,
+        73
+      ],
+      "target": 33
+    },
+    "expected": 3,
+    "name": "Test Case 24"
+  },
+  {
+    "inputs": {
+      "array": [
+        0,
+        1,
+        21,
+        33,
+        37,
+        45,
+        61,
+        71,
+        72,
+        73
+      ],
+      "target": 37
+    },
+    "expected": 4,
+    "name": "Test Case 25"
+  },
+  {
+    "inputs": {
+      "array": [
+        0,
+        1,
+        21,
+        33,
+        37,
+        45,
+        61,
+        71,
+        72,
+        73
+      ],
+      "target": 45
+    },
+    "expected": 5,
+    "name": "Test Case 26"
+  },
+  {
+    "inputs": {
+      "array": [
+        0,
+        1,
+        21,
+        33,
+        37,
+        45,
+        61,
+        71,
+        72,
+        73
+      ],
+      "target": 61
+    },
+    "expected": 6,
+    "name": "Test Case 27"
+  },
+  {
+    "inputs": {
+      "array": [
+        0,
+        1,
+        21,
+        33,
+        37,
+        45,
+        61,
+        71,
+        72,
+        73
+      ],
+      "target": 71
+    },
+    "expected": 7,
+    "name": "Test Case 28"
+  },
+  {
+    "inputs": {
+      "array": [
+        0,
+        1,
+        21,
+        33,
+        37,
+        45,
+        61,
+        71,
+        72,
+        73
+      ],
+      "target": 72
+    },
+    "expected": 8,
+    "name": "Test Case 29"
+  },
+  {
+    "inputs": {
+      "array": [
+        0,
+        1,
+        21,
+        33,
+        37,
+        45,
+        61,
+        71,
+        72,
+        73
+      ],
+      "target": 73
+    },
+    "expected": 9,
+    "name": "Test Case 30"
+  },
+  {
+    "inputs": {
+      "array": [
+        0,
+        1,
+        21,
+        33,
+        37,
+        45,
+        61,
+        71,
+        72,
+        73
+      ],
+      "target": 38
+    },
+    "expected": -1,
+    "name": "Test Case 31"
+  }
+]

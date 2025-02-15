@@ -1,0 +1,625 @@
+[
+  {
+    "inputs": {
+      "dishes": [],
+      "target": 10
+    },
+    "expected": [
+      0,
+      0
+    ],
+    "name": "Test Case 1"
+  },
+  {
+    "inputs": {
+      "dishes": [
+        4
+      ],
+      "target": 10
+    },
+    "expected": [
+      0,
+      0
+    ],
+    "name": "Test Case 2"
+  },
+  {
+    "inputs": {
+      "dishes": [
+        -5,
+        10
+      ],
+      "target": 4
+    },
+    "expected": [
+      0,
+      0
+    ],
+    "name": "Test Case 3"
+  },
+  {
+    "inputs": {
+      "dishes": [],
+      "target": -10
+    },
+    "expected": [
+      0,
+      0
+    ],
+    "name": "Test Case 4"
+  },
+  {
+    "inputs": {
+      "dishes": [
+        4
+      ],
+      "target": -10
+    },
+    "expected": [
+      0,
+      0
+    ],
+    "name": "Test Case 5"
+  },
+  {
+    "inputs": {
+      "dishes": [
+        -5,
+        10
+      ],
+      "target": -4
+    },
+    "expected": [
+      0,
+      0
+    ],
+    "name": "Test Case 6"
+  },
+  {
+    "inputs": {
+      "dishes": [
+        5,
+        -10
+      ],
+      "target": -4
+    },
+    "expected": [
+      -10,
+      5
+    ],
+    "name": "Test Case 7"
+  },
+  {
+    "inputs": {
+      "dishes": [
+        -5,
+        10
+      ],
+      "target": 5
+    },
+    "expected": [
+      -5,
+      10
+    ],
+    "name": "Test Case 8"
+  },
+  {
+    "inputs": {
+      "dishes": [
+        -5,
+        10
+      ],
+      "target": 0
+    },
+    "expected": [
+      0,
+      0
+    ],
+    "name": "Test Case 9"
+  },
+  {
+    "inputs": {
+      "dishes": [
+        5,
+        -10
+      ],
+      "target": 0
+    },
+    "expected": [
+      -10,
+      5
+    ],
+    "name": "Test Case 10"
+  },
+  {
+    "inputs": {
+      "dishes": [
+        10,
+        -5
+      ],
+      "target": 5
+    },
+    "expected": [
+      -5,
+      10
+    ],
+    "name": "Test Case 11"
+  },
+  {
+    "inputs": {
+      "dishes": [
+        10,
+        -5
+      ],
+      "target": 100
+    },
+    "expected": [
+      -5,
+      10
+    ],
+    "name": "Test Case 12"
+  },
+  {
+    "inputs": {
+      "dishes": [
+        5,
+        -5,
+        5,
+        -5,
+        5,
+        -5
+      ],
+      "target": 10
+    },
+    "expected": [
+      -5,
+      5
+    ],
+    "name": "Test Case 13"
+  },
+  {
+    "inputs": {
+      "dishes": [
+        5,
+        -5,
+        5,
+        -5,
+        5,
+        -5
+      ],
+      "target": 0
+    },
+    "expected": [
+      -5,
+      5
+    ],
+    "name": "Test Case 14"
+  },
+  {
+    "inputs": {
+      "dishes": [
+        3,
+        5,
+        7,
+        2,
+        6,
+        8,
+        1
+      ],
+      "target": 10
+    },
+    "expected": [
+      0,
+      0
+    ],
+    "name": "Test Case 15"
+  },
+  {
+    "inputs": {
+      "dishes": [
+        -3,
+        -5,
+        1,
+        7
+      ],
+      "target": 8
+    },
+    "expected": [
+      -3,
+      7
+    ],
+    "name": "Test Case 16"
+  },
+  {
+    "inputs": {
+      "dishes": [
+        -3,
+        -5,
+        1,
+        7
+      ],
+      "target": 0
+    },
+    "expected": [
+      -3,
+      1
+    ],
+    "name": "Test Case 17"
+  },
+  {
+    "inputs": {
+      "dishes": [
+        2,
+        5,
+        -4,
+        -7,
+        12,
+        100,
+        -25
+      ],
+      "target": -5
+    },
+    "expected": [
+      -7,
+      2
+    ],
+    "name": "Test Case 18"
+  },
+  {
+    "inputs": {
+      "dishes": [
+        2,
+        5,
+        -4,
+        -7,
+        12,
+        100,
+        -25
+      ],
+      "target": -7
+    },
+    "expected": [
+      -25,
+      12
+    ],
+    "name": "Test Case 19"
+  },
+  {
+    "inputs": {
+      "dishes": [
+        2,
+        4,
+        -4,
+        -7,
+        12,
+        100,
+        -25
+      ],
+      "target": -1
+    },
+    "expected": [
+      -4,
+      2
+    ],
+    "name": "Test Case 20"
+  },
+  {
+    "inputs": {
+      "dishes": [
+        2,
+        5,
+        -4,
+        -7,
+        12,
+        100,
+        -25
+      ],
+      "target": -20
+    },
+    "expected": [
+      -25,
+      5
+    ],
+    "name": "Test Case 21"
+  },
+  {
+    "inputs": {
+      "dishes": [
+        2,
+        5,
+        -4,
+        -7,
+        12,
+        100,
+        -25
+      ],
+      "target": 5
+    },
+    "expected": [
+      -7,
+      12
+    ],
+    "name": "Test Case 22"
+  },
+  {
+    "inputs": {
+      "dishes": [
+        2,
+        5,
+        -4,
+        -7,
+        12,
+        100,
+        -25
+      ],
+      "target": 7
+    },
+    "expected": [
+      -7,
+      12
+    ],
+    "name": "Test Case 23"
+  },
+  {
+    "inputs": {
+      "dishes": [
+        2,
+        5,
+        -4,
+        -7,
+        12,
+        100,
+        -25
+      ],
+      "target": 1
+    },
+    "expected": [
+      -4,
+      5
+    ],
+    "name": "Test Case 24"
+  },
+  {
+    "inputs": {
+      "dishes": [
+        2,
+        5,
+        -4,
+        -7,
+        12,
+        100,
+        -25
+      ],
+      "target": 20
+    },
+    "expected": [
+      -4,
+      12
+    ],
+    "name": "Test Case 25"
+  },
+  {
+    "inputs": {
+      "dishes": [
+        -5,
+        -4,
+        -3,
+        -2,
+        -1,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "target": 6
+    },
+    "expected": [
+      -1,
+      5
+    ],
+    "name": "Test Case 26"
+  },
+  {
+    "inputs": {
+      "dishes": [
+        -5,
+        -4,
+        -3,
+        -2,
+        -1,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "target": -6
+    },
+    "expected": [
+      0,
+      0
+    ],
+    "name": "Test Case 27"
+  },
+  {
+    "inputs": {
+      "dishes": [
+        17,
+        37,
+        12,
+        -102,
+        53,
+        49,
+        -90,
+        102,
+        49,
+        16,
+        52
+      ],
+      "target": 12
+    },
+    "expected": [
+      -90,
+      102
+    ],
+    "name": "Test Case 28"
+  },
+  {
+    "inputs": {
+      "dishes": [
+        17,
+        37,
+        12,
+        -102,
+        53,
+        49,
+        -90,
+        102,
+        49,
+        16,
+        52
+      ],
+      "target": 11
+    },
+    "expected": [
+      -102,
+      102
+    ],
+    "name": "Test Case 29"
+  },
+  {
+    "inputs": {
+      "dishes": [
+        17,
+        37,
+        12,
+        -102,
+        53,
+        49,
+        -90,
+        102,
+        49,
+        16,
+        52
+      ],
+      "target": -100
+    },
+    "expected": [
+      0,
+      0
+    ],
+    "name": "Test Case 30"
+  },
+  {
+    "inputs": {
+      "dishes": [
+        17,
+        37,
+        12,
+        -102,
+        53,
+        49,
+        -90,
+        102,
+        49,
+        16,
+        52
+      ],
+      "target": -28
+    },
+    "expected": [
+      -90,
+      53
+    ],
+    "name": "Test Case 31"
+  },
+  {
+    "inputs": {
+      "dishes": [
+        -12,
+        13,
+        100,
+        -53,
+        540,
+        -538,
+        53,
+        76,
+        32,
+        -63
+      ],
+      "target": 0
+    },
+    "expected": [
+      -53,
+      53
+    ],
+    "name": "Test Case 32"
+  },
+  {
+    "inputs": {
+      "dishes": [
+        -12,
+        13,
+        100,
+        -53,
+        540,
+        -538,
+        53,
+        76,
+        32,
+        -63
+      ],
+      "target": -34
+    },
+    "expected": [
+      -53,
+      13
+    ],
+    "name": "Test Case 33"
+  },
+  {
+    "inputs": {
+      "dishes": [
+        -12,
+        13,
+        100,
+        -53,
+        540,
+        -538,
+        53,
+        76,
+        32,
+        -63
+      ],
+      "target": -15
+    },
+    "expected": [
+      -53,
+      32
+    ],
+    "name": "Test Case 34"
+  },
+  {
+    "inputs": {
+      "dishes": [
+        -12,
+        13,
+        100,
+        -53,
+        540,
+        -538,
+        53,
+        76,
+        32,
+        -63
+      ],
+      "target": 42
+    },
+    "expected": [
+      -12,
+      53
+    ],
+    "name": "Test Case 35"
+  }
+]

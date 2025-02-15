@@ -1,0 +1,200 @@
+[
+  {
+    "inputs": {
+      "strings": [
+        "algoexpert"
+      ]
+    },
+    "expected": "algoexpert",
+    "name": "Test Case 1"
+  },
+  {
+    "inputs": {
+      "strings": [
+        "abcdef",
+        "abcdefg",
+        "aaa",
+        "bbb",
+        "ccc"
+      ]
+    },
+    "expected": "a",
+    "name": "Test Case 2"
+  },
+  {
+    "inputs": {
+      "strings": [
+        "abcdefg",
+        "abcdddd",
+        "abceeee",
+        "bcdefg",
+        "cdefg",
+        "abce"
+      ]
+    },
+    "expected": "abc",
+    "name": "Test Case 3"
+  },
+  {
+    "inputs": {
+      "strings": [
+        "algoexpert",
+        "algorithm",
+        "frontendexpert",
+        "mlexpert"
+      ]
+    },
+    "expected": "algo",
+    "name": "Test Case 4"
+  },
+  {
+    "inputs": {
+      "strings": [
+        "hello",
+        "world",
+        "fossil",
+        "worldly",
+        "food",
+        "forrest",
+        "helium",
+        "algoexpert",
+        "algorithm"
+      ]
+    },
+    "expected": "fo",
+    "name": "Test Case 5"
+  },
+  {
+    "inputs": {
+      "strings": [
+        "foobarbaz",
+        "foo",
+        "bar",
+        "foobarfoo",
+        "baz",
+        "foobaz",
+        "foofoofoo",
+        "foobazar"
+      ]
+    },
+    "expected": "foo",
+    "name": "Test Case 6"
+  },
+  {
+    "inputs": {
+      "strings": [
+        "foobarbaz",
+        "foo",
+        "bar",
+        "foobarfoo",
+        "baz",
+        "foobaz",
+        "foofoofoo",
+        "foobazar",
+        "fancy"
+      ]
+    },
+    "expected": "f",
+    "name": "Test Case 7"
+  },
+  {
+    "inputs": {
+      "strings": [
+        "foo",
+        "bar",
+        "foobar"
+      ]
+    },
+    "expected": "foo",
+    "name": "Test Case 8"
+  },
+  {
+    "inputs": {
+      "strings": [
+        "foo",
+        "bar",
+        "barfoo"
+      ]
+    },
+    "expected": "bar",
+    "name": "Test Case 9"
+  },
+  {
+    "inputs": {
+      "strings": [
+        "foo",
+        "bar",
+        "baz"
+      ]
+    },
+    "expected": "ba",
+    "name": "Test Case 10"
+  },
+  {
+    "inputs": {
+      "strings": [
+        "this",
+        "is",
+        "a",
+        "test",
+        "thisisatest",
+        "thisisthis",
+        "thisisnotatest",
+        "atestthisis",
+        "testthistest",
+        "notthistest"
+      ]
+    },
+    "expected": "t",
+    "name": "Test Case 11"
+  },
+  {
+    "inputs": {
+      "strings": [
+        "this",
+        "is",
+        "a",
+        "thisisatest",
+        "thisisthis",
+        "thisisnotatest",
+        "atestthisis",
+        "notthistest"
+      ]
+    },
+    "expected": "this",
+    "name": "Test Case 12"
+  },
+  {
+    "inputs": {
+      "strings": [
+        "abc1",
+        "abc2",
+        "abc3",
+        "abc4",
+        "xyzk1",
+        "xyzk2",
+        "xyzk3",
+        "xyzk4"
+      ]
+    },
+    "expected": "xyzk",
+    "name": "Test Case 13"
+  },
+  {
+    "inputs": {
+      "strings": [
+        "abc",
+        "def",
+        "ghi",
+        "jkl",
+        "mnop",
+        "qrs",
+        "tuv",
+        "wxy",
+        "z"
+      ]
+    },
+    "expected": "mnop",
+    "name": "Test Case 14"
+  }
+]

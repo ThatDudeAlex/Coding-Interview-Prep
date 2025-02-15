@@ -1,0 +1,386 @@
+[
+  {
+    "inputs": {
+      "high": 2300,
+      "low": 2100,
+      "measuringCups": [
+        [
+          200,
+          210
+        ],
+        [
+          450,
+          465
+        ],
+        [
+          800,
+          850
+        ]
+      ]
+    },
+    "expected": "true",
+    "name": "Test Case 1"
+  },
+  {
+    "inputs": {
+      "high": 20,
+      "low": 10,
+      "measuringCups": [
+        [
+          200,
+          210
+        ]
+      ]
+    },
+    "expected": "false",
+    "name": "Test Case 2"
+  },
+  {
+    "inputs": {
+      "high": 2300,
+      "low": 2100,
+      "measuringCups": [
+        [
+          230,
+          240
+        ],
+        [
+          290,
+          310
+        ],
+        [
+          500,
+          515
+        ]
+      ]
+    },
+    "expected": "true",
+    "name": "Test Case 3"
+  },
+  {
+    "inputs": {
+      "high": 101,
+      "low": 100,
+      "measuringCups": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          5,
+          6
+        ]
+      ]
+    },
+    "expected": "false",
+    "name": "Test Case 4"
+  },
+  {
+    "inputs": {
+      "high": 120,
+      "low": 100,
+      "measuringCups": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          5,
+          6
+        ]
+      ]
+    },
+    "expected": "true",
+    "name": "Test Case 5"
+  },
+  {
+    "inputs": {
+      "high": 12,
+      "low": 10,
+      "measuringCups": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          10,
+          20
+        ]
+      ]
+    },
+    "expected": "true",
+    "name": "Test Case 6"
+  },
+  {
+    "inputs": {
+      "high": 12,
+      "low": 10,
+      "measuringCups": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          10,
+          20
+        ]
+      ]
+    },
+    "expected": "false",
+    "name": "Test Case 7"
+  },
+  {
+    "inputs": {
+      "high": 1050,
+      "low": 1000,
+      "measuringCups": [
+        [
+          50,
+          60
+        ],
+        [
+          100,
+          120
+        ],
+        [
+          20,
+          40
+        ],
+        [
+          10,
+          15
+        ],
+        [
+          400,
+          500
+        ]
+      ]
+    },
+    "expected": "false",
+    "name": "Test Case 8"
+  },
+  {
+    "inputs": {
+      "high": 1200,
+      "low": 1000,
+      "measuringCups": [
+        [
+          50,
+          65
+        ],
+        [
+          100,
+          120
+        ],
+        [
+          20,
+          40
+        ],
+        [
+          10,
+          15
+        ],
+        [
+          400,
+          500
+        ]
+      ]
+    },
+    "expected": "true",
+    "name": "Test Case 9"
+  },
+  {
+    "inputs": {
+      "high": 3300,
+      "low": 3000,
+      "measuringCups": [
+        [
+          50,
+          65
+        ],
+        [
+          100,
+          120
+        ],
+        [
+          20,
+          40
+        ],
+        [
+          10,
+          15
+        ],
+        [
+          400,
+          500
+        ],
+        [
+          300,
+          350
+        ],
+        [
+          10,
+          25
+        ]
+      ]
+    },
+    "expected": "false",
+    "name": "Test Case 10"
+  },
+  {
+    "inputs": {
+      "high": 1050,
+      "low": 1000,
+      "measuringCups": [
+        [
+          50,
+          60
+        ],
+        [
+          100,
+          120
+        ],
+        [
+          20,
+          40
+        ],
+        [
+          400,
+          500
+        ]
+      ]
+    },
+    "expected": "false",
+    "name": "Test Case 11"
+  },
+  {
+    "inputs": {
+      "high": 200,
+      "low": 200,
+      "measuringCups": [
+        [
+          50,
+          65
+        ]
+      ]
+    },
+    "expected": "false",
+    "name": "Test Case 12"
+  },
+  {
+    "inputs": {
+      "high": 200,
+      "low": 200,
+      "measuringCups": [
+        [
+          50,
+          50
+        ]
+      ]
+    },
+    "expected": "true",
+    "name": "Test Case 13"
+  },
+  {
+    "inputs": {
+      "high": 200,
+      "low": 200,
+      "measuringCups": [
+        [
+          50,
+          50
+        ],
+        [
+          50,
+          51
+        ]
+      ]
+    },
+    "expected": "true",
+    "name": "Test Case 14"
+  },
+  {
+    "inputs": {
+      "high": 1000,
+      "low": 0,
+      "measuringCups": [
+        [
+          100,
+          150
+        ],
+        [
+          1000,
+          2000
+        ]
+      ]
+    },
+    "expected": "true",
+    "name": "Test Case 15"
+  },
+  {
+    "inputs": {
+      "high": 20,
+      "low": 10,
+      "measuringCups": [
+        [
+          10,
+          20
+        ]
+      ]
+    },
+    "expected": "true",
+    "name": "Test Case 16"
+  },
+  {
+    "inputs": {
+      "high": 20,
+      "low": 10,
+      "measuringCups": [
+        [
+          15,
+          18
+        ]
+      ]
+    },
+    "expected": "true",
+    "name": "Test Case 17"
+  },
+  {
+    "inputs": {
+      "high": 20,
+      "low": 10,
+      "measuringCups": [
+        [
+          15,
+          22
+        ]
+      ]
+    },
+    "expected": "false",
+    "name": "Test Case 18"
+  }
+]

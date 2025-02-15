@@ -1,0 +1,86 @@
+[
+  {
+    "inputs": {
+      "n": 3
+    },
+    "expected": 5,
+    "name": "Test Case 1"
+  },
+  {
+    "inputs": {
+      "n": 0
+    },
+    "expected": 1,
+    "name": "Test Case 2"
+  },
+  {
+    "inputs": {
+      "n": 1
+    },
+    "expected": 1,
+    "name": "Test Case 3"
+  },
+  {
+    "inputs": {
+      "n": 2
+    },
+    "expected": 2,
+    "name": "Test Case 4"
+  },
+  {
+    "inputs": {
+      "n": 4
+    },
+    "expected": 14,
+    "name": "Test Case 5"
+  },
+  {
+    "inputs": {
+      "n": 5
+    },
+    "expected": 42,
+    "name": "Test Case 6"
+  },
+  {
+    "inputs": {
+      "n": 6
+    },
+    "expected": 132,
+    "name": "Test Case 7"
+  },
+  {
+    "inputs": {
+      "n": 7
+    },
+    "expected": 429,
+    "name": "Test Case 8"
+  },
+  {
+    "inputs": {
+      "n": 8
+    },
+    "expected": 1430,
+    "name": "Test Case 9"
+  },
+  {
+    "inputs": {
+      "n": 9
+    },
+    "expected": 4862,
+    "name": "Test Case 10"
+  },
+  {
+    "inputs": {
+      "n": 10
+    },
+    "expected": 16796,
+    "name": "Test Case 11"
+  },
+  {
+    "inputs": {
+      "n": 11
+    },
+    "expected": 58786,
+    "name": "Test Case 12"
+  }
+]

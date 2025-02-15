@@ -1,0 +1,836 @@
+[
+  {
+    "inputs": {
+      "classMethodsToCall": [
+        {
+          "arguments": [
+            5
+          ],
+          "method": "insert"
+        },
+        {
+          "arguments": [
+            15
+          ],
+          "method": "insert"
+        },
+        {
+          "arguments": [
+            2
+          ],
+          "method": "insert"
+        },
+        {
+          "arguments": [
+            5
+          ],
+          "method": "insert"
+        },
+        {
+          "arguments": [
+            13
+          ],
+          "method": "insert"
+        },
+        {
+          "arguments": [
+            22
+          ],
+          "method": "insert"
+        },
+        {
+          "arguments": [
+            1
+          ],
+          "method": "insert"
+        },
+        {
+          "arguments": [
+            14
+          ],
+          "method": "insert"
+        },
+        {
+          "arguments": [
+            12
+          ],
+          "method": "insert"
+        },
+        {
+          "arguments": [
+            10
+          ],
+          "method": "remove"
+        },
+        {
+          "arguments": [
+            15
+          ],
+          "method": "contains"
+        }
+      ],
+      "rootValue": 10
+    },
+    "name": "Test Case 1"
+  },
+  {
+    "inputs": {
+      "classMethodsToCall": [
+        {
+          "arguments": [
+            5
+          ],
+          "method": "insert"
+        },
+        {
+          "arguments": [
+            15
+          ],
+          "method": "insert"
+        }
+      ],
+      "rootValue": 10
+    },
+    "expected": [
+      {
+        "arguments": [
+          5
+        ],
+        "method": "insert",
+        "output": null,
+        "tree": {
+          "nodes": [
+            {
+              "id": "10",
+              "left": "5",
+              "right": null,
+              "value": 10
+            },
+            {
+              "id": "5",
+              "left": null,
+              "right": null,
+              "value": 5
+            }
+          ],
+          "root": "10"
+        }
+      },
+      {
+        "arguments": [
+          15
+        ],
+        "method": "insert",
+        "output": null,
+        "tree": {
+          "nodes": [
+            {
+              "id": "10",
+              "left": "5",
+              "right": "15",
+              "value": 10
+            },
+            {
+              "id": "15",
+              "left": null,
+              "right": null,
+              "value": 15
+            },
+            {
+              "id": "5",
+              "left": null,
+              "right": null,
+              "value": 5
+            }
+          ],
+          "root": "10"
+        }
+      }
+    ],
+    "name": "Test Case 2"
+  },
+  {
+    "inputs": {
+      "classMethodsToCall": [
+        {
+          "arguments": [
+            5
+          ],
+          "method": "insert"
+        },
+        {
+          "arguments": [
+            15
+          ],
+          "method": "insert"
+        },
+        {
+          "arguments": [
+            10
+          ],
+          "method": "contains"
+        },
+        {
+          "arguments": [
+            5
+          ],
+          "method": "contains"
+        },
+        {
+          "arguments": [
+            15
+          ],
+          "method": "contains"
+        },
+        {
+          "arguments": [
+            1
+          ],
+          "method": "contains"
+        },
+        {
+          "arguments": [
+            6
+          ],
+          "method": "contains"
+        },
+        {
+          "arguments": [
+            11
+          ],
+          "method": "contains"
+        },
+        {
+          "arguments": [
+            16
+          ],
+          "method": "contains"
+        }
+      ],
+      "rootValue": 10
+    },
+    "name": "Test Case 3"
+  },
+  {
+    "inputs": {
+      "classMethodsToCall": [
+        {
+          "arguments": [
+            5
+          ],
+          "method": "insert"
+        },
+        {
+          "arguments": [
+            15
+          ],
+          "method": "insert"
+        },
+        {
+          "arguments": [
+            5
+          ],
+          "method": "remove"
+        },
+        {
+          "arguments": [
+            15
+          ],
+          "method": "remove"
+        },
+        {
+          "arguments": [
+            10
+          ],
+          "method": "remove"
+        }
+      ],
+      "rootValue": 10
+    },
+    "name": "Test Case 4"
+  },
+  {
+    "inputs": {
+      "classMethodsToCall": [
+        {
+          "arguments": [
+            5
+          ],
+          "method": "insert"
+        },
+        {
+          "arguments": [
+            15
+          ],
+          "method": "insert"
+        },
+        {
+          "arguments": [
+            10
+          ],
+          "method": "contains"
+        },
+        {
+          "arguments": [
+            5
+          ],
+          "method": "contains"
+        },
+        {
+          "arguments": [
+            15
+          ],
+          "method": "contains"
+        },
+        {
+          "arguments": [
+            10
+          ],
+          "method": "remove"
+        },
+        {
+          "arguments": [
+            5
+          ],
+          "method": "remove"
+        },
+        {
+          "arguments": [
+            15
+          ],
+          "method": "remove"
+        },
+        {
+          "arguments": [
+            10
+          ],
+          "method": "contains"
+        },
+        {
+          "arguments": [
+            5
+          ],
+          "method": "contains"
+        },
+        {
+          "arguments": [
+            15
+          ],
+          "method": "contains"
+        }
+      ],
+      "rootValue": 10
+    },
+    "name": "Test Case 5"
+  },
+  {
+    "inputs": {
+      "classMethodsToCall": [
+        {
+          "arguments": [
+            2
+          ],
+          "method": "insert"
+        },
+        {
+          "arguments": [
+            3
+          ],
+          "method": "insert"
+        },
+        {
+          "arguments": [
+            4
+          ],
+          "method": "insert"
+        },
+        {
+          "arguments": [
+            5
+          ],
+          "method": "insert"
+        },
+        {
+          "arguments": [
+            6
+          ],
+          "method": "insert"
+        },
+        {
+          "arguments": [
+            7
+          ],
+          "method": "insert"
+        },
+        {
+          "arguments": [
+            8
+          ],
+          "method": "insert"
+        },
+        {
+          "arguments": [
+            9
+          ],
+          "method": "insert"
+        },
+        {
+          "arguments": [
+            10
+          ],
+          "method": "insert"
+        },
+        {
+          "arguments": [
+            11
+          ],
+          "method": "insert"
+        },
+        {
+          "arguments": [
+            12
+          ],
+          "method": "insert"
+        },
+        {
+          "arguments": [
+            13
+          ],
+          "method": "insert"
+        },
+        {
+          "arguments": [
+            14
+          ],
+          "method": "insert"
+        },
+        {
+          "arguments": [
+            15
+          ],
+          "method": "insert"
+        },
+        {
+          "arguments": [
+            16
+          ],
+          "method": "insert"
+        },
+        {
+          "arguments": [
+            17
+          ],
+          "method": "insert"
+        },
+        {
+          "arguments": [
+            18
+          ],
+          "method": "insert"
+        },
+        {
+          "arguments": [
+            19
+          ],
+          "method": "insert"
+        },
+        {
+          "arguments": [
+            20
+          ],
+          "method": "insert"
+        },
+        {
+          "arguments": [
+            2
+          ],
+          "method": "remove"
+        },
+        {
+          "arguments": [
+            4
+          ],
+          "method": "remove"
+        },
+        {
+          "arguments": [
+            6
+          ],
+          "method": "remove"
+        },
+        {
+          "arguments": [
+            8
+          ],
+          "method": "remove"
+        },
+        {
+          "arguments": [
+            11
+          ],
+          "method": "remove"
+        },
+        {
+          "arguments": [
+            13
+          ],
+          "method": "remove"
+        },
+        {
+          "arguments": [
+            15
+          ],
+          "method": "remove"
+        },
+        {
+          "arguments": [
+            17
+          ],
+          "method": "remove"
+        },
+        {
+          "arguments": [
+            19
+          ],
+          "method": "remove"
+        },
+        {
+          "arguments": [
+            1
+          ],
+          "method": "insert"
+        },
+        {
+          "arguments": [
+            2
+          ],
+          "method": "insert"
+        },
+        {
+          "arguments": [
+            3
+          ],
+          "method": "insert"
+        },
+        {
+          "arguments": [
+            4
+          ],
+          "method": "insert"
+        },
+        {
+          "arguments": [
+            5
+          ],
+          "method": "insert"
+        },
+        {
+          "arguments": [
+            6
+          ],
+          "method": "insert"
+        },
+        {
+          "arguments": [
+            7
+          ],
+          "method": "insert"
+        },
+        {
+          "arguments": [
+            8
+          ],
+          "method": "insert"
+        },
+        {
+          "arguments": [
+            9
+          ],
+          "method": "insert"
+        },
+        {
+          "arguments": [
+            10
+          ],
+          "method": "insert"
+        },
+        {
+          "arguments": [
+            9000
+          ],
+          "method": "contains"
+        }
+      ],
+      "rootValue": 1
+    },
+    "name": "Test Case 6"
+  },
+  {
+    "inputs": {
+      "classMethodsToCall": [
+        {
+          "arguments": [
+            2
+          ],
+          "method": "insert"
+        },
+        {
+          "arguments": [
+            3
+          ],
+          "method": "insert"
+        },
+        {
+          "arguments": [
+            4
+          ],
+          "method": "insert"
+        },
+        {
+          "arguments": [
+            1
+          ],
+          "method": "remove"
+        }
+      ],
+      "rootValue": 1
+    },
+    "name": "Test Case 7"
+  },
+  {
+    "inputs": {
+      "classMethodsToCall": [
+        {
+          "arguments": [
+            -2
+          ],
+          "method": "insert"
+        },
+        {
+          "arguments": [
+            -3
+          ],
+          "method": "insert"
+        },
+        {
+          "arguments": [
+            -4
+          ],
+          "method": "insert"
+        },
+        {
+          "arguments": [
+            1
+          ],
+          "method": "remove"
+        }
+      ],
+      "rootValue": 1
+    },
+    "name": "Test Case 8"
+  },
+  {
+    "inputs": {
+      "classMethodsToCall": [
+        {
+          "arguments": [
+            5
+          ],
+          "method": "insert"
+        },
+        {
+          "arguments": [
+            10
+          ],
+          "method": "remove"
+        },
+        {
+          "arguments": [
+            15
+          ],
+          "method": "contains"
+        }
+      ],
+      "rootValue": 10
+    },
+    "expected": [
+      {
+        "arguments": [
+          5
+        ],
+        "method": "insert",
+        "output": null,
+        "tree": {
+          "nodes": [
+            {
+              "id": "10",
+              "left": "5",
+              "right": null,
+              "value": 10
+            },
+            {
+              "id": "5",
+              "left": null,
+              "right": null,
+              "value": 5
+            }
+          ],
+          "root": "10"
+        }
+      },
+      {
+        "arguments": [
+          10
+        ],
+        "method": "remove",
+        "output": null,
+        "tree": {
+          "nodes": [
+            {
+              "id": "5",
+              "left": null,
+              "right": null,
+              "value": 5
+            }
+          ],
+          "root": "5"
+        }
+      },
+      {
+        "arguments": [
+          15
+        ],
+        "method": "contains",
+        "output": false,
+        "tree": {
+          "nodes": [
+            {
+              "id": "5",
+              "left": null,
+              "right": null,
+              "value": 5
+            }
+          ],
+          "root": "5"
+        }
+      }
+    ],
+    "name": "Test Case 9"
+  },
+  {
+    "inputs": {
+      "classMethodsToCall": [
+        {
+          "arguments": [
+            5
+          ],
+          "method": "insert"
+        },
+        {
+          "arguments": [
+            15
+          ],
+          "method": "insert"
+        },
+        {
+          "arguments": [
+            2
+          ],
+          "method": "insert"
+        },
+        {
+          "arguments": [
+            5
+          ],
+          "method": "insert"
+        },
+        {
+          "arguments": [
+            13
+          ],
+          "method": "insert"
+        },
+        {
+          "arguments": [
+            22
+          ],
+          "method": "insert"
+        },
+        {
+          "arguments": [
+            1
+          ],
+          "method": "insert"
+        },
+        {
+          "arguments": [
+            14
+          ],
+          "method": "insert"
+        },
+        {
+          "arguments": [
+            12
+          ],
+          "method": "insert"
+        },
+        {
+          "arguments": [
+            5
+          ],
+          "method": "remove"
+        },
+        {
+          "arguments": [
+            5
+          ],
+          "method": "remove"
+        },
+        {
+          "arguments": [
+            12
+          ],
+          "method": "remove"
+        },
+        {
+          "arguments": [
+            13
+          ],
+          "method": "remove"
+        },
+        {
+          "arguments": [
+            14
+          ],
+          "method": "remove"
+        },
+        {
+          "arguments": [
+            22
+          ],
+          "method": "remove"
+        },
+        {
+          "arguments": [
+            2
+          ],
+          "method": "remove"
+        },
+        {
+          "arguments": [
+            1
+          ],
+          "method": "remove"
+        },
+        {
+          "arguments": [
+            15
+          ],
+          "method": "contains"
+        }
+      ],
+      "rootValue": 10
+    },
+    "name": "Test Case 10"
+  }
+]

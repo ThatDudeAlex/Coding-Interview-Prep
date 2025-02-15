@@ -1,0 +1,282 @@
+[
+  {
+    "inputs": {
+      "words": [
+        "yo",
+        "act",
+        "flop",
+        "tac",
+        "foo",
+        "cat",
+        "oy",
+        "olfp"
+      ]
+    },
+    "expected": [
+      [
+        "foo"
+      ],
+      [
+        "flop",
+        "olfp"
+      ],
+      [
+        "oy",
+        "yo"
+      ],
+      [
+        "act",
+        "cat",
+        "tac"
+      ]
+    ],
+    "name": "Test Case 1"
+  },
+  {
+    "inputs": {
+      "words": []
+    },
+    "expected": [],
+    "name": "Test Case 2"
+  },
+  {
+    "inputs": {
+      "words": [
+        "test"
+      ]
+    },
+    "expected": [
+      [
+        "test"
+      ]
+    ],
+    "name": "Test Case 3"
+  },
+  {
+    "inputs": {
+      "words": [
+        "abc",
+        "dabd",
+        "bca",
+        "cab",
+        "ddba"
+      ]
+    },
+    "expected": [
+      [
+        "dabd",
+        "ddba"
+      ],
+      [
+        "abc",
+        "bca",
+        "cab"
+      ]
+    ],
+    "name": "Test Case 4"
+  },
+  {
+    "inputs": {
+      "words": [
+        "abc",
+        "cba",
+        "bca"
+      ]
+    },
+    "expected": [
+      [
+        "abc",
+        "bca",
+        "cba"
+      ]
+    ],
+    "name": "Test Case 5"
+  },
+  {
+    "inputs": {
+      "words": [
+        "zxc",
+        "asd",
+        "weq",
+        "sda",
+        "qwe",
+        "xcz"
+      ]
+    },
+    "expected": [
+      [
+        "asd",
+        "sda"
+      ],
+      [
+        "qwe",
+        "weq"
+      ],
+      [
+        "xcz",
+        "zxc"
+      ]
+    ],
+    "name": "Test Case 6"
+  },
+  {
+    "inputs": {
+      "words": [
+        "cinema",
+        "a",
+        "flop",
+        "iceman",
+        "meacyne",
+        "lofp",
+        "olfp"
+      ]
+    },
+    "expected": [
+      [
+        "a"
+      ],
+      [
+        "meacyne"
+      ],
+      [
+        "cinema",
+        "iceman"
+      ],
+      [
+        "flop",
+        "lofp",
+        "olfp"
+      ]
+    ],
+    "name": "Test Case 7"
+  },
+  {
+    "inputs": {
+      "words": [
+        "abc",
+        "abe",
+        "abf",
+        "abg"
+      ]
+    },
+    "expected": [
+      [
+        "abc"
+      ],
+      [
+        "abe"
+      ],
+      [
+        "abf"
+      ],
+      [
+        "abg"
+      ]
+    ],
+    "name": "Test Case 8"
+  },
+  {
+    "inputs": {
+      "words": [
+        "aaa",
+        "a"
+      ]
+    },
+    "expected": [
+      [
+        "a"
+      ],
+      [
+        "aaa"
+      ]
+    ],
+    "name": "Test Case 9"
+  },
+  {
+    "inputs": {
+      "words": [
+        "bob",
+        "boo"
+      ]
+    },
+    "expected": [
+      [
+        "bob"
+      ],
+      [
+        "boo"
+      ]
+    ],
+    "name": "Test Case 10"
+  },
+  {
+    "inputs": {
+      "words": [
+        "ill",
+        "duh"
+      ]
+    },
+    "expected": [
+      [
+        "duh"
+      ],
+      [
+        "ill"
+      ]
+    ],
+    "name": "Test Case 11"
+  },
+  {
+    "inputs": {
+      "words": [
+        "yo",
+        "oy",
+        "zn"
+      ]
+    },
+    "expected": [
+      [
+        "zn"
+      ],
+      [
+        "oy",
+        "yo"
+      ]
+    ],
+    "name": "Test Case 12"
+  },
+  {
+    "inputs": {
+      "words": [
+        "yyo",
+        "yo"
+      ]
+    },
+    "expected": [
+      [
+        "yo"
+      ],
+      [
+        "yyo"
+      ]
+    ],
+    "name": "Test Case 13"
+  },
+  {
+    "inputs": {
+      "words": [
+        "aca",
+        "bba"
+      ]
+    },
+    "expected": [
+      [
+        "aca"
+      ],
+      [
+        "bba"
+      ]
+    ],
+    "name": "Test Case 14"
+  }
+]

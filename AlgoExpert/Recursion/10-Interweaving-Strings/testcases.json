@@ -1,0 +1,182 @@
+[
+  {
+    "inputs": {
+      "one": "algoexpert",
+      "three": "your-algodream-expertjob",
+      "two": "your-dream-job"
+    },
+    "expected": "true",
+    "name": "Test Case 1"
+  },
+  {
+    "inputs": {
+      "one": "a",
+      "three": "ab",
+      "two": "b"
+    },
+    "expected": "true",
+    "name": "Test Case 2"
+  },
+  {
+    "inputs": {
+      "one": "a",
+      "three": "ba",
+      "two": "b"
+    },
+    "expected": "true",
+    "name": "Test Case 3"
+  },
+  {
+    "inputs": {
+      "one": "a",
+      "three": "ac",
+      "two": "b"
+    },
+    "expected": "false",
+    "name": "Test Case 4"
+  },
+  {
+    "inputs": {
+      "one": "abc",
+      "three": "abcdef",
+      "two": "def"
+    },
+    "expected": "true",
+    "name": "Test Case 5"
+  },
+  {
+    "inputs": {
+      "one": "abc",
+      "three": "adbecf",
+      "two": "def"
+    },
+    "expected": "true",
+    "name": "Test Case 6"
+  },
+  {
+    "inputs": {
+      "one": "abc",
+      "three": "deabcf",
+      "two": "def"
+    },
+    "expected": "true",
+    "name": "Test Case 7"
+  },
+  {
+    "inputs": {
+      "one": "aabcc",
+      "three": "aadbbcbcac",
+      "two": "dbbca"
+    },
+    "expected": "true",
+    "name": "Test Case 8"
+  },
+  {
+    "inputs": {
+      "one": "aabcc",
+      "three": "aadbbbaccc",
+      "two": "dbbca"
+    },
+    "expected": "false",
+    "name": "Test Case 9"
+  },
+  {
+    "inputs": {
+      "one": "algoexpert",
+      "three": "ayloguore-xdpreeratm-job",
+      "two": "your-dream-job"
+    },
+    "expected": "true",
+    "name": "Test Case 10"
+  },
+  {
+    "inputs": {
+      "one": "aaaaaaa",
+      "three": "aaaaaaaaaaaaaab",
+      "two": "aaaabaaa"
+    },
+    "expected": "false",
+    "name": "Test Case 11"
+  },
+  {
+    "inputs": {
+      "one": "aaaaaaa",
+      "three": "aaaaaaaaaaaaaa",
+      "two": "aaaaaaa"
+    },
+    "expected": "true",
+    "name": "Test Case 12"
+  },
+  {
+    "inputs": {
+      "one": "aacaaaa",
+      "three": "aaaabacaaaaaaa",
+      "two": "aaabaaa"
+    },
+    "expected": "true",
+    "name": "Test Case 13"
+  },
+  {
+    "inputs": {
+      "one": "aacaaaa",
+      "three": "aaaacabaaaaaaa",
+      "two": "aaabaaa"
+    },
+    "expected": "true",
+    "name": "Test Case 14"
+  },
+  {
+    "inputs": {
+      "one": "aacaaaa",
+      "three": "aaaaaacbaaaaaa",
+      "two": "aaabaaa"
+    },
+    "expected": "false",
+    "name": "Test Case 15"
+  },
+  {
+    "inputs": {
+      "one": "algoexpert",
+      "three": "1your-algodream-expertjob",
+      "two": "your-dream-job"
+    },
+    "expected": "false",
+    "name": "Test Case 16"
+  },
+  {
+    "inputs": {
+      "one": "algoexpert",
+      "three": "your-algodream-expertjob1",
+      "two": "your-dream-job"
+    },
+    "expected": "false",
+    "name": "Test Case 17"
+  },
+  {
+    "inputs": {
+      "one": "algoexpert",
+      "three": "your-algodream-expertjo",
+      "two": "your-dream-job"
+    },
+    "expected": "false",
+    "name": "Test Case 18"
+  },
+  {
+    "inputs": {
+      "one": "ae",
+      "three": "see",
+      "two": "e"
+    },
+    "expected": "false",
+    "name": "Test Case 19"
+  },
+  {
+    "inputs": {
+      "one": "algo",
+      "three": "fralgogo",
+      "two": "frog"
+    },
+    "expected": "true",
+    "name": "Test Case 20"
+  }
+]

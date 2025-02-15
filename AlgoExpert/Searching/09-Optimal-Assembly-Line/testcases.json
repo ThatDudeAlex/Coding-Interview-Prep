@@ -1,0 +1,437 @@
+[
+  {
+    "inputs": {
+      "numStations": 1,
+      "stepDurations": [
+        5
+      ]
+    },
+    "expected": 5,
+    "name": "Test Case 1"
+  },
+  {
+    "inputs": {
+      "numStations": 2,
+      "stepDurations": [
+        5,
+        7
+      ]
+    },
+    "expected": 7,
+    "name": "Test Case 2"
+  },
+  {
+    "inputs": {
+      "numStations": 3,
+      "stepDurations": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "expected": 6,
+    "name": "Test Case 3"
+  },
+  {
+    "inputs": {
+      "numStations": 2,
+      "stepDurations": [
+        5,
+        10,
+        20,
+        30
+      ]
+    },
+    "expected": 35,
+    "name": "Test Case 4"
+  },
+  {
+    "inputs": {
+      "numStations": 4,
+      "stepDurations": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "expected": 6,
+    "name": "Test Case 5"
+  },
+  {
+    "inputs": {
+      "numStations": 3,
+      "stepDurations": [
+        15,
+        25,
+        35,
+        45,
+        55,
+        65
+      ]
+    },
+    "expected": 100,
+    "name": "Test Case 6"
+  },
+  {
+    "inputs": {
+      "numStations": 2,
+      "stepDurations": [
+        5,
+        2,
+        9,
+        3
+      ]
+    },
+    "expected": 12,
+    "name": "Test Case 7"
+  },
+  {
+    "inputs": {
+      "numStations": 3,
+      "stepDurations": [
+        6,
+        8,
+        4,
+        2,
+        10
+      ]
+    },
+    "expected": 12,
+    "name": "Test Case 8"
+  },
+  {
+    "inputs": {
+      "numStations": 2,
+      "stepDurations": [
+        30,
+        5,
+        20,
+        10
+      ]
+    },
+    "expected": 35,
+    "name": "Test Case 9"
+  },
+  {
+    "inputs": {
+      "numStations": 4,
+      "stepDurations": [
+        40,
+        30,
+        10,
+        20,
+        60,
+        50
+      ]
+    },
+    "expected": 60,
+    "name": "Test Case 10"
+  },
+  {
+    "inputs": {
+      "numStations": 3,
+      "stepDurations": [
+        35,
+        65,
+        45,
+        15,
+        25,
+        55
+      ]
+    },
+    "expected": 100,
+    "name": "Test Case 11"
+  },
+  {
+    "inputs": {
+      "numStations": 2,
+      "stepDurations": [
+        1,
+        2,
+        2,
+        3
+      ]
+    },
+    "expected": 5,
+    "name": "Test Case 12"
+  },
+  {
+    "inputs": {
+      "numStations": 3,
+      "stepDurations": [
+        15,
+        15,
+        30,
+        30,
+        45
+      ]
+    },
+    "expected": 60,
+    "name": "Test Case 13"
+  },
+  {
+    "inputs": {
+      "numStations": 2,
+      "stepDurations": [
+        5,
+        5,
+        10,
+        20,
+        20
+      ]
+    },
+    "expected": 40,
+    "name": "Test Case 14"
+  },
+  {
+    "inputs": {
+      "numStations": 4,
+      "stepDurations": [
+        20,
+        10,
+        20,
+        30,
+        10,
+        30
+      ]
+    },
+    "expected": 40,
+    "name": "Test Case 15"
+  },
+  {
+    "inputs": {
+      "numStations": 2,
+      "stepDurations": [
+        25,
+        25,
+        35,
+        35
+      ]
+    },
+    "expected": 70,
+    "name": "Test Case 16"
+  },
+  {
+    "inputs": {
+      "numStations": 3,
+      "stepDurations": [
+        10,
+        20,
+        30
+      ]
+    },
+    "expected": 30,
+    "name": "Test Case 17"
+  },
+  {
+    "inputs": {
+      "numStations": 4,
+      "stepDurations": [
+        15,
+        25,
+        35,
+        45
+      ]
+    },
+    "expected": 45,
+    "name": "Test Case 18"
+  },
+  {
+    "inputs": {
+      "numStations": 3,
+      "stepDurations": [
+        5,
+        10,
+        20
+      ]
+    },
+    "expected": 20,
+    "name": "Test Case 19"
+  },
+  {
+    "inputs": {
+      "numStations": 3,
+      "stepDurations": [
+        12,
+        23,
+        38,
+        11,
+        47,
+        6
+      ]
+    },
+    "expected": 53,
+    "name": "Test Case 20"
+  },
+  {
+    "inputs": {
+      "numStations": 4,
+      "stepDurations": [
+        32,
+        41,
+        15,
+        27,
+        22,
+        9,
+        48
+      ]
+    },
+    "expected": 57,
+    "name": "Test Case 21"
+  },
+  {
+    "inputs": {
+      "numStations": 5,
+      "stepDurations": [
+        45,
+        8,
+        37,
+        49,
+        2,
+        23,
+        19,
+        26
+      ]
+    },
+    "expected": 49,
+    "name": "Test Case 22"
+  },
+  {
+    "inputs": {
+      "numStations": 1,
+      "stepDurations": [
+        32,
+        41,
+        15,
+        27,
+        22,
+        9,
+        48
+      ]
+    },
+    "expected": 194,
+    "name": "Test Case 23"
+  },
+  {
+    "inputs": {
+      "numStations": 1,
+      "stepDurations": [
+        45,
+        8,
+        37,
+        49,
+        2,
+        23,
+        19,
+        26
+      ]
+    },
+    "expected": 209,
+    "name": "Test Case 24"
+  },
+  {
+    "inputs": {
+      "numStations": 3,
+      "stepDurations": [
+        21,
+        14,
+        7,
+        42,
+        35,
+        28
+      ]
+    },
+    "expected": 63,
+    "name": "Test Case 25"
+  },
+  {
+    "inputs": {
+      "numStations": 4,
+      "stepDurations": [
+        37,
+        15,
+        8,
+        29,
+        43,
+        22,
+        50,
+        1
+      ]
+    },
+    "expected": 65,
+    "name": "Test Case 26"
+  },
+  {
+    "inputs": {
+      "numStations": 5,
+      "stepDurations": [
+        18,
+        33,
+        46,
+        27,
+        9,
+        12,
+        39,
+        24,
+        3
+      ]
+    },
+    "expected": 51,
+    "name": "Test Case 27"
+  },
+  {
+    "inputs": {
+      "numStations": 2,
+      "stepDurations": [
+        21,
+        14,
+        7,
+        42,
+        35,
+        28
+      ]
+    },
+    "expected": 84,
+    "name": "Test Case 28"
+  },
+  {
+    "inputs": {
+      "numStations": 3,
+      "stepDurations": [
+        37,
+        15,
+        8,
+        29,
+        43,
+        22,
+        50,
+        1
+      ]
+    },
+    "expected": 73,
+    "name": "Test Case 29"
+  },
+  {
+    "inputs": {
+      "numStations": 3,
+      "stepDurations": [
+        18,
+        33,
+        46,
+        27,
+        9,
+        12,
+        39,
+        24,
+        3
+      ]
+    },
+    "expected": 82,
+    "name": "Test Case 30"
+  }
+]

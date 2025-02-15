@@ -1,0 +1,345 @@
+[
+  {
+    "inputs": {
+      "tokens": [
+        "10"
+      ]
+    },
+    "expected": 10,
+    "name": "Test Case 1"
+  },
+  {
+    "inputs": {
+      "tokens": [
+        "10",
+        "5",
+        "+"
+      ]
+    },
+    "expected": 15,
+    "name": "Test Case 2"
+  },
+  {
+    "inputs": {
+      "tokens": [
+        "10",
+        "5",
+        "-"
+      ]
+    },
+    "expected": 5,
+    "name": "Test Case 3"
+  },
+  {
+    "inputs": {
+      "tokens": [
+        "10",
+        "5",
+        "/"
+      ]
+    },
+    "expected": 2,
+    "name": "Test Case 4"
+  },
+  {
+    "inputs": {
+      "tokens": [
+        "10",
+        "5",
+        "*"
+      ]
+    },
+    "expected": 50,
+    "name": "Test Case 5"
+  },
+  {
+    "inputs": {
+      "tokens": [
+        "10",
+        "-5",
+        "*"
+      ]
+    },
+    "expected": -50,
+    "name": "Test Case 6"
+  },
+  {
+    "inputs": {
+      "tokens": [
+        "-10",
+        "5",
+        "*"
+      ]
+    },
+    "expected": -50,
+    "name": "Test Case 7"
+  },
+  {
+    "inputs": {
+      "tokens": [
+        "-10",
+        "-5",
+        "*"
+      ]
+    },
+    "expected": 50,
+    "name": "Test Case 8"
+  },
+  {
+    "inputs": {
+      "tokens": [
+        "10",
+        "-5",
+        "/"
+      ]
+    },
+    "expected": -2,
+    "name": "Test Case 9"
+  },
+  {
+    "inputs": {
+      "tokens": [
+        "-10",
+        "5",
+        "/"
+      ]
+    },
+    "expected": -2,
+    "name": "Test Case 10"
+  },
+  {
+    "inputs": {
+      "tokens": [
+        "-10",
+        "-5",
+        "/"
+      ]
+    },
+    "expected": 2,
+    "name": "Test Case 11"
+  },
+  {
+    "inputs": {
+      "tokens": [
+        "10",
+        "3",
+        "/"
+      ]
+    },
+    "expected": 3,
+    "name": "Test Case 12"
+  },
+  {
+    "inputs": {
+      "tokens": [
+        "10",
+        "-3",
+        "/"
+      ]
+    },
+    "expected": -3,
+    "name": "Test Case 13"
+  },
+  {
+    "inputs": {
+      "tokens": [
+        "10",
+        "-5",
+        "+"
+      ]
+    },
+    "expected": 5,
+    "name": "Test Case 14"
+  },
+  {
+    "inputs": {
+      "tokens": [
+        "-10",
+        "5",
+        "+"
+      ]
+    },
+    "expected": -5,
+    "name": "Test Case 15"
+  },
+  {
+    "inputs": {
+      "tokens": [
+        "-10",
+        "-5",
+        "+"
+      ]
+    },
+    "expected": -15,
+    "name": "Test Case 16"
+  },
+  {
+    "inputs": {
+      "tokens": [
+        "10",
+        "-5",
+        "-"
+      ]
+    },
+    "expected": 15,
+    "name": "Test Case 17"
+  },
+  {
+    "inputs": {
+      "tokens": [
+        "-10",
+        "5",
+        "-"
+      ]
+    },
+    "expected": -15,
+    "name": "Test Case 18"
+  },
+  {
+    "inputs": {
+      "tokens": [
+        "-10",
+        "-5",
+        "-"
+      ]
+    },
+    "expected": -5,
+    "name": "Test Case 19"
+  },
+  {
+    "inputs": {
+      "tokens": [
+        "3",
+        "2",
+        "+",
+        "7",
+        "*"
+      ]
+    },
+    "expected": 35,
+    "name": "Test Case 20"
+  },
+  {
+    "inputs": {
+      "tokens": [
+        "4",
+        "2",
+        "/",
+        "7",
+        "-"
+      ]
+    },
+    "expected": -5,
+    "name": "Test Case 21"
+  },
+  {
+    "inputs": {
+      "tokens": [
+        "3",
+        "4",
+        "+",
+        "2",
+        "/",
+        "4",
+        "-"
+      ]
+    },
+    "expected": -1,
+    "name": "Test Case 22"
+  },
+  {
+    "inputs": {
+      "tokens": [
+        "4",
+        "-7",
+        "2",
+        "6",
+        "+",
+        "10",
+        "-",
+        "/",
+        "*",
+        "2",
+        "+",
+        "3",
+        "*"
+      ]
+    },
+    "expected": 42,
+    "name": "Test Case 23"
+  },
+  {
+    "inputs": {
+      "tokens": [
+        "4",
+        "-7",
+        "2",
+        "6",
+        "+",
+        "10",
+        "-",
+        "/",
+        "*",
+        "2",
+        "+",
+        "3",
+        "*",
+        "0",
+        "*"
+      ]
+    },
+    "expected": 0,
+    "name": "Test Case 24"
+  },
+  {
+    "inputs": {
+      "tokens": [
+        "50",
+        "3",
+        "17",
+        "+",
+        "2",
+        "-",
+        "/"
+      ]
+    },
+    "expected": 2,
+    "name": "Test Case 25"
+  },
+  {
+    "inputs": {
+      "tokens": [
+        "0",
+        "3",
+        "17",
+        "+",
+        "2",
+        "-",
+        "/"
+      ]
+    },
+    "expected": 0,
+    "name": "Test Case 26"
+  },
+  {
+    "inputs": {
+      "tokens": [
+        "0",
+        "3",
+        "17",
+        "+",
+        "2",
+        "-",
+        "/",
+        "2",
+        "-",
+        "7",
+        "10",
+        "+",
+        "*"
+      ]
+    },
+    "expected": -34,
+    "name": "Test Case 27"
+  }
+]

@@ -1,0 +1,541 @@
+[
+  {
+    "inputs": {
+      "string": "(()))("
+    },
+    "expected": 4,
+    "name": "Test Case 1"
+  },
+  {
+    "inputs": {
+      "string": "())()(()())"
+    },
+    "expected": 8,
+    "name": "Test Case 2"
+  },
+  {
+    "inputs": {
+      "string": "()()()()()()()()()()"
+    },
+    "expected": 20,
+    "name": "Test Case 3"
+  },
+  {
+    "inputs": {
+      "string": "((()))()()()()()()()()()()"
+    },
+    "expected": 26,
+    "name": "Test Case 4"
+  },
+  {
+    "inputs": {
+      "string": "()"
+    },
+    "expected": 2,
+    "name": "Test Case 5"
+  },
+  {
+    "inputs": {
+      "string": "(())"
+    },
+    "expected": 4,
+    "name": "Test Case 6"
+  },
+  {
+    "inputs": {
+      "string": "((((((((()))))))))"
+    },
+    "expected": 18,
+    "name": "Test Case 7"
+  },
+  {
+    "inputs": {
+      "string": "((((((((((((((((()))))))))))))))))"
+    },
+    "expected": 34,
+    "name": "Test Case 8"
+  },
+  {
+    "inputs": {
+      "string": "(((()))()())))(()()()())()()"
+    },
+    "expected": 14,
+    "name": "Test Case 9"
+  },
+  {
+    "inputs": {
+      "string": "((((((()()()())()))((())))()"
+    },
+    "expected": 26,
+    "name": "Test Case 10"
+  },
+  {
+    "inputs": {
+      "string": "(("
+    },
+    "expected": 0,
+    "name": "Test Case 11"
+  },
+  {
+    "inputs": {
+      "string": "))"
+    },
+    "expected": 0,
+    "name": "Test Case 12"
+  },
+  {
+    "inputs": {
+      "string": "("
+    },
+    "expected": 0,
+    "name": "Test Case 13"
+  },
+  {
+    "inputs": {
+      "string": ")"
+    },
+    "expected": 0,
+    "name": "Test Case 14"
+  },
+  {
+    "inputs": {
+      "string": "(((((((((((((((((("
+    },
+    "expected": 0,
+    "name": "Test Case 15"
+  },
+  {
+    "inputs": {
+      "string": "))))))))))))))))))"
+    },
+    "expected": 0,
+    "name": "Test Case 16"
+  },
+  {
+    "inputs": {
+      "string": "(((((((((((((((((()"
+    },
+    "expected": 2,
+    "name": "Test Case 17"
+  },
+  {
+    "inputs": {
+      "string": "()))))))))))))))))))"
+    },
+    "expected": 2,
+    "name": "Test Case 18"
+  },
+  {
+    "inputs": {
+      "string": ")("
+    },
+    "expected": 0,
+    "name": "Test Case 19"
+  },
+  {
+    "inputs": {
+      "string": "(((((((((())))))))))"
+    },
+    "expected": 20,
+    "name": "Test Case 20"
+  },
+  {
+    "inputs": {
+      "string": "(((((((((()())))))))))"
+    },
+    "expected": 22,
+    "name": "Test Case 21"
+  },
+  {
+    "inputs": {
+      "string": "(((((((((()))))))))))"
+    },
+    "expected": 20,
+    "name": "Test Case 22"
+  },
+  {
+    "inputs": {
+      "string": "))))))))))(((((((((("
+    },
+    "expected": 0,
+    "name": "Test Case 23"
+  },
+  {
+    "inputs": {
+      "string": ""
+    },
+    "expected": 0,
+    "name": "Test Case 24"
+  },
+  {
+    "inputs": {
+      "string": "())()"
+    },
+    "expected": 2,
+    "name": "Test Case 25"
+  },
+  {
+    "inputs": {
+      "string": "()(()"
+    },
+    "expected": 2,
+    "name": "Test Case 26"
+  },
+  {
+    "inputs": {
+      "string": ")))))))()))))())(((("
+    },
+    "expected": 2,
+    "name": "Test Case 27"
+  },
+  {
+    "inputs": {
+      "string": "))())(())((())(())(("
+    },
+    "expected": 8,
+    "name": "Test Case 28"
+  },
+  {
+    "inputs": {
+      "string": ")())()(()(()())))((("
+    },
+    "expected": 12,
+    "name": "Test Case 29"
+  },
+  {
+    "inputs": {
+      "string": "((()))())()()()()))("
+    },
+    "expected": 8,
+    "name": "Test Case 30"
+  },
+  {
+    "inputs": {
+      "string": ")(())))(())()))))))("
+    },
+    "expected": 6,
+    "name": "Test Case 31"
+  },
+  {
+    "inputs": {
+      "string": "()()((((()()))()()()"
+    },
+    "expected": 14,
+    "name": "Test Case 32"
+  },
+  {
+    "inputs": {
+      "string": "()(())()(()()))((())"
+    },
+    "expected": 14,
+    "name": "Test Case 33"
+  },
+  {
+    "inputs": {
+      "string": ")(()((()()(()()()((("
+    },
+    "expected": 6,
+    "name": "Test Case 34"
+  },
+  {
+    "inputs": {
+      "string": ")())()(()))()((()))("
+    },
+    "expected": 8,
+    "name": "Test Case 35"
+  },
+  {
+    "inputs": {
+      "string": "()()))))(())((()(()("
+    },
+    "expected": 4,
+    "name": "Test Case 36"
+  },
+  {
+    "inputs": {
+      "string": "(()())())()((())())("
+    },
+    "expected": 10,
+    "name": "Test Case 37"
+  },
+  {
+    "inputs": {
+      "string": "(()))((())()))))))()"
+    },
+    "expected": 8,
+    "name": "Test Case 38"
+  },
+  {
+    "inputs": {
+      "string": "(((()()()(())((()()("
+    },
+    "expected": 10,
+    "name": "Test Case 39"
+  },
+  {
+    "inputs": {
+      "string": ")(()())((()(()())((("
+    },
+    "expected": 8,
+    "name": "Test Case 40"
+  },
+  {
+    "inputs": {
+      "string": "))()(()()()(()()()))"
+    },
+    "expected": 18,
+    "name": "Test Case 41"
+  },
+  {
+    "inputs": {
+      "string": "(((((((((((((()(()()"
+    },
+    "expected": 4,
+    "name": "Test Case 42"
+  },
+  {
+    "inputs": {
+      "string": ")))(()(()(()()()((()"
+    },
+    "expected": 6,
+    "name": "Test Case 43"
+  },
+  {
+    "inputs": {
+      "string": "()(()((()((()(((((()"
+    },
+    "expected": 2,
+    "name": "Test Case 44"
+  },
+  {
+    "inputs": {
+      "string": ")((())(((()(()()(())"
+    },
+    "expected": 8,
+    "name": "Test Case 45"
+  },
+  {
+    "inputs": {
+      "string": ")((((((()))(()))()(("
+    },
+    "expected": 14,
+    "name": "Test Case 46"
+  },
+  {
+    "inputs": {
+      "string": "()(()()(()(()))((())"
+    },
+    "expected": 12,
+    "name": "Test Case 47"
+  },
+  {
+    "inputs": {
+      "string": ")))((())()()))())(()"
+    },
+    "expected": 10,
+    "name": "Test Case 48"
+  },
+  {
+    "inputs": {
+      "string": "()())()((()()(((()))"
+    },
+    "expected": 6,
+    "name": "Test Case 49"
+  },
+  {
+    "inputs": {
+      "string": ")(()))))(()())))(()("
+    },
+    "expected": 6,
+    "name": "Test Case 50"
+  },
+  {
+    "inputs": {
+      "string": "))(()()((()))()))()("
+    },
+    "expected": 14,
+    "name": "Test Case 51"
+  },
+  {
+    "inputs": {
+      "string": ")()()))()(())))))))("
+    },
+    "expected": 6,
+    "name": "Test Case 52"
+  },
+  {
+    "inputs": {
+      "string": "(((())(())()())()()("
+    },
+    "expected": 18,
+    "name": "Test Case 53"
+  },
+  {
+    "inputs": {
+      "string": "()()(()()())((((()))"
+    },
+    "expected": 12,
+    "name": "Test Case 54"
+  },
+  {
+    "inputs": {
+      "string": "((()()((()(((()))())"
+    },
+    "expected": 12,
+    "name": "Test Case 55"
+  },
+  {
+    "inputs": {
+      "string": "))(())()())())))()))"
+    },
+    "expected": 8,
+    "name": "Test Case 56"
+  },
+  {
+    "inputs": {
+      "string": "(()(()()())())()((()"
+    },
+    "expected": 16,
+    "name": "Test Case 57"
+  },
+  {
+    "inputs": {
+      "string": "()()())))()()()())()"
+    },
+    "expected": 8,
+    "name": "Test Case 58"
+  },
+  {
+    "inputs": {
+      "string": "))((((()))()))()))))"
+    },
+    "expected": 14,
+    "name": "Test Case 59"
+  },
+  {
+    "inputs": {
+      "string": ")())(())((((((()((()"
+    },
+    "expected": 4,
+    "name": "Test Case 60"
+  },
+  {
+    "inputs": {
+      "string": ")((()())))((()((()))"
+    },
+    "expected": 8,
+    "name": "Test Case 61"
+  },
+  {
+    "inputs": {
+      "string": "())(())))(((()()((()"
+    },
+    "expected": 4,
+    "name": "Test Case 62"
+  },
+  {
+    "inputs": {
+      "string": ")()))((()))(((((((()"
+    },
+    "expected": 6,
+    "name": "Test Case 63"
+  },
+  {
+    "inputs": {
+      "string": ")((((((((()())((())("
+    },
+    "expected": 6,
+    "name": "Test Case 64"
+  },
+  {
+    "inputs": {
+      "string": ")(())))((()()()(((()"
+    },
+    "expected": 6,
+    "name": "Test Case 65"
+  },
+  {
+    "inputs": {
+      "string": ")()()))((((())))((()"
+    },
+    "expected": 8,
+    "name": "Test Case 66"
+  },
+  {
+    "inputs": {
+      "string": "(()(())(()((()))()()"
+    },
+    "expected": 12,
+    "name": "Test Case 67"
+  },
+  {
+    "inputs": {
+      "string": "(((()(((()()))((())("
+    },
+    "expected": 8,
+    "name": "Test Case 68"
+  },
+  {
+    "inputs": {
+      "string": ")()()())()))(())()()"
+    },
+    "expected": 8,
+    "name": "Test Case 69"
+  },
+  {
+    "inputs": {
+      "string": "((()))())(((()((())("
+    },
+    "expected": 8,
+    "name": "Test Case 70"
+  },
+  {
+    "inputs": {
+      "string": ")((((()()(()))))()))"
+    },
+    "expected": 18,
+    "name": "Test Case 71"
+  },
+  {
+    "inputs": {
+      "string": "((()(())))))((()))(("
+    },
+    "expected": 10,
+    "name": "Test Case 72"
+  },
+  {
+    "inputs": {
+      "string": "(()()))())()()(())(("
+    },
+    "expected": 8,
+    "name": "Test Case 73"
+  },
+  {
+    "inputs": {
+      "string": "(()))((())()()(((((("
+    },
+    "expected": 8,
+    "name": "Test Case 74"
+  },
+  {
+    "inputs": {
+      "string": "((()(()))(((((())((("
+    },
+    "expected": 8,
+    "name": "Test Case 75"
+  },
+  {
+    "inputs": {
+      "string": "())))))())(((())((()"
+    },
+    "expected": 4,
+    "name": "Test Case 76"
+  },
+  {
+    "inputs": {
+      "string": "(()(()"
+    },
+    "expected": 2,
+    "name": "Test Case 77"
+  }
+]

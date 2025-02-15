@@ -1,0 +1,98 @@
+[
+  {
+    "inputs": {
+      "string": "abaxyzzyxf"
+    },
+    "expected": "xyzzyx",
+    "name": "Test Case 1"
+  },
+  {
+    "inputs": {
+      "string": "a"
+    },
+    "expected": "a",
+    "name": "Test Case 2"
+  },
+  {
+    "inputs": {
+      "string": "it's highnoon"
+    },
+    "expected": "noon",
+    "name": "Test Case 3"
+  },
+  {
+    "inputs": {
+      "string": "noon high it is"
+    },
+    "expected": "noon",
+    "name": "Test Case 4"
+  },
+  {
+    "inputs": {
+      "string": "abccbait's highnoon"
+    },
+    "expected": "abccba",
+    "name": "Test Case 5"
+  },
+  {
+    "inputs": {
+      "string": "abcdefgfedcbazzzzzzzzzzzzzzzzzzzz"
+    },
+    "expected": "zzzzzzzzzzzzzzzzzzzz",
+    "name": "Test Case 6"
+  },
+  {
+    "inputs": {
+      "string": "abcdefgfedcba"
+    },
+    "expected": "abcdefgfedcba",
+    "name": "Test Case 7"
+  },
+  {
+    "inputs": {
+      "string": "abcdefghfedcbaa"
+    },
+    "expected": "aa",
+    "name": "Test Case 8"
+  },
+  {
+    "inputs": {
+      "string": "abcdefggfedcba"
+    },
+    "expected": "abcdefggfedcba",
+    "name": "Test Case 9"
+  },
+  {
+    "inputs": {
+      "string": "zzzzzzz2345abbbba5432zzbbababa"
+    },
+    "expected": "zz2345abbbba5432zz",
+    "name": "Test Case 10"
+  },
+  {
+    "inputs": {
+      "string": "z234a5abbbba54a32z"
+    },
+    "name": "Test Case 11"
+  },
+  {
+    "inputs": {
+      "string": "z234a5abbba54a32z"
+    },
+    "name": "Test Case 12"
+  },
+  {
+    "inputs": {
+      "string": "ab12365456321bb"
+    },
+    "expected": "b12365456321b",
+    "name": "Test Case 13"
+  },
+  {
+    "inputs": {
+      "string": "aca"
+    },
+    "expected": "aca",
+    "name": "Test Case 14"
+  }
+]

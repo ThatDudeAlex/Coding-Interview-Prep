@@ -1,0 +1,259 @@
+[
+  {
+    "inputs": {
+      "seats": [
+        1
+      ]
+    },
+    "expected": -1,
+    "name": "Test Case 1"
+  },
+  {
+    "inputs": {
+      "seats": [
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    "expected": 4,
+    "name": "Test Case 2"
+  },
+  {
+    "inputs": {
+      "seats": [
+        1,
+        0,
+        1
+      ]
+    },
+    "expected": 1,
+    "name": "Test Case 3"
+  },
+  {
+    "inputs": {
+      "seats": [
+        1,
+        0,
+        0,
+        1
+      ]
+    },
+    "expected": 1,
+    "name": "Test Case 4"
+  },
+  {
+    "inputs": {
+      "seats": [
+        1,
+        1,
+        1
+      ]
+    },
+    "expected": -1,
+    "name": "Test Case 5"
+  },
+  {
+    "inputs": {
+      "seats": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1
+      ]
+    },
+    "expected": 1,
+    "name": "Test Case 6"
+  },
+  {
+    "inputs": {
+      "seats": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1
+      ]
+    },
+    "expected": 3,
+    "name": "Test Case 7"
+  },
+  {
+    "inputs": {
+      "seats": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1
+      ]
+    },
+    "expected": 4,
+    "name": "Test Case 8"
+  },
+  {
+    "inputs": {
+      "seats": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    "expected": 4,
+    "name": "Test Case 9"
+  },
+  {
+    "inputs": {
+      "seats": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    "expected": 13,
+    "name": "Test Case 10"
+  },
+  {
+    "inputs": {
+      "seats": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    "expected": 13,
+    "name": "Test Case 11"
+  },
+  {
+    "inputs": {
+      "seats": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    "expected": 6,
+    "name": "Test Case 12"
+  },
+  {
+    "inputs": {
+      "seats": [
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        0,
+        1
+      ]
+    },
+    "expected": 3,
+    "name": "Test Case 13"
+  },
+  {
+    "inputs": {
+      "seats": [
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1
+      ]
+    },
+    "expected": 5,
+    "name": "Test Case 14"
+  }
+]

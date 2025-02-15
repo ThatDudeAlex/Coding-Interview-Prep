@@ -1,0 +1,227 @@
+[
+  {
+    "inputs": {
+      "k": 2,
+      "prices": [
+        5,
+        11,
+        3,
+        50,
+        60,
+        90
+      ]
+    },
+    "expected": 93,
+    "name": "Test Case 1"
+  },
+  {
+    "inputs": {
+      "k": 1,
+      "prices": []
+    },
+    "expected": 0,
+    "name": "Test Case 2"
+  },
+  {
+    "inputs": {
+      "k": 1,
+      "prices": [
+        1
+      ]
+    },
+    "expected": 0,
+    "name": "Test Case 3"
+  },
+  {
+    "inputs": {
+      "k": 1,
+      "prices": [
+        1,
+        10
+      ]
+    },
+    "expected": 9,
+    "name": "Test Case 4"
+  },
+  {
+    "inputs": {
+      "k": 3,
+      "prices": [
+        1,
+        10
+      ]
+    },
+    "expected": 9,
+    "name": "Test Case 5"
+  },
+  {
+    "inputs": {
+      "k": 1,
+      "prices": [
+        3,
+        2,
+        5,
+        7,
+        1,
+        3,
+        7
+      ]
+    },
+    "expected": 6,
+    "name": "Test Case 6"
+  },
+  {
+    "inputs": {
+      "k": 3,
+      "prices": [
+        5,
+        11,
+        3,
+        50,
+        60,
+        90
+      ]
+    },
+    "expected": 93,
+    "name": "Test Case 7"
+  },
+  {
+    "inputs": {
+      "k": 2,
+      "prices": [
+        5,
+        11,
+        3,
+        50,
+        40,
+        90
+      ]
+    },
+    "expected": 97,
+    "name": "Test Case 8"
+  },
+  {
+    "inputs": {
+      "k": 3,
+      "prices": [
+        5,
+        11,
+        3,
+        50,
+        40,
+        90
+      ]
+    },
+    "expected": 103,
+    "name": "Test Case 9"
+  },
+  {
+    "inputs": {
+      "k": 2,
+      "prices": [
+        50,
+        25,
+        12,
+        4,
+        3,
+        10,
+        1,
+        100
+      ]
+    },
+    "expected": 106,
+    "name": "Test Case 10"
+  },
+  {
+    "inputs": {
+      "k": 5,
+      "prices": [
+        100,
+        99,
+        98,
+        97,
+        1
+      ]
+    },
+    "expected": 0,
+    "name": "Test Case 11"
+  },
+  {
+    "inputs": {
+      "k": 5,
+      "prices": [
+        1,
+        100,
+        2,
+        200,
+        3,
+        300,
+        4,
+        400,
+        5,
+        500
+      ]
+    },
+    "expected": 1485,
+    "name": "Test Case 12"
+  },
+  {
+    "inputs": {
+      "k": 5,
+      "prices": [
+        1,
+        100,
+        101,
+        200,
+        201,
+        300,
+        301,
+        400,
+        401,
+        500
+      ]
+    },
+    "expected": 499,
+    "name": "Test Case 13"
+  },
+  {
+    "inputs": {
+      "k": 4,
+      "prices": [
+        1,
+        25,
+        24,
+        23,
+        12,
+        36,
+        14,
+        40,
+        31,
+        41,
+        5
+      ]
+    },
+    "expected": 84,
+    "name": "Test Case 14"
+  },
+  {
+    "inputs": {
+      "k": 2,
+      "prices": [
+        1,
+        25,
+        24,
+        23,
+        12,
+        36,
+        14,
+        40,
+        31,
+        41,
+        5
+      ]
+    },
+    "expected": 62,
+    "name": "Test Case 15"
+  }
+]

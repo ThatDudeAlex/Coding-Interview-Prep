@@ -1,0 +1,418 @@
+[
+  {
+    "inputs": {
+      "classMethodsToCall": [
+        {
+          "arguments": [
+            "abc"
+          ],
+          "method": "contains"
+        }
+      ],
+      "string": "babc"
+    },
+    "expected": {
+      "methodCallResults": [
+        {
+          "arguments": [
+            "abc"
+          ],
+          "method": "contains",
+          "output": true
+        }
+      ],
+      "trie": {
+        "a": {
+          "b": {
+            "c": {
+              "*": true
+            }
+          }
+        },
+        "b": {
+          "a": {
+            "b": {
+              "c": {
+                "*": true
+              }
+            }
+          },
+          "c": {
+            "*": true
+          }
+        },
+        "c": {
+          "*": true
+        }
+      }
+    },
+    "name": "Test Case 1"
+  },
+  {
+    "inputs": {
+      "classMethodsToCall": [
+        {
+          "arguments": [
+            "t"
+          ],
+          "method": "contains"
+        },
+        {
+          "arguments": [
+            "st"
+          ],
+          "method": "contains"
+        },
+        {
+          "arguments": [
+            "est"
+          ],
+          "method": "contains"
+        },
+        {
+          "arguments": [
+            "test"
+          ],
+          "method": "contains"
+        },
+        {
+          "arguments": [
+            "tes"
+          ],
+          "method": "contains"
+        }
+      ],
+      "string": "test"
+    },
+    "expected": {
+      "methodCallResults": [
+        {
+          "arguments": [
+            "t"
+          ],
+          "method": "contains",
+          "output": true
+        },
+        {
+          "arguments": [
+            "st"
+          ],
+          "method": "contains",
+          "output": true
+        },
+        {
+          "arguments": [
+            "est"
+          ],
+          "method": "contains",
+          "output": true
+        },
+        {
+          "arguments": [
+            "test"
+          ],
+          "method": "contains",
+          "output": true
+        },
+        {
+          "arguments": [
+            "tes"
+          ],
+          "method": "contains",
+          "output": false
+        }
+      ],
+      "trie": {
+        "e": {
+          "s": {
+            "t": {
+              "*": true
+            }
+          }
+        },
+        "s": {
+          "t": {
+            "*": true
+          }
+        },
+        "t": {
+          "*": true,
+          "e": {
+            "s": {
+              "t": {
+                "*": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "name": "Test Case 2"
+  },
+  {
+    "inputs": {
+      "classMethodsToCall": [
+        {
+          "arguments": [
+            "e"
+          ],
+          "method": "contains"
+        },
+        {
+          "arguments": [
+            "le"
+          ],
+          "method": "contains"
+        },
+        {
+          "arguments": [
+            "ble"
+          ],
+          "method": "contains"
+        },
+        {
+          "arguments": [
+            "ible"
+          ],
+          "method": "contains"
+        },
+        {
+          "arguments": [
+            "sible"
+          ],
+          "method": "contains"
+        },
+        {
+          "arguments": [
+            "isible"
+          ],
+          "method": "contains"
+        },
+        {
+          "arguments": [
+            "visible"
+          ],
+          "method": "contains"
+        },
+        {
+          "arguments": [
+            "nvisible"
+          ],
+          "method": "contains"
+        },
+        {
+          "arguments": [
+            "invisible"
+          ],
+          "method": "contains"
+        },
+        {
+          "arguments": [
+            "nvisibl"
+          ],
+          "method": "contains"
+        }
+      ],
+      "string": "invisible"
+    },
+    "name": "Test Case 3"
+  },
+  {
+    "inputs": {
+      "classMethodsToCall": [
+        {
+          "arguments": [
+            "9"
+          ],
+          "method": "contains"
+        },
+        {
+          "arguments": [
+            "89"
+          ],
+          "method": "contains"
+        },
+        {
+          "arguments": [
+            "789"
+          ],
+          "method": "contains"
+        },
+        {
+          "arguments": [
+            "6789"
+          ],
+          "method": "contains"
+        },
+        {
+          "arguments": [
+            "56789"
+          ],
+          "method": "contains"
+        },
+        {
+          "arguments": [
+            "456789"
+          ],
+          "method": "contains"
+        },
+        {
+          "arguments": [
+            "3456789"
+          ],
+          "method": "contains"
+        },
+        {
+          "arguments": [
+            "23456789"
+          ],
+          "method": "contains"
+        },
+        {
+          "arguments": [
+            "123456789"
+          ],
+          "method": "contains"
+        },
+        {
+          "arguments": [
+            "45567"
+          ],
+          "method": "contains"
+        }
+      ],
+      "string": "1234556789"
+    },
+    "name": "Test Case 4"
+  },
+  {
+    "inputs": {
+      "classMethodsToCall": [
+        {
+          "arguments": [
+            "t"
+          ],
+          "method": "contains"
+        },
+        {
+          "arguments": [
+            "st"
+          ],
+          "method": "contains"
+        },
+        {
+          "arguments": [
+            "est"
+          ],
+          "method": "contains"
+        },
+        {
+          "arguments": [
+            "test"
+          ],
+          "method": "contains"
+        },
+        {
+          "arguments": [
+            "ttest"
+          ],
+          "method": "contains"
+        },
+        {
+          "arguments": [
+            "sttest"
+          ],
+          "method": "contains"
+        },
+        {
+          "arguments": [
+            "esttest"
+          ],
+          "method": "contains"
+        },
+        {
+          "arguments": [
+            "testtest"
+          ],
+          "method": "contains"
+        },
+        {
+          "arguments": [
+            "tt"
+          ],
+          "method": "contains"
+        }
+      ],
+      "string": "testtest"
+    },
+    "name": "Test Case 5"
+  },
+  {
+    "inputs": {
+      "classMethodsToCall": [
+        {
+          "arguments": [
+            "t"
+          ],
+          "method": "contains"
+        },
+        {
+          "arguments": [
+            "tt"
+          ],
+          "method": "contains"
+        },
+        {
+          "arguments": [
+            "ttt"
+          ],
+          "method": "contains"
+        },
+        {
+          "arguments": [
+            "tttt"
+          ],
+          "method": "contains"
+        },
+        {
+          "arguments": [
+            "ttttt"
+          ],
+          "method": "contains"
+        },
+        {
+          "arguments": [
+            "tttttt"
+          ],
+          "method": "contains"
+        },
+        {
+          "arguments": [
+            "ttttttt"
+          ],
+          "method": "contains"
+        },
+        {
+          "arguments": [
+            "tttttttt"
+          ],
+          "method": "contains"
+        },
+        {
+          "arguments": [
+            "ttttttttt"
+          ],
+          "method": "contains"
+        },
+        {
+          "arguments": [
+            "vvv"
+          ],
+          "method": "contains"
+        }
+      ],
+      "string": "ttttttttt"
+    },
+    "name": "Test Case 6"
+  }
+]

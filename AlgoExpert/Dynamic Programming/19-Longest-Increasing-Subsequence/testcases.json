@@ -1,0 +1,181 @@
+[
+  {
+    "inputs": {
+      "array": [
+        5,
+        7,
+        -24,
+        12,
+        10,
+        2,
+        3,
+        12,
+        5,
+        6,
+        35
+      ]
+    },
+    "expected": [
+      -24,
+      2,
+      3,
+      5,
+      6,
+      35
+    ],
+    "name": "Test Case 1"
+  },
+  {
+    "inputs": {
+      "array": [
+        -1
+      ]
+    },
+    "expected": [
+      -1
+    ],
+    "name": "Test Case 2"
+  },
+  {
+    "inputs": {
+      "array": [
+        -1,
+        2
+      ]
+    },
+    "expected": [
+      -1,
+      2
+    ],
+    "name": "Test Case 3"
+  },
+  {
+    "inputs": {
+      "array": [
+        -1,
+        2,
+        1,
+        2
+      ]
+    },
+    "expected": [
+      -1,
+      1,
+      2
+    ],
+    "name": "Test Case 4"
+  },
+  {
+    "inputs": {
+      "array": [
+        1,
+        5,
+        -1,
+        10
+      ]
+    },
+    "expected": [
+      1,
+      5,
+      10
+    ],
+    "name": "Test Case 5"
+  },
+  {
+    "inputs": {
+      "array": [
+        1,
+        5,
+        -1,
+        0,
+        6,
+        2,
+        4
+      ]
+    },
+    "expected": [
+      -1,
+      0,
+      2,
+      4
+    ],
+    "name": "Test Case 6"
+  },
+  {
+    "inputs": {
+      "array": [
+        3,
+        4,
+        -1
+      ]
+    },
+    "expected": [
+      3,
+      4
+    ],
+    "name": "Test Case 7"
+  },
+  {
+    "inputs": {
+      "array": [
+        29,
+        2,
+        32,
+        12,
+        30,
+        31
+      ]
+    },
+    "expected": [
+      2,
+      12,
+      30,
+      31
+    ],
+    "name": "Test Case 8"
+  },
+  {
+    "inputs": {
+      "array": [
+        10,
+        22,
+        9,
+        33,
+        21,
+        61,
+        41,
+        60,
+        80
+      ]
+    },
+    "expected": [
+      10,
+      22,
+      33,
+      41,
+      60,
+      80
+    ],
+    "name": "Test Case 9"
+  },
+  {
+    "inputs": {
+      "array": [
+        100,
+        1,
+        2,
+        3,
+        4,
+        101
+      ]
+    },
+    "expected": [
+      1,
+      2,
+      3,
+      4,
+      101
+    ],
+    "name": "Test Case 10"
+  }
+]

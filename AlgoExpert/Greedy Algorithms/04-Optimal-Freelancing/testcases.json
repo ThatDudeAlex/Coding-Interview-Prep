@@ -1,0 +1,317 @@
+[
+  {
+    "inputs": {
+      "jobs": []
+    },
+    "expected": 0,
+    "name": "Test Case 1"
+  },
+  {
+    "inputs": {
+      "jobs": [
+        {
+          "deadline": 1,
+          "payment": 1
+        }
+      ]
+    },
+    "expected": 1,
+    "name": "Test Case 2"
+  },
+  {
+    "inputs": {
+      "jobs": [
+        {
+          "deadline": 1,
+          "payment": 2
+        },
+        {
+          "deadline": 1,
+          "payment": 1
+        }
+      ]
+    },
+    "expected": 2,
+    "name": "Test Case 3"
+  },
+  {
+    "inputs": {
+      "jobs": [
+        {
+          "deadline": 1,
+          "payment": 1
+        },
+        {
+          "deadline": 1,
+          "payment": 2
+        }
+      ]
+    },
+    "expected": 2,
+    "name": "Test Case 4"
+  },
+  {
+    "inputs": {
+      "jobs": [
+        {
+          "deadline": 1,
+          "payment": 1
+        },
+        {
+          "deadline": 2,
+          "payment": 1
+        }
+      ]
+    },
+    "expected": 2,
+    "name": "Test Case 5"
+  },
+  {
+    "inputs": {
+      "jobs": [
+        {
+          "deadline": 1,
+          "payment": 1
+        },
+        {
+          "deadline": 2,
+          "payment": 2
+        },
+        {
+          "deadline": 2,
+          "payment": 1
+        }
+      ]
+    },
+    "expected": 3,
+    "name": "Test Case 6"
+  },
+  {
+    "inputs": {
+      "jobs": [
+        {
+          "deadline": 8,
+          "payment": 3
+        },
+        {
+          "deadline": 1,
+          "payment": 1
+        },
+        {
+          "deadline": 1,
+          "payment": 2
+        }
+      ]
+    },
+    "expected": 5,
+    "name": "Test Case 7"
+  },
+  {
+    "inputs": {
+      "jobs": [
+        {
+          "deadline": 2,
+          "payment": 2
+        },
+        {
+          "deadline": 4,
+          "payment": 3
+        },
+        {
+          "deadline": 5,
+          "payment": 1
+        },
+        {
+          "deadline": 7,
+          "payment": 2
+        },
+        {
+          "deadline": 3,
+          "payment": 1
+        },
+        {
+          "deadline": 3,
+          "payment": 2
+        },
+        {
+          "deadline": 1,
+          "payment": 3
+        }
+      ]
+    },
+    "expected": 13,
+    "name": "Test Case 8"
+  },
+  {
+    "inputs": {
+      "jobs": [
+        {
+          "deadline": 2,
+          "payment": 1
+        },
+        {
+          "deadline": 2,
+          "payment": 2
+        },
+        {
+          "deadline": 2,
+          "payment": 3
+        },
+        {
+          "deadline": 2,
+          "payment": 4
+        },
+        {
+          "deadline": 2,
+          "payment": 5
+        },
+        {
+          "deadline": 2,
+          "payment": 6
+        },
+        {
+          "deadline": 2,
+          "payment": 7
+        }
+      ]
+    },
+    "expected": 13,
+    "name": "Test Case 9"
+  },
+  {
+    "inputs": {
+      "jobs": [
+        {
+          "deadline": 8,
+          "payment": 1
+        },
+        {
+          "deadline": 6,
+          "payment": 4
+        },
+        {
+          "deadline": 1,
+          "payment": 2
+        },
+        {
+          "deadline": 1,
+          "payment": 3
+        },
+        {
+          "deadline": 2,
+          "payment": 3
+        },
+        {
+          "deadline": 5,
+          "payment": 2
+        }
+      ]
+    },
+    "expected": 13,
+    "name": "Test Case 10"
+  },
+  {
+    "inputs": {
+      "jobs": [
+        {
+          "deadline": 2,
+          "payment": 1
+        },
+        {
+          "deadline": 1,
+          "payment": 4
+        },
+        {
+          "deadline": 3,
+          "payment": 2
+        },
+        {
+          "deadline": 1,
+          "payment": 3
+        },
+        {
+          "deadline": 4,
+          "payment": 3
+        },
+        {
+          "deadline": 4,
+          "payment": 2
+        },
+        {
+          "deadline": 4,
+          "payment": 1
+        },
+        {
+          "deadline": 5,
+          "payment": 4
+        },
+        {
+          "deadline": 8,
+          "payment": 1
+        }
+      ]
+    },
+    "expected": 16,
+    "name": "Test Case 11"
+  },
+  {
+    "inputs": {
+      "jobs": [
+        {
+          "deadline": 10,
+          "payment": 1
+        }
+      ]
+    },
+    "expected": 1,
+    "name": "Test Case 12"
+  },
+  {
+    "inputs": {
+      "jobs": [
+        {
+          "deadline": 1,
+          "payment": 1
+        },
+        {
+          "deadline": 2,
+          "payment": 1
+        },
+        {
+          "deadline": 3,
+          "payment": 1
+        },
+        {
+          "deadline": 4,
+          "payment": 1
+        },
+        {
+          "deadline": 5,
+          "payment": 1
+        },
+        {
+          "deadline": 6,
+          "payment": 1
+        },
+        {
+          "deadline": 7,
+          "payment": 1
+        },
+        {
+          "deadline": 8,
+          "payment": 1
+        },
+        {
+          "deadline": 9,
+          "payment": 1
+        },
+        {
+          "deadline": 10,
+          "payment": 1
+        }
+      ]
+    },
+    "expected": 7,
+    "name": "Test Case 13"
+  }
+]

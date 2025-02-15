@@ -1,0 +1,2427 @@
+[
+  {
+    "inputs": {
+      "orgChart": {
+        "nodes": [
+          {
+            "directReports": [
+              "B",
+              "C"
+            ],
+            "id": "A",
+            "name": "A"
+          },
+          {
+            "directReports": [
+              "D",
+              "E"
+            ],
+            "id": "B",
+            "name": "B"
+          },
+          {
+            "directReports": [
+              "F",
+              "G"
+            ],
+            "id": "C",
+            "name": "C"
+          },
+          {
+            "directReports": [
+              "H",
+              "I"
+            ],
+            "id": "D",
+            "name": "D"
+          },
+          {
+            "directReports": [],
+            "id": "E",
+            "name": "E"
+          },
+          {
+            "directReports": [],
+            "id": "F",
+            "name": "F"
+          },
+          {
+            "directReports": [],
+            "id": "G",
+            "name": "G"
+          },
+          {
+            "directReports": [],
+            "id": "H",
+            "name": "H"
+          },
+          {
+            "directReports": [],
+            "id": "I",
+            "name": "I"
+          }
+        ]
+      },
+      "reportOne": "E",
+      "reportTwo": "I",
+      "topManager": "A"
+    },
+    "expected": {
+      "nodeId": "B"
+    },
+    "name": "Test Case 1"
+  },
+  {
+    "inputs": {
+      "orgChart": {
+        "nodes": [
+          {
+            "directReports": [
+              "B",
+              "C",
+              "D",
+              "E",
+              "F"
+            ],
+            "id": "A",
+            "name": "A"
+          },
+          {
+            "directReports": [
+              "G",
+              "H",
+              "I"
+            ],
+            "id": "B",
+            "name": "B"
+          },
+          {
+            "directReports": [
+              "J"
+            ],
+            "id": "C",
+            "name": "C"
+          },
+          {
+            "directReports": [
+              "K",
+              "L"
+            ],
+            "id": "D",
+            "name": "D"
+          },
+          {
+            "directReports": [],
+            "id": "E",
+            "name": "E"
+          },
+          {
+            "directReports": [
+              "M",
+              "N"
+            ],
+            "id": "F",
+            "name": "F"
+          },
+          {
+            "directReports": [],
+            "id": "G",
+            "name": "G"
+          },
+          {
+            "directReports": [
+              "O",
+              "P",
+              "Q",
+              "R"
+            ],
+            "id": "H",
+            "name": "H"
+          },
+          {
+            "directReports": [],
+            "id": "I",
+            "name": "I"
+          },
+          {
+            "directReports": [],
+            "id": "J",
+            "name": "J"
+          },
+          {
+            "directReports": [
+              "S"
+            ],
+            "id": "K",
+            "name": "K"
+          },
+          {
+            "directReports": [],
+            "id": "L",
+            "name": "L"
+          },
+          {
+            "directReports": [],
+            "id": "M",
+            "name": "M"
+          },
+          {
+            "directReports": [],
+            "id": "N",
+            "name": "N"
+          },
+          {
+            "directReports": [],
+            "id": "O",
+            "name": "O"
+          },
+          {
+            "directReports": [
+              "T",
+              "U"
+            ],
+            "id": "P",
+            "name": "P"
+          },
+          {
+            "directReports": [],
+            "id": "Q",
+            "name": "Q"
+          },
+          {
+            "directReports": [
+              "V"
+            ],
+            "id": "R",
+            "name": "R"
+          },
+          {
+            "directReports": [],
+            "id": "S",
+            "name": "S"
+          },
+          {
+            "directReports": [],
+            "id": "T",
+            "name": "T"
+          },
+          {
+            "directReports": [],
+            "id": "U",
+            "name": "U"
+          },
+          {
+            "directReports": [
+              "W",
+              "X",
+              "Y"
+            ],
+            "id": "V",
+            "name": "V"
+          },
+          {
+            "directReports": [],
+            "id": "W",
+            "name": "W"
+          },
+          {
+            "directReports": [
+              "Z"
+            ],
+            "id": "X",
+            "name": "X"
+          },
+          {
+            "directReports": [],
+            "id": "Y",
+            "name": "Y"
+          },
+          {
+            "directReports": [],
+            "id": "Z",
+            "name": "Z"
+          }
+        ]
+      },
+      "reportOne": "A",
+      "reportTwo": "B",
+      "topManager": "A"
+    },
+    "expected": {
+      "nodeId": "A"
+    },
+    "name": "Test Case 2"
+  },
+  {
+    "inputs": {
+      "orgChart": {
+        "nodes": [
+          {
+            "directReports": [
+              "B",
+              "C",
+              "D",
+              "E",
+              "F"
+            ],
+            "id": "A",
+            "name": "A"
+          },
+          {
+            "directReports": [
+              "G",
+              "H",
+              "I"
+            ],
+            "id": "B",
+            "name": "B"
+          },
+          {
+            "directReports": [
+              "J"
+            ],
+            "id": "C",
+            "name": "C"
+          },
+          {
+            "directReports": [
+              "K",
+              "L"
+            ],
+            "id": "D",
+            "name": "D"
+          },
+          {
+            "directReports": [],
+            "id": "E",
+            "name": "E"
+          },
+          {
+            "directReports": [
+              "M",
+              "N"
+            ],
+            "id": "F",
+            "name": "F"
+          },
+          {
+            "directReports": [],
+            "id": "G",
+            "name": "G"
+          },
+          {
+            "directReports": [
+              "O",
+              "P",
+              "Q",
+              "R"
+            ],
+            "id": "H",
+            "name": "H"
+          },
+          {
+            "directReports": [],
+            "id": "I",
+            "name": "I"
+          },
+          {
+            "directReports": [],
+            "id": "J",
+            "name": "J"
+          },
+          {
+            "directReports": [
+              "S"
+            ],
+            "id": "K",
+            "name": "K"
+          },
+          {
+            "directReports": [],
+            "id": "L",
+            "name": "L"
+          },
+          {
+            "directReports": [],
+            "id": "M",
+            "name": "M"
+          },
+          {
+            "directReports": [],
+            "id": "N",
+            "name": "N"
+          },
+          {
+            "directReports": [],
+            "id": "O",
+            "name": "O"
+          },
+          {
+            "directReports": [
+              "T",
+              "U"
+            ],
+            "id": "P",
+            "name": "P"
+          },
+          {
+            "directReports": [],
+            "id": "Q",
+            "name": "Q"
+          },
+          {
+            "directReports": [
+              "V"
+            ],
+            "id": "R",
+            "name": "R"
+          },
+          {
+            "directReports": [],
+            "id": "S",
+            "name": "S"
+          },
+          {
+            "directReports": [],
+            "id": "T",
+            "name": "T"
+          },
+          {
+            "directReports": [],
+            "id": "U",
+            "name": "U"
+          },
+          {
+            "directReports": [
+              "W",
+              "X",
+              "Y"
+            ],
+            "id": "V",
+            "name": "V"
+          },
+          {
+            "directReports": [],
+            "id": "W",
+            "name": "W"
+          },
+          {
+            "directReports": [
+              "Z"
+            ],
+            "id": "X",
+            "name": "X"
+          },
+          {
+            "directReports": [],
+            "id": "Y",
+            "name": "Y"
+          },
+          {
+            "directReports": [],
+            "id": "Z",
+            "name": "Z"
+          }
+        ]
+      },
+      "reportOne": "B",
+      "reportTwo": "F",
+      "topManager": "A"
+    },
+    "expected": {
+      "nodeId": "A"
+    },
+    "name": "Test Case 3"
+  },
+  {
+    "inputs": {
+      "orgChart": {
+        "nodes": [
+          {
+            "directReports": [
+              "B",
+              "C",
+              "D",
+              "E",
+              "F"
+            ],
+            "id": "A",
+            "name": "A"
+          },
+          {
+            "directReports": [
+              "G",
+              "H",
+              "I"
+            ],
+            "id": "B",
+            "name": "B"
+          },
+          {
+            "directReports": [
+              "J"
+            ],
+            "id": "C",
+            "name": "C"
+          },
+          {
+            "directReports": [
+              "K",
+              "L"
+            ],
+            "id": "D",
+            "name": "D"
+          },
+          {
+            "directReports": [],
+            "id": "E",
+            "name": "E"
+          },
+          {
+            "directReports": [
+              "M",
+              "N"
+            ],
+            "id": "F",
+            "name": "F"
+          },
+          {
+            "directReports": [],
+            "id": "G",
+            "name": "G"
+          },
+          {
+            "directReports": [
+              "O",
+              "P",
+              "Q",
+              "R"
+            ],
+            "id": "H",
+            "name": "H"
+          },
+          {
+            "directReports": [],
+            "id": "I",
+            "name": "I"
+          },
+          {
+            "directReports": [],
+            "id": "J",
+            "name": "J"
+          },
+          {
+            "directReports": [
+              "S"
+            ],
+            "id": "K",
+            "name": "K"
+          },
+          {
+            "directReports": [],
+            "id": "L",
+            "name": "L"
+          },
+          {
+            "directReports": [],
+            "id": "M",
+            "name": "M"
+          },
+          {
+            "directReports": [],
+            "id": "N",
+            "name": "N"
+          },
+          {
+            "directReports": [],
+            "id": "O",
+            "name": "O"
+          },
+          {
+            "directReports": [
+              "T",
+              "U"
+            ],
+            "id": "P",
+            "name": "P"
+          },
+          {
+            "directReports": [],
+            "id": "Q",
+            "name": "Q"
+          },
+          {
+            "directReports": [
+              "V"
+            ],
+            "id": "R",
+            "name": "R"
+          },
+          {
+            "directReports": [],
+            "id": "S",
+            "name": "S"
+          },
+          {
+            "directReports": [],
+            "id": "T",
+            "name": "T"
+          },
+          {
+            "directReports": [],
+            "id": "U",
+            "name": "U"
+          },
+          {
+            "directReports": [
+              "W",
+              "X",
+              "Y"
+            ],
+            "id": "V",
+            "name": "V"
+          },
+          {
+            "directReports": [],
+            "id": "W",
+            "name": "W"
+          },
+          {
+            "directReports": [
+              "Z"
+            ],
+            "id": "X",
+            "name": "X"
+          },
+          {
+            "directReports": [],
+            "id": "Y",
+            "name": "Y"
+          },
+          {
+            "directReports": [],
+            "id": "Z",
+            "name": "Z"
+          }
+        ]
+      },
+      "reportOne": "G",
+      "reportTwo": "M",
+      "topManager": "A"
+    },
+    "expected": {
+      "nodeId": "A"
+    },
+    "name": "Test Case 4"
+  },
+  {
+    "inputs": {
+      "orgChart": {
+        "nodes": [
+          {
+            "directReports": [
+              "B",
+              "C",
+              "D",
+              "E",
+              "F"
+            ],
+            "id": "A",
+            "name": "A"
+          },
+          {
+            "directReports": [
+              "G",
+              "H",
+              "I"
+            ],
+            "id": "B",
+            "name": "B"
+          },
+          {
+            "directReports": [
+              "J"
+            ],
+            "id": "C",
+            "name": "C"
+          },
+          {
+            "directReports": [
+              "K",
+              "L"
+            ],
+            "id": "D",
+            "name": "D"
+          },
+          {
+            "directReports": [],
+            "id": "E",
+            "name": "E"
+          },
+          {
+            "directReports": [
+              "M",
+              "N"
+            ],
+            "id": "F",
+            "name": "F"
+          },
+          {
+            "directReports": [],
+            "id": "G",
+            "name": "G"
+          },
+          {
+            "directReports": [
+              "O",
+              "P",
+              "Q",
+              "R"
+            ],
+            "id": "H",
+            "name": "H"
+          },
+          {
+            "directReports": [],
+            "id": "I",
+            "name": "I"
+          },
+          {
+            "directReports": [],
+            "id": "J",
+            "name": "J"
+          },
+          {
+            "directReports": [
+              "S"
+            ],
+            "id": "K",
+            "name": "K"
+          },
+          {
+            "directReports": [],
+            "id": "L",
+            "name": "L"
+          },
+          {
+            "directReports": [],
+            "id": "M",
+            "name": "M"
+          },
+          {
+            "directReports": [],
+            "id": "N",
+            "name": "N"
+          },
+          {
+            "directReports": [],
+            "id": "O",
+            "name": "O"
+          },
+          {
+            "directReports": [
+              "T",
+              "U"
+            ],
+            "id": "P",
+            "name": "P"
+          },
+          {
+            "directReports": [],
+            "id": "Q",
+            "name": "Q"
+          },
+          {
+            "directReports": [
+              "V"
+            ],
+            "id": "R",
+            "name": "R"
+          },
+          {
+            "directReports": [],
+            "id": "S",
+            "name": "S"
+          },
+          {
+            "directReports": [],
+            "id": "T",
+            "name": "T"
+          },
+          {
+            "directReports": [],
+            "id": "U",
+            "name": "U"
+          },
+          {
+            "directReports": [
+              "W",
+              "X",
+              "Y"
+            ],
+            "id": "V",
+            "name": "V"
+          },
+          {
+            "directReports": [],
+            "id": "W",
+            "name": "W"
+          },
+          {
+            "directReports": [
+              "Z"
+            ],
+            "id": "X",
+            "name": "X"
+          },
+          {
+            "directReports": [],
+            "id": "Y",
+            "name": "Y"
+          },
+          {
+            "directReports": [],
+            "id": "Z",
+            "name": "Z"
+          }
+        ]
+      },
+      "reportOne": "U",
+      "reportTwo": "S",
+      "topManager": "A"
+    },
+    "expected": {
+      "nodeId": "A"
+    },
+    "name": "Test Case 5"
+  },
+  {
+    "inputs": {
+      "orgChart": {
+        "nodes": [
+          {
+            "directReports": [
+              "B",
+              "C",
+              "D",
+              "E",
+              "F"
+            ],
+            "id": "A",
+            "name": "A"
+          },
+          {
+            "directReports": [
+              "G",
+              "H",
+              "I"
+            ],
+            "id": "B",
+            "name": "B"
+          },
+          {
+            "directReports": [
+              "J"
+            ],
+            "id": "C",
+            "name": "C"
+          },
+          {
+            "directReports": [
+              "K",
+              "L"
+            ],
+            "id": "D",
+            "name": "D"
+          },
+          {
+            "directReports": [],
+            "id": "E",
+            "name": "E"
+          },
+          {
+            "directReports": [
+              "M",
+              "N"
+            ],
+            "id": "F",
+            "name": "F"
+          },
+          {
+            "directReports": [],
+            "id": "G",
+            "name": "G"
+          },
+          {
+            "directReports": [
+              "O",
+              "P",
+              "Q",
+              "R"
+            ],
+            "id": "H",
+            "name": "H"
+          },
+          {
+            "directReports": [],
+            "id": "I",
+            "name": "I"
+          },
+          {
+            "directReports": [],
+            "id": "J",
+            "name": "J"
+          },
+          {
+            "directReports": [
+              "S"
+            ],
+            "id": "K",
+            "name": "K"
+          },
+          {
+            "directReports": [],
+            "id": "L",
+            "name": "L"
+          },
+          {
+            "directReports": [],
+            "id": "M",
+            "name": "M"
+          },
+          {
+            "directReports": [],
+            "id": "N",
+            "name": "N"
+          },
+          {
+            "directReports": [],
+            "id": "O",
+            "name": "O"
+          },
+          {
+            "directReports": [
+              "T",
+              "U"
+            ],
+            "id": "P",
+            "name": "P"
+          },
+          {
+            "directReports": [],
+            "id": "Q",
+            "name": "Q"
+          },
+          {
+            "directReports": [
+              "V"
+            ],
+            "id": "R",
+            "name": "R"
+          },
+          {
+            "directReports": [],
+            "id": "S",
+            "name": "S"
+          },
+          {
+            "directReports": [],
+            "id": "T",
+            "name": "T"
+          },
+          {
+            "directReports": [],
+            "id": "U",
+            "name": "U"
+          },
+          {
+            "directReports": [
+              "W",
+              "X",
+              "Y"
+            ],
+            "id": "V",
+            "name": "V"
+          },
+          {
+            "directReports": [],
+            "id": "W",
+            "name": "W"
+          },
+          {
+            "directReports": [
+              "Z"
+            ],
+            "id": "X",
+            "name": "X"
+          },
+          {
+            "directReports": [],
+            "id": "Y",
+            "name": "Y"
+          },
+          {
+            "directReports": [],
+            "id": "Z",
+            "name": "Z"
+          }
+        ]
+      },
+      "reportOne": "Z",
+      "reportTwo": "M",
+      "topManager": "A"
+    },
+    "expected": {
+      "nodeId": "A"
+    },
+    "name": "Test Case 6"
+  },
+  {
+    "inputs": {
+      "orgChart": {
+        "nodes": [
+          {
+            "directReports": [
+              "B",
+              "C",
+              "D",
+              "E",
+              "F"
+            ],
+            "id": "A",
+            "name": "A"
+          },
+          {
+            "directReports": [
+              "G",
+              "H",
+              "I"
+            ],
+            "id": "B",
+            "name": "B"
+          },
+          {
+            "directReports": [
+              "J"
+            ],
+            "id": "C",
+            "name": "C"
+          },
+          {
+            "directReports": [
+              "K",
+              "L"
+            ],
+            "id": "D",
+            "name": "D"
+          },
+          {
+            "directReports": [],
+            "id": "E",
+            "name": "E"
+          },
+          {
+            "directReports": [
+              "M",
+              "N"
+            ],
+            "id": "F",
+            "name": "F"
+          },
+          {
+            "directReports": [],
+            "id": "G",
+            "name": "G"
+          },
+          {
+            "directReports": [
+              "O",
+              "P",
+              "Q",
+              "R"
+            ],
+            "id": "H",
+            "name": "H"
+          },
+          {
+            "directReports": [],
+            "id": "I",
+            "name": "I"
+          },
+          {
+            "directReports": [],
+            "id": "J",
+            "name": "J"
+          },
+          {
+            "directReports": [
+              "S"
+            ],
+            "id": "K",
+            "name": "K"
+          },
+          {
+            "directReports": [],
+            "id": "L",
+            "name": "L"
+          },
+          {
+            "directReports": [],
+            "id": "M",
+            "name": "M"
+          },
+          {
+            "directReports": [],
+            "id": "N",
+            "name": "N"
+          },
+          {
+            "directReports": [],
+            "id": "O",
+            "name": "O"
+          },
+          {
+            "directReports": [
+              "T",
+              "U"
+            ],
+            "id": "P",
+            "name": "P"
+          },
+          {
+            "directReports": [],
+            "id": "Q",
+            "name": "Q"
+          },
+          {
+            "directReports": [
+              "V"
+            ],
+            "id": "R",
+            "name": "R"
+          },
+          {
+            "directReports": [],
+            "id": "S",
+            "name": "S"
+          },
+          {
+            "directReports": [],
+            "id": "T",
+            "name": "T"
+          },
+          {
+            "directReports": [],
+            "id": "U",
+            "name": "U"
+          },
+          {
+            "directReports": [
+              "W",
+              "X",
+              "Y"
+            ],
+            "id": "V",
+            "name": "V"
+          },
+          {
+            "directReports": [],
+            "id": "W",
+            "name": "W"
+          },
+          {
+            "directReports": [
+              "Z"
+            ],
+            "id": "X",
+            "name": "X"
+          },
+          {
+            "directReports": [],
+            "id": "Y",
+            "name": "Y"
+          },
+          {
+            "directReports": [],
+            "id": "Z",
+            "name": "Z"
+          }
+        ]
+      },
+      "reportOne": "O",
+      "reportTwo": "I",
+      "topManager": "A"
+    },
+    "expected": {
+      "nodeId": "B"
+    },
+    "name": "Test Case 7"
+  },
+  {
+    "inputs": {
+      "orgChart": {
+        "nodes": [
+          {
+            "directReports": [
+              "B",
+              "C",
+              "D",
+              "E",
+              "F"
+            ],
+            "id": "A",
+            "name": "A"
+          },
+          {
+            "directReports": [
+              "G",
+              "H",
+              "I"
+            ],
+            "id": "B",
+            "name": "B"
+          },
+          {
+            "directReports": [
+              "J"
+            ],
+            "id": "C",
+            "name": "C"
+          },
+          {
+            "directReports": [
+              "K",
+              "L"
+            ],
+            "id": "D",
+            "name": "D"
+          },
+          {
+            "directReports": [],
+            "id": "E",
+            "name": "E"
+          },
+          {
+            "directReports": [
+              "M",
+              "N"
+            ],
+            "id": "F",
+            "name": "F"
+          },
+          {
+            "directReports": [],
+            "id": "G",
+            "name": "G"
+          },
+          {
+            "directReports": [
+              "O",
+              "P",
+              "Q",
+              "R"
+            ],
+            "id": "H",
+            "name": "H"
+          },
+          {
+            "directReports": [],
+            "id": "I",
+            "name": "I"
+          },
+          {
+            "directReports": [],
+            "id": "J",
+            "name": "J"
+          },
+          {
+            "directReports": [
+              "S"
+            ],
+            "id": "K",
+            "name": "K"
+          },
+          {
+            "directReports": [],
+            "id": "L",
+            "name": "L"
+          },
+          {
+            "directReports": [],
+            "id": "M",
+            "name": "M"
+          },
+          {
+            "directReports": [],
+            "id": "N",
+            "name": "N"
+          },
+          {
+            "directReports": [],
+            "id": "O",
+            "name": "O"
+          },
+          {
+            "directReports": [
+              "T",
+              "U"
+            ],
+            "id": "P",
+            "name": "P"
+          },
+          {
+            "directReports": [],
+            "id": "Q",
+            "name": "Q"
+          },
+          {
+            "directReports": [
+              "V"
+            ],
+            "id": "R",
+            "name": "R"
+          },
+          {
+            "directReports": [],
+            "id": "S",
+            "name": "S"
+          },
+          {
+            "directReports": [],
+            "id": "T",
+            "name": "T"
+          },
+          {
+            "directReports": [],
+            "id": "U",
+            "name": "U"
+          },
+          {
+            "directReports": [
+              "W",
+              "X",
+              "Y"
+            ],
+            "id": "V",
+            "name": "V"
+          },
+          {
+            "directReports": [],
+            "id": "W",
+            "name": "W"
+          },
+          {
+            "directReports": [
+              "Z"
+            ],
+            "id": "X",
+            "name": "X"
+          },
+          {
+            "directReports": [],
+            "id": "Y",
+            "name": "Y"
+          },
+          {
+            "directReports": [],
+            "id": "Z",
+            "name": "Z"
+          }
+        ]
+      },
+      "reportOne": "T",
+      "reportTwo": "Z",
+      "topManager": "A"
+    },
+    "expected": {
+      "nodeId": "H"
+    },
+    "name": "Test Case 8"
+  },
+  {
+    "inputs": {
+      "orgChart": {
+        "nodes": [
+          {
+            "directReports": [
+              "B",
+              "C",
+              "D",
+              "E",
+              "F"
+            ],
+            "id": "A",
+            "name": "A"
+          },
+          {
+            "directReports": [
+              "G",
+              "H",
+              "I"
+            ],
+            "id": "B",
+            "name": "B"
+          },
+          {
+            "directReports": [
+              "J"
+            ],
+            "id": "C",
+            "name": "C"
+          },
+          {
+            "directReports": [
+              "K",
+              "L"
+            ],
+            "id": "D",
+            "name": "D"
+          },
+          {
+            "directReports": [],
+            "id": "E",
+            "name": "E"
+          },
+          {
+            "directReports": [
+              "M",
+              "N"
+            ],
+            "id": "F",
+            "name": "F"
+          },
+          {
+            "directReports": [],
+            "id": "G",
+            "name": "G"
+          },
+          {
+            "directReports": [
+              "O",
+              "P",
+              "Q",
+              "R"
+            ],
+            "id": "H",
+            "name": "H"
+          },
+          {
+            "directReports": [],
+            "id": "I",
+            "name": "I"
+          },
+          {
+            "directReports": [],
+            "id": "J",
+            "name": "J"
+          },
+          {
+            "directReports": [
+              "S"
+            ],
+            "id": "K",
+            "name": "K"
+          },
+          {
+            "directReports": [],
+            "id": "L",
+            "name": "L"
+          },
+          {
+            "directReports": [],
+            "id": "M",
+            "name": "M"
+          },
+          {
+            "directReports": [],
+            "id": "N",
+            "name": "N"
+          },
+          {
+            "directReports": [],
+            "id": "O",
+            "name": "O"
+          },
+          {
+            "directReports": [
+              "T",
+              "U"
+            ],
+            "id": "P",
+            "name": "P"
+          },
+          {
+            "directReports": [],
+            "id": "Q",
+            "name": "Q"
+          },
+          {
+            "directReports": [
+              "V"
+            ],
+            "id": "R",
+            "name": "R"
+          },
+          {
+            "directReports": [],
+            "id": "S",
+            "name": "S"
+          },
+          {
+            "directReports": [],
+            "id": "T",
+            "name": "T"
+          },
+          {
+            "directReports": [],
+            "id": "U",
+            "name": "U"
+          },
+          {
+            "directReports": [
+              "W",
+              "X",
+              "Y"
+            ],
+            "id": "V",
+            "name": "V"
+          },
+          {
+            "directReports": [],
+            "id": "W",
+            "name": "W"
+          },
+          {
+            "directReports": [
+              "Z"
+            ],
+            "id": "X",
+            "name": "X"
+          },
+          {
+            "directReports": [],
+            "id": "Y",
+            "name": "Y"
+          },
+          {
+            "directReports": [],
+            "id": "Z",
+            "name": "Z"
+          }
+        ]
+      },
+      "reportOne": "T",
+      "reportTwo": "V",
+      "topManager": "A"
+    },
+    "expected": {
+      "nodeId": "H"
+    },
+    "name": "Test Case 9"
+  },
+  {
+    "inputs": {
+      "orgChart": {
+        "nodes": [
+          {
+            "directReports": [
+              "B",
+              "C",
+              "D",
+              "E",
+              "F"
+            ],
+            "id": "A",
+            "name": "A"
+          },
+          {
+            "directReports": [
+              "G",
+              "H",
+              "I"
+            ],
+            "id": "B",
+            "name": "B"
+          },
+          {
+            "directReports": [
+              "J"
+            ],
+            "id": "C",
+            "name": "C"
+          },
+          {
+            "directReports": [
+              "K",
+              "L"
+            ],
+            "id": "D",
+            "name": "D"
+          },
+          {
+            "directReports": [],
+            "id": "E",
+            "name": "E"
+          },
+          {
+            "directReports": [
+              "M",
+              "N"
+            ],
+            "id": "F",
+            "name": "F"
+          },
+          {
+            "directReports": [],
+            "id": "G",
+            "name": "G"
+          },
+          {
+            "directReports": [
+              "O",
+              "P",
+              "Q",
+              "R"
+            ],
+            "id": "H",
+            "name": "H"
+          },
+          {
+            "directReports": [],
+            "id": "I",
+            "name": "I"
+          },
+          {
+            "directReports": [],
+            "id": "J",
+            "name": "J"
+          },
+          {
+            "directReports": [
+              "S"
+            ],
+            "id": "K",
+            "name": "K"
+          },
+          {
+            "directReports": [],
+            "id": "L",
+            "name": "L"
+          },
+          {
+            "directReports": [],
+            "id": "M",
+            "name": "M"
+          },
+          {
+            "directReports": [],
+            "id": "N",
+            "name": "N"
+          },
+          {
+            "directReports": [],
+            "id": "O",
+            "name": "O"
+          },
+          {
+            "directReports": [
+              "T",
+              "U"
+            ],
+            "id": "P",
+            "name": "P"
+          },
+          {
+            "directReports": [],
+            "id": "Q",
+            "name": "Q"
+          },
+          {
+            "directReports": [
+              "V"
+            ],
+            "id": "R",
+            "name": "R"
+          },
+          {
+            "directReports": [],
+            "id": "S",
+            "name": "S"
+          },
+          {
+            "directReports": [],
+            "id": "T",
+            "name": "T"
+          },
+          {
+            "directReports": [],
+            "id": "U",
+            "name": "U"
+          },
+          {
+            "directReports": [
+              "W",
+              "X",
+              "Y"
+            ],
+            "id": "V",
+            "name": "V"
+          },
+          {
+            "directReports": [],
+            "id": "W",
+            "name": "W"
+          },
+          {
+            "directReports": [
+              "Z"
+            ],
+            "id": "X",
+            "name": "X"
+          },
+          {
+            "directReports": [],
+            "id": "Y",
+            "name": "Y"
+          },
+          {
+            "directReports": [],
+            "id": "Z",
+            "name": "Z"
+          }
+        ]
+      },
+      "reportOne": "T",
+      "reportTwo": "H",
+      "topManager": "A"
+    },
+    "expected": {
+      "nodeId": "H"
+    },
+    "name": "Test Case 10"
+  },
+  {
+    "inputs": {
+      "orgChart": {
+        "nodes": [
+          {
+            "directReports": [
+              "B",
+              "C",
+              "D",
+              "E",
+              "F"
+            ],
+            "id": "A",
+            "name": "A"
+          },
+          {
+            "directReports": [
+              "G",
+              "H",
+              "I"
+            ],
+            "id": "B",
+            "name": "B"
+          },
+          {
+            "directReports": [
+              "J"
+            ],
+            "id": "C",
+            "name": "C"
+          },
+          {
+            "directReports": [
+              "K",
+              "L"
+            ],
+            "id": "D",
+            "name": "D"
+          },
+          {
+            "directReports": [],
+            "id": "E",
+            "name": "E"
+          },
+          {
+            "directReports": [
+              "M",
+              "N"
+            ],
+            "id": "F",
+            "name": "F"
+          },
+          {
+            "directReports": [],
+            "id": "G",
+            "name": "G"
+          },
+          {
+            "directReports": [
+              "O",
+              "P",
+              "Q",
+              "R"
+            ],
+            "id": "H",
+            "name": "H"
+          },
+          {
+            "directReports": [],
+            "id": "I",
+            "name": "I"
+          },
+          {
+            "directReports": [],
+            "id": "J",
+            "name": "J"
+          },
+          {
+            "directReports": [
+              "S"
+            ],
+            "id": "K",
+            "name": "K"
+          },
+          {
+            "directReports": [],
+            "id": "L",
+            "name": "L"
+          },
+          {
+            "directReports": [],
+            "id": "M",
+            "name": "M"
+          },
+          {
+            "directReports": [],
+            "id": "N",
+            "name": "N"
+          },
+          {
+            "directReports": [],
+            "id": "O",
+            "name": "O"
+          },
+          {
+            "directReports": [
+              "T",
+              "U"
+            ],
+            "id": "P",
+            "name": "P"
+          },
+          {
+            "directReports": [],
+            "id": "Q",
+            "name": "Q"
+          },
+          {
+            "directReports": [
+              "V"
+            ],
+            "id": "R",
+            "name": "R"
+          },
+          {
+            "directReports": [],
+            "id": "S",
+            "name": "S"
+          },
+          {
+            "directReports": [],
+            "id": "T",
+            "name": "T"
+          },
+          {
+            "directReports": [],
+            "id": "U",
+            "name": "U"
+          },
+          {
+            "directReports": [
+              "W",
+              "X",
+              "Y"
+            ],
+            "id": "V",
+            "name": "V"
+          },
+          {
+            "directReports": [],
+            "id": "W",
+            "name": "W"
+          },
+          {
+            "directReports": [
+              "Z"
+            ],
+            "id": "X",
+            "name": "X"
+          },
+          {
+            "directReports": [],
+            "id": "Y",
+            "name": "Y"
+          },
+          {
+            "directReports": [],
+            "id": "Z",
+            "name": "Z"
+          }
+        ]
+      },
+      "reportOne": "W",
+      "reportTwo": "V",
+      "topManager": "A"
+    },
+    "expected": {
+      "nodeId": "V"
+    },
+    "name": "Test Case 11"
+  },
+  {
+    "inputs": {
+      "orgChart": {
+        "nodes": [
+          {
+            "directReports": [
+              "B",
+              "C",
+              "D",
+              "E",
+              "F"
+            ],
+            "id": "A",
+            "name": "A"
+          },
+          {
+            "directReports": [
+              "G",
+              "H",
+              "I"
+            ],
+            "id": "B",
+            "name": "B"
+          },
+          {
+            "directReports": [
+              "J"
+            ],
+            "id": "C",
+            "name": "C"
+          },
+          {
+            "directReports": [
+              "K",
+              "L"
+            ],
+            "id": "D",
+            "name": "D"
+          },
+          {
+            "directReports": [],
+            "id": "E",
+            "name": "E"
+          },
+          {
+            "directReports": [
+              "M",
+              "N"
+            ],
+            "id": "F",
+            "name": "F"
+          },
+          {
+            "directReports": [],
+            "id": "G",
+            "name": "G"
+          },
+          {
+            "directReports": [
+              "O",
+              "P",
+              "Q",
+              "R"
+            ],
+            "id": "H",
+            "name": "H"
+          },
+          {
+            "directReports": [],
+            "id": "I",
+            "name": "I"
+          },
+          {
+            "directReports": [],
+            "id": "J",
+            "name": "J"
+          },
+          {
+            "directReports": [
+              "S"
+            ],
+            "id": "K",
+            "name": "K"
+          },
+          {
+            "directReports": [],
+            "id": "L",
+            "name": "L"
+          },
+          {
+            "directReports": [],
+            "id": "M",
+            "name": "M"
+          },
+          {
+            "directReports": [],
+            "id": "N",
+            "name": "N"
+          },
+          {
+            "directReports": [],
+            "id": "O",
+            "name": "O"
+          },
+          {
+            "directReports": [
+              "T",
+              "U"
+            ],
+            "id": "P",
+            "name": "P"
+          },
+          {
+            "directReports": [],
+            "id": "Q",
+            "name": "Q"
+          },
+          {
+            "directReports": [
+              "V"
+            ],
+            "id": "R",
+            "name": "R"
+          },
+          {
+            "directReports": [],
+            "id": "S",
+            "name": "S"
+          },
+          {
+            "directReports": [],
+            "id": "T",
+            "name": "T"
+          },
+          {
+            "directReports": [],
+            "id": "U",
+            "name": "U"
+          },
+          {
+            "directReports": [
+              "W",
+              "X",
+              "Y"
+            ],
+            "id": "V",
+            "name": "V"
+          },
+          {
+            "directReports": [],
+            "id": "W",
+            "name": "W"
+          },
+          {
+            "directReports": [
+              "Z"
+            ],
+            "id": "X",
+            "name": "X"
+          },
+          {
+            "directReports": [],
+            "id": "Y",
+            "name": "Y"
+          },
+          {
+            "directReports": [],
+            "id": "Z",
+            "name": "Z"
+          }
+        ]
+      },
+      "reportOne": "Z",
+      "reportTwo": "B",
+      "topManager": "A"
+    },
+    "expected": {
+      "nodeId": "B"
+    },
+    "name": "Test Case 12"
+  },
+  {
+    "inputs": {
+      "orgChart": {
+        "nodes": [
+          {
+            "directReports": [
+              "B",
+              "C",
+              "D",
+              "E",
+              "F"
+            ],
+            "id": "A",
+            "name": "A"
+          },
+          {
+            "directReports": [
+              "G",
+              "H",
+              "I"
+            ],
+            "id": "B",
+            "name": "B"
+          },
+          {
+            "directReports": [
+              "J"
+            ],
+            "id": "C",
+            "name": "C"
+          },
+          {
+            "directReports": [
+              "K",
+              "L"
+            ],
+            "id": "D",
+            "name": "D"
+          },
+          {
+            "directReports": [],
+            "id": "E",
+            "name": "E"
+          },
+          {
+            "directReports": [
+              "M",
+              "N"
+            ],
+            "id": "F",
+            "name": "F"
+          },
+          {
+            "directReports": [],
+            "id": "G",
+            "name": "G"
+          },
+          {
+            "directReports": [
+              "O",
+              "P",
+              "Q",
+              "R"
+            ],
+            "id": "H",
+            "name": "H"
+          },
+          {
+            "directReports": [],
+            "id": "I",
+            "name": "I"
+          },
+          {
+            "directReports": [],
+            "id": "J",
+            "name": "J"
+          },
+          {
+            "directReports": [
+              "S"
+            ],
+            "id": "K",
+            "name": "K"
+          },
+          {
+            "directReports": [],
+            "id": "L",
+            "name": "L"
+          },
+          {
+            "directReports": [],
+            "id": "M",
+            "name": "M"
+          },
+          {
+            "directReports": [],
+            "id": "N",
+            "name": "N"
+          },
+          {
+            "directReports": [],
+            "id": "O",
+            "name": "O"
+          },
+          {
+            "directReports": [
+              "T",
+              "U"
+            ],
+            "id": "P",
+            "name": "P"
+          },
+          {
+            "directReports": [],
+            "id": "Q",
+            "name": "Q"
+          },
+          {
+            "directReports": [
+              "V"
+            ],
+            "id": "R",
+            "name": "R"
+          },
+          {
+            "directReports": [],
+            "id": "S",
+            "name": "S"
+          },
+          {
+            "directReports": [],
+            "id": "T",
+            "name": "T"
+          },
+          {
+            "directReports": [],
+            "id": "U",
+            "name": "U"
+          },
+          {
+            "directReports": [
+              "W",
+              "X",
+              "Y"
+            ],
+            "id": "V",
+            "name": "V"
+          },
+          {
+            "directReports": [],
+            "id": "W",
+            "name": "W"
+          },
+          {
+            "directReports": [
+              "Z"
+            ],
+            "id": "X",
+            "name": "X"
+          },
+          {
+            "directReports": [],
+            "id": "Y",
+            "name": "Y"
+          },
+          {
+            "directReports": [],
+            "id": "Z",
+            "name": "Z"
+          }
+        ]
+      },
+      "reportOne": "Q",
+      "reportTwo": "W",
+      "topManager": "A"
+    },
+    "expected": {
+      "nodeId": "H"
+    },
+    "name": "Test Case 13"
+  },
+  {
+    "inputs": {
+      "orgChart": {
+        "nodes": [
+          {
+            "directReports": [
+              "B",
+              "C",
+              "D",
+              "E",
+              "F"
+            ],
+            "id": "A",
+            "name": "A"
+          },
+          {
+            "directReports": [
+              "G",
+              "H",
+              "I"
+            ],
+            "id": "B",
+            "name": "B"
+          },
+          {
+            "directReports": [
+              "J"
+            ],
+            "id": "C",
+            "name": "C"
+          },
+          {
+            "directReports": [
+              "K",
+              "L"
+            ],
+            "id": "D",
+            "name": "D"
+          },
+          {
+            "directReports": [],
+            "id": "E",
+            "name": "E"
+          },
+          {
+            "directReports": [
+              "M",
+              "N"
+            ],
+            "id": "F",
+            "name": "F"
+          },
+          {
+            "directReports": [],
+            "id": "G",
+            "name": "G"
+          },
+          {
+            "directReports": [
+              "O",
+              "P",
+              "Q",
+              "R"
+            ],
+            "id": "H",
+            "name": "H"
+          },
+          {
+            "directReports": [],
+            "id": "I",
+            "name": "I"
+          },
+          {
+            "directReports": [],
+            "id": "J",
+            "name": "J"
+          },
+          {
+            "directReports": [
+              "S"
+            ],
+            "id": "K",
+            "name": "K"
+          },
+          {
+            "directReports": [],
+            "id": "L",
+            "name": "L"
+          },
+          {
+            "directReports": [],
+            "id": "M",
+            "name": "M"
+          },
+          {
+            "directReports": [],
+            "id": "N",
+            "name": "N"
+          },
+          {
+            "directReports": [],
+            "id": "O",
+            "name": "O"
+          },
+          {
+            "directReports": [
+              "T",
+              "U"
+            ],
+            "id": "P",
+            "name": "P"
+          },
+          {
+            "directReports": [],
+            "id": "Q",
+            "name": "Q"
+          },
+          {
+            "directReports": [
+              "V"
+            ],
+            "id": "R",
+            "name": "R"
+          },
+          {
+            "directReports": [],
+            "id": "S",
+            "name": "S"
+          },
+          {
+            "directReports": [],
+            "id": "T",
+            "name": "T"
+          },
+          {
+            "directReports": [],
+            "id": "U",
+            "name": "U"
+          },
+          {
+            "directReports": [
+              "W",
+              "X",
+              "Y"
+            ],
+            "id": "V",
+            "name": "V"
+          },
+          {
+            "directReports": [],
+            "id": "W",
+            "name": "W"
+          },
+          {
+            "directReports": [
+              "Z"
+            ],
+            "id": "X",
+            "name": "X"
+          },
+          {
+            "directReports": [],
+            "id": "Y",
+            "name": "Y"
+          },
+          {
+            "directReports": [],
+            "id": "Z",
+            "name": "Z"
+          }
+        ]
+      },
+      "reportOne": "A",
+      "reportTwo": "Z",
+      "topManager": "A"
+    },
+    "expected": {
+      "nodeId": "A"
+    },
+    "name": "Test Case 14"
+  }
+]
