@@ -24,3 +24,32 @@ targetSum = 10
 ```
 [-1, 11] // the numbers could be in reverse order
 ```
+
+## Solution Algorithm
+
+My solution uses a `set` to efficiently track numbers we have already
+seen in the array
+
+1. **Initialization:** Create an empty set called `numbers_seen`. This set will store  
+the numbers we've already encountered in the input array
+
+2. **Iteration:** Iterate through the input `array` element by element.  Let the current  
+element be `array[i]`.
+
+3. **Check for Match:** For each `array[i]`, calculate the `potentialMatch` needed to reach the  
+`targetSum`:  `potentialMatch = targetSum - array[i]`.
+
+4. **Found Match:** Check if the `potentialMatch` is already present in the `numbers_seen` set.  
+If it is, this means we've found the two numbers that sum to the `targetSum`.  
+Return the pair `[potentialMatch, array[i]]`.  The order doesn't matter.
+
+5. **Add to Seen:** If the `potentialMatch` is not in the `numbers_seen` set, add the current  
+number `array[i]` to the `numbers_seen` set. This way, if we encounter its match later,  
+we'll know we've already seen it.
+
+6. **No Match:** If the loop completes without finding a match, it means no two numbers  
+in the array sum to the `targetSum`. Return an empty array.
+
+### Space & Time Complexity
+
+O(n) time | O(n) space - where n is the length of the input array
