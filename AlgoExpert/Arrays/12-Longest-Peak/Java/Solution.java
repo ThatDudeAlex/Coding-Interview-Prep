@@ -7,34 +7,32 @@ class Solution {
     }
 
     int prev = array[0];
-    int longestPeak = 0;
-    int currPeak = 1;
+    int currPeakLen = 1;
+    int maxPeakLen = 0;
     boolean inDecline = false;
 
     for (int i = 1; i < array.length; i++) {
-      int currNumber = array[i];
+      int curr = array[i];
 
-      if (prev == currNumber) {
-        currPeak = 1;
-      } else if (currNumber > prev && !inDecline) {
-        currPeak += 1;
-      } else if (currNumber > prev && inDecline) {
+      if (curr == prev) {
+        currPeakLen = 1;
+      } else if (prev < curr && !inDecline) {
+        currPeakLen += 1;
+      } else if (prev < curr && inDecline) {
         inDecline = false;
-        currPeak = 1;
-      } else if (currNumber < prev && currPeak >= 2 && !inDecline) {
+        currPeakLen = 2;
+      } else if (prev > curr && !inDecline && currPeakLen != 1) {
         inDecline = true;
-        currPeak += 1;
-        longestPeak = Math.max(longestPeak, currPeak);
-      } else if (currNumber < prev && inDecline) {
-        currPeak += 1;
-        longestPeak = Math.max(longestPeak, currPeak);
-      } else if (currNumber < prev && currPeak < 2) {
-        currPeak = 1;
+        currPeakLen += 1;
+        maxPeakLen = Math.max(maxPeakLen, currPeakLen);
+      } else if (prev > curr && inDecline && currPeakLen != 1) {
+        currPeakLen += 1;
+        maxPeakLen = Math.max(maxPeakLen, currPeakLen);
       }
 
-      prev = currNumber;
+      prev = curr;
     }
 
-    return longestPeak;
+    return maxPeakLen;
   }
 }
