@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Program {
+class Solution {
 
   public int firstDuplicateValue(int[] array) {
     // Write your code here.
