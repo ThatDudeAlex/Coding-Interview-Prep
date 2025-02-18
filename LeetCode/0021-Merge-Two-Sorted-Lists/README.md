@@ -9,6 +9,15 @@ Return the **head of the merged linked list**.
 ## Examples
 
 - **Example 1:**
+
+  ```
+  List 1: 1-> 2 -> 4
+  List 1: 1-> 3 -> 4
+  ------------------
+
+  Merged: 1-> 1 -> 2 -> 4 -> 4
+  ```
+
   - **Input:** list1 = [1,2,4], list2 = [1,3,4]
   - **Output:** [1,1,2,3,4,4]
 
