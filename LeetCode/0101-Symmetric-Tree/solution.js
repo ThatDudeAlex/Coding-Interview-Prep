@@ -10,15 +10,10 @@
  * @return {boolean}
  */
 var isSymmetric = function (root) {
-
-    if (root === null)
-        return true
-
-    return checkSymmetry(root.left, root.right)
+    return (root === null) ? true : checkSymmetry(root.left, root.right);
 };
 
 const checkSymmetry = (leftRoot, rightRoot) => {
-    // let equal = true
 
     if (leftRoot === null && rightRoot === null)
         return true
@@ -29,9 +24,5 @@ const checkSymmetry = (leftRoot, rightRoot) => {
     else if (leftRoot.val !== rightRoot.val)
         return false
 
-    // equal = checkSymmetry(leftRoot.left, rightRoot.right);
-
-    // if(equal)
-    //     equal = checkSymmetry(leftRoot.right, rightRoot.left);
     return checkSymmetry(leftRoot.left, rightRoot.right) && checkSymmetry(leftRoot.right, rightRoot.left);
 }
