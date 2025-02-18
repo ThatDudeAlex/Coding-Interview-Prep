@@ -1,10 +1,16 @@
 
 # Leetcode
-A collection of solutions for LeetCode Problems that I have solved through the years.
+A collection of solutions for LeetCode Problems that I have solved throughout the years.
 
+### 📌 How to Use This Repository
+- Click on the **Title** to view the problem statement on LeetCode.
+- Click **Solution** to view my implementation in this repository.
+- Difficulty levels:
+  - 🟩 **Easy**
+  - 🟨 **Medium**
+  - 🟥 **Hard**
 
-
-### LeetCode Algorithm
+### LeetCode Solutions
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
