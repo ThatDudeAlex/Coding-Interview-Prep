@@ -1,0 +1,62 @@
+[
+    {
+        "description": "Basic test case with small numbers",
+        "input": { "nums": [2, 7, 11, 15], "target": 9 },
+        "expected": [[0, 1], [1, 0]]
+    },
+    {
+        "description": "Another basic case",
+        "input": { "nums": [3, 2, 4], "target": 6 },
+        "expected": [[1, 2], [2, 1]]
+    },
+    {
+        "description": "Duplicate elements",
+        "input": { "nums": [3, 3], "target": 6 },
+        "expected": [[0, 1], [1, 0]]
+    },
+    {
+        "description": "Contains negative numbers",
+        "input": { "nums": [-1, -2, -3, -4, -5], "target": -8 },
+        "expected": [[2, 4], [4, 2]]
+    },
+    {
+        "description": "Target is zero",
+        "input": { "nums": [-3, 4, 3, 90], "target": 0 },
+        "expected": [[0, 2], [2, 0]]
+    },
+    {
+        "description": "Mixed positive and negative numbers",
+        "input": { "nums": [-10, 15, 3, 7], "target": 5 },
+        "expected": [[0, 1], [1, 0]]
+    },
+    {
+        "description": "Numbers are not sorted",
+        "input": { "nums": [8, 15, 3, 7], "target": 10 },
+        "expected": [[2, 3], [3, 2]]
+    },
+    {
+        "description": "Target is the sum of first and last elements",
+        "input": { "nums": [1, 2, 3, 4, 5, 9], "target": 10 },
+        "expected": [[0, 5], [5, 0]]
+    },
+    {
+        "description": "Target is the sum of two middle elements",
+        "input": { "nums": [10, 20, 30, 40], "target": 50 },
+        "expected": [[1, 2], [2, 1]]
+    },
+    {
+        "description": "Edge case: Minimum input size",
+        "input": { "nums": [1, 2], "target": 3 },
+        "expected": [[0, 1], [1, 0]]
+    },
+    {
+        "description": "Edge case: Large numbers",
+        "input": { "nums": [1000000000, 299999999, 700000001], "target": 1000000000 },
+        "expected": [[1, 2], [2, 1]]
+    },
+    {
+        "description": "Edge case: Large negative numbers",
+        "input": { "nums": [-1000000000, -200000000, -800000000], "target": -1000000000 },
+        "expected": [[1, 2], [2, 1]]
+    }
+]

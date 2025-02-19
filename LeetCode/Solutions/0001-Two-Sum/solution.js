@@ -14,3 +14,5 @@ var twoSum = function (nums, target) {
         hashTable.set(nums[i], i)
     }
 };
+
+module.exports = twoSum;
