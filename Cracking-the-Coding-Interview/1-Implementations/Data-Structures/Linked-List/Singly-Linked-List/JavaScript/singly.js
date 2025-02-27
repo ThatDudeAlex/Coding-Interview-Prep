@@ -279,6 +279,7 @@ class LinkedList {
 
     /**
      * Prints the linked list to the console
+     * `O(n) time`
      */
     printList() {
         if (this.head === null) {
