@@ -60,6 +60,10 @@ class LinkedList:
             return False
         
         try:
+
+            if self._size == 0:
+                return self.insert_head(value)
+            
             curr = self.head
 
             while curr is not None and curr.next is not None:
