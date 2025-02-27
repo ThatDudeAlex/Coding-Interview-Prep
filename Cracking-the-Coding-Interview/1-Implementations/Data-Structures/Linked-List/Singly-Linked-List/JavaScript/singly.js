@@ -15,11 +15,13 @@ class Node {
  * Singly Linked List
  * @typedef {Object} LinkedList
  * @property {Node} head
+ * @property {Node} tail
  * @property {number} size
  */
 class LinkedList {
     constructor(value = null) {
         this.head = (value == null) ? null : new Node(value);
+        this.tail = (this.head == null) ? null : this.head;
         this.size = (this.head == null) ? 0 : 1;
     }
 
@@ -38,8 +40,15 @@ class LinkedList {
 
         try {
             const newHead = new Node(value);
-            newHead.next = this.head;
-            this.head = newHead;
+
+            if (this.head == null) {
+                this.head = newHead;
+                this.tail = newHead;
+            } else {
+                newHead.next = this.head;
+                this.head = newHead;
+            }
+
             this.size += 1;
             return true;
         } catch (error) {
@@ -51,7 +60,7 @@ class LinkedList {
     
     /**
      * Inserts a new node as the tail of the linked list  
-     * `O(n) time`
+     * `O(1) time`
      * @param {number} value 
      * @returns {boolean}
      */
@@ -66,14 +75,8 @@ class LinkedList {
                 return this.insertHead(value);
             }
             
-            let curr = this.head;
-
-            while (curr != null && curr.next != null) {
-                curr = curr.next;
-            }
-
-            const newTail = new Node(value);
-            curr.next = newTail;
+            this.tail.next = new Node(value);
+            this.tail = this.tail.next;
             this.size += 1;
             return true;
         } catch (error) {
@@ -182,6 +185,7 @@ class LinkedList {
             }
 
             curr.next = null;
+            this.tail = curr;
             this.size -= 1;
             return true;
         } catch (error) {

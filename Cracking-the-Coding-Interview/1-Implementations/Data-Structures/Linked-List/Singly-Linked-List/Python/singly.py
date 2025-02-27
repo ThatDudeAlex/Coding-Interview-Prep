@@ -11,6 +11,7 @@ class LinkedList:
 
     def __init__(self, value=None):
         self.head = None if not value else LinkedList.Node(value)
+        self.tail = None if not self.head else self.head
         self._size = 0 if not self.head else 1
 
 
@@ -33,8 +34,14 @@ class LinkedList:
         
         try:
             new_head = LinkedList.Node(value)
-            new_head.next = self.head
-            self.head = new_head
+
+            if self.head == None:
+                self.head = new_head
+                self.tail = new_head
+            else:
+                new_head.next = self.head
+                self.head = new_head
+
             self._size += 1
             return True
         except Exception as error:
@@ -46,7 +53,7 @@ class LinkedList:
         """
         Inserts a new node as the tail of the linked list.
 
-        O(n) time complexity.
+        O(1) time complexity.
 
         Args:
             value: The value to insert.
@@ -64,13 +71,8 @@ class LinkedList:
             if self._size == 0:
                 return self.insert_head(value)
             
-            curr = self.head
-
-            while curr is not None and curr.next is not None:
-                curr = curr.next
-            
-            new_tail = LinkedList.Node(value)
-            curr.next = new_tail
+            self.tail.next = LinkedList.Node(value)
+            self.tail = self.tail.next
             self._size += 1
             return True
         except Exception as error:
