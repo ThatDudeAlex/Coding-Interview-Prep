@@ -291,4 +291,4 @@ class LinkedList:
         output += 'NULL\n'
         print(output)
 
-    
+

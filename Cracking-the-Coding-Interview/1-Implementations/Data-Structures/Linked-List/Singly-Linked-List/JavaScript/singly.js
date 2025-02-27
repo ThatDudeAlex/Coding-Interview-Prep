@@ -62,6 +62,10 @@ class LinkedList {
         }
 
         try {
+            if (this.size == 0) {
+                return this.insertHead(value);
+            }
+            
             let curr = this.head;
 
             while (curr != null && curr.next != null) {
@@ -253,12 +257,14 @@ class LinkedList {
             let curr = this.head;
 
             while (curr != null) {
+                console.log("Current node value:", curr.value); // Print current value
                 if (curr.value == value) {
+                    console.log("Value found!"); // Print if value is found
                     return true;
                 }
                 curr = curr.next;
             }
-
+            console.log("Value not found."); // Print if value is not found
             return false;
         } catch (error) {
             console.error(`Error occurred while searching for value: ${error.message}`)
