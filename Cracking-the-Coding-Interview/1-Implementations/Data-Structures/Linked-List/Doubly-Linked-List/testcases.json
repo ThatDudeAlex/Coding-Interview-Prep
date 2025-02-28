@@ -1,0 +1,131 @@
+[
+    {
+      "description": "Initialize an empty doubly linked list",
+      "operations": [
+        {"operation": "init", "arguments": {}},
+        {"operation": "getSize", "expected": 0}
+      ]
+    },
+    {
+      "description": "Initialize a doubly linked list with a single value",
+      "operations": [
+        {"operation": "init", "arguments": {"value": 10}},
+        {"operation": "getSize", "expected": 1},
+        {"operation": "hasValue", "arguments": {"value": 10}, "expected": true},
+        {"operation": "hasValue", "arguments": {"value": 20}, "expected": false}
+      ]
+    },
+    {
+      "description": "Insert at head in a doubly linked list",
+      "operations": [
+        {"operation": "init", "arguments": {}},
+        {"operation": "insertHead", "arguments": {"value": 5}, "expected": true},
+        {"operation": "insertHead", "arguments": {"value": 10}, "expected": true},
+        {"operation": "getSize", "expected": 2},
+        {"operation": "hasValue", "arguments": {"value": 10}, "expected": true},
+        {"operation": "hasValue", "arguments": {"value": 5}, "expected": true}
+      ]
+    },
+    {
+      "description": "Insert at tail in a doubly linked list",
+      "operations": [
+        {"operation": "init", "arguments": {}},
+        {"operation": "insertTail", "arguments": {"value": 5}, "expected": true},
+        {"operation": "insertTail", "arguments": {"value": 10}, "expected": true},
+        {"operation": "getSize", "expected": 2},
+        {"operation": "hasValue", "arguments": {"value": 10}, "expected": true},
+        {"operation": "hasValue", "arguments": {"value": 5}, "expected": true}
+      ]
+    },
+    {
+      "description": "Insert at index in a doubly linked list",
+      "operations": [
+        {"operation": "init", "arguments": {"value": 5}},
+        {"operation": "insertAtIndex", "arguments": {"value": 10, "index": 0}, "expected": true},
+        {"operation": "insertAtIndex", "arguments": {"value": 15, "index": 2}, "expected": false},
+        {"operation": "insertAtIndex", "arguments": {"value": 20, "index": 1}, "expected": true},
+        {"operation": "getSize", "expected": 3},
+        {"operation": "hasValue", "arguments": {"value": 20}, "expected": true},
+        {"operation": "hasValue", "arguments": {"value": 15}, "expected": false}
+      ]
+    },
+    {
+      "description": "Delete head in a doubly linked list",
+      "operations": [
+        {"operation": "init", "arguments": {"value": 10}},
+        {"operation": "insertHead", "arguments": {"value": 5}, "expected": true},
+        {"operation": "deleteHead", "arguments": {}, "expected": true},
+        {"operation": "getSize", "expected": 1},
+        {"operation": "hasValue", "arguments": {"value": 10}, "expected": true},
+        {"operation": "hasValue", "arguments": {"value": 5}, "expected": false}
+      ]
+    },
+    {
+      "description": "Delete tail in a doubly linked list",
+      "operations": [
+        {"operation": "init", "arguments": {"value": 10}},
+        {"operation": "insertTail", "arguments": {"value": 5}, "expected": true},
+        {"operation": "deleteTail", "arguments": {}, "expected": true},
+        {"operation": "getSize", "expected": 1},
+        {"operation": "hasValue", "arguments": {"value": 10}, "expected": true},
+        {"operation": "hasValue", "arguments": {"value": 5}, "expected": false}
+      ]
+    },
+    {
+      "description": "Delete at index in a doubly linked list",
+      "operations": [
+        {"operation": "init", "arguments": {"value": 10}},
+        {"operation": "insertTail", "arguments": {"value": 20}, "expected": true},
+        {"operation": "insertTail", "arguments": {"value": 30}, "expected": true},
+        {"operation": "deleteAtIndex", "arguments": {"index": 1}, "expected": true},
+        {"operation": "getSize", "expected": 2},
+        {"operation": "hasValue", "arguments": {"value": 20}, "expected": false},
+        {"operation": "hasValue", "arguments": {"value": 10}, "expected": true},
+        {"operation": "hasValue", "arguments": {"value": 30}, "expected": true}
+      ]
+    },
+    {
+      "description": "Delete single node in a doubly linked list",
+      "operations": [
+        {"operation": "init", "arguments": {"value": 10}},
+        {"operation": "deleteAtIndex", "arguments": {"index": 0}, "expected": true},
+        {"operation": "getSize", "expected": 0},
+        {"operation": "hasValue", "arguments": {"value": 10}, "expected": false}
+      ]
+    },
+    {
+      "description": "Delete from empty doubly linked list",
+      "operations": [
+        {"operation": "init", "arguments": {}},
+        {"operation": "deleteHead", "arguments": {}, "expected": false},
+        {"operation": "deleteTail", "arguments": {}, "expected": false},
+        {"operation": "deleteAtIndex", "arguments": {"index": 0}, "expected": false},
+        {"operation": "getSize", "expected": 0}
+      ]
+    },
+    {
+      "description": "Insert at invalid index in a doubly linked list",
+      "operations": [
+        {"operation": "init", "arguments": {"value": 10}},
+        {"operation": "insertAtIndex", "arguments": {"value": 20, "index": 2}, "expected": false},
+        {"operation": "insertAtIndex", "arguments": {"value": 20, "index": -1}, "expected": false},
+        {"operation": "getSize", "expected": 1}
+      ]
+    },
+    {
+      "description": "Delete at invalid index in a doubly linked list",
+      "operations": [
+        {"operation": "init", "arguments": {"value": 10}},
+        {"operation": "deleteAtIndex", "arguments": {"index": 2}, "expected": false},
+        {"operation": "deleteAtIndex", "arguments": {"index": -1}, "expected": false},
+        {"operation": "getSize", "expected": 1}
+      ]
+    },
+    {
+      "description": "Has value on empty doubly linked list",
+      "operations": [
+        {"operation": "init", "arguments": {}},
+        {"operation": "hasValue", "arguments": {"value": 10}, "expected": false}
+      ]
+    }
+  ]
