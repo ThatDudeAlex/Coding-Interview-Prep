@@ -45,7 +45,7 @@ def level_order_traversal_recursive_helper(array, queue):
     if current.left:
         queue.put(current.left)
     if current.right:
-            queue.put(current.right)
+        queue.put(current.right)
 
     return level_order_traversal_recursive_helper(array, queue)
     
