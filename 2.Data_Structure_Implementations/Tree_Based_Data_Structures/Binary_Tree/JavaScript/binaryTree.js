@@ -1,4 +1,7 @@
-
+/**
+ * Binary tree implementation with a queue to achieve O(1) enqueue & dequeue,
+ * instead of the O(n) runtime given by the array implementation
+ */
 class BinaryTree {
     constructor(value) {
         this.value = value
@@ -7,12 +10,11 @@ class BinaryTree {
     }
 
     insert(value) {
-        // array will behave as a Queue
-        const q = []
-        q.push(this)
+        const q = new Queue()
+        q.enqueue(this)
 
-        while (q.length > 0) {
-            const current = q.shift()
+        while (!q.isEmpty()) {
+            const current = q.dequeue()
 
             if (!current.left) {
                 current.left = new BinaryTree(value)
@@ -21,34 +23,34 @@ class BinaryTree {
                 current.right = new BinaryTree(value)
                 break
             }
-            q.push(current.left)
-            q.push(current.right)
+            q.enqueue(current.left)
+            q.enqueue(current.right)
         }
         return this
     }
 
     contains(value) {
-        // array will behave as a Queue
-        const q = []
-        q.push(this)
+        const q = new Queue()
+        q.enqueue(this)
 
-        while (q.length > 0) {
-            const current = q.shift()
+        while (!q.isEmpty()) {
+            const current = q.dequeue()
 
             if (current.value === value)
                 return true
 
             if (current.left)
-                q.push(current.left)
+                q.enqueue(current.left)
 
             if (current.right)
-                q.push(current.right)
+                q.enqueue(current.right)
         }
         return false
     }
 
     remove(value) {
-        if (this.#isLeadNode(this) && this.value == value) {
+        // Check if it's a single-node tree
+        if (this.#isLeafNode(this) && this.value == value) {
             this.value = null
             return this
         }
@@ -57,30 +59,29 @@ class BinaryTree {
         let lastNodeParent = null
         let lastNode = null
 
-        // array will behave as a Queue
-        const q = []
-        q.push(this)
+        const q = new Queue()
+        q.enqueue(this)
 
-        while (q.length > 0) {
+        while (!q.isEmpty()) {
             // after loop is this this will be the deepest
             // node in the tree
-            lastNode = q.shift()
+            lastNode = q.dequeue()
 
-            if (lastNode.value == value)
+            if (lastNode.value === value)
                 nodeToDelete = lastNode
 
 
             if (lastNode.left) {
                 lastNodeParent = lastNode
-                q.push(lastNode.left)
+                q.enqueue(lastNode.left)
             }
             if (lastNode.right) {
                 lastNodeParent = lastNode
-                q.push(lastNode.right)
+                q.enqueue(lastNode.right)
             }
 
         }
-        console.log(lastNodeParent.value)
+
         if (nodeToDelete) {
             // swap node values
             nodeToDelete.value = lastNode.value
@@ -99,12 +100,78 @@ class BinaryTree {
         return !node.left && !node.right
     }
 
-    print_tree(level = 0, prefix = "Root: ") {
+    printTree(level = 0, prefix = "Root: ") {
         console.log(" ".repeat(level * 4) + prefix + this.value)
         if (this.left)
-            this.left.print_tree(level + 1, "L--- ")
+            this.left.printTree(level + 1, "L--- ")
 
         if (this.right)
-            this.right.print_tree(level + 1, "R--- ")
+            this.right.printTree(level + 1, "R--- ")
+    }
+}
+
+// Queue implementation since JavaScript does not hava a built in data structure
+class Queue {
+    #front
+    #back
+    #size
+
+    constructor() {
+        this.#front = null
+        this.#back = null
+        this.#size = 0
+    }
+
+    enqueue(data) {
+        if (this.isEmpty()) {
+            this.#front = this.#back = new Node(data)
+
+            this.#size = 1
+            return true
+        }
+
+        const newNode = new Node(data)
+        this.#back.next = newNode
+        this.#back = newNode
+        this.#size++
+        return true
+    }
+
+    dequeue() {
+        if (this.isEmpty())
+            return null
+
+        const deletedNode = this.#front
+        this.#front = this.#front.next
+
+        // If queue becomes empty, reset back
+        if (this.#front == null)
+            this.#back = null
+
+        this.#size--
+        return deletedNode.data
+    }
+
+    peek() {
+        return this.isEmpty() ? null : this.#front.data;
+    }
+
+    // ====================
+    //   Utility Methods
+    // ====================
+
+    getSize() {
+        return this.#size
+    }
+
+    isEmpty() {
+        return this.getSize() == 0
+    }
+}
+
+class Node {
+    constructor(data) {
+        this.data = data
+        this.next = null
     }
 }
