@@ -60,7 +60,7 @@ class BinaryTree:
         q.put(self)
 
         while not q.empty():
-            # after loop is this this will be the deepest
+            # after loop is this will be the deepest
             # node in tree
             last_node = q.get()
 

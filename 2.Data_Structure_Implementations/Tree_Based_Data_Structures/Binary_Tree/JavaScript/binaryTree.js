@@ -63,7 +63,7 @@ class BinaryTree {
         q.enqueue(this)
 
         while (!q.isEmpty()) {
-            // after loop is this this will be the deepest
+            // after loop is this will be the deepest
             // node in the tree
             lastNode = q.dequeue()
 
