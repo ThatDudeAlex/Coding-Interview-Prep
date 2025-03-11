@@ -6,9 +6,8 @@ tweaks that I personally found helpful.
 
 ### 1. Listen
 
-```
-Pay very dose attention to any information in the problem description. You probably need it all for an optimal algorithm
-```
+> **Pay very dose attention** to any information in the problem description. 
+> You probably need it all for an optimal algorithm
 
 **My Take**  
 
@@ -16,9 +15,8 @@ I use this step to also list the expected **Inputs & Outputs** of question.
 
 ### 2. Example
 
-```
-Most examples are too small or are special cases. Debug your example. Is there any way it's a special case? Is it big enough?
-```
+> Most examples are too small or are special cases. Debug your example. Is there any way it's a special case? Is it big enough?
+
 
 **My Take**  
 
@@ -26,9 +24,10 @@ I quickly comeup with 1 - 2 additional examples to debug and make sure I underst
 
 ### 3. Brute Force
 
-```
-Get a brute-force solution as soon as possible. Don't worry about developing an efficient algorithm yet State a naive algorithm and its runtime, then optimize from there. Don't code yet though'
-```
+
+> Get a brute-force solution as soon as possible. Don't worry about developing an efficient algorithm 
+> yet State a naive algorithm and its runtime, then optimize from there. Don't code yet though'
+
 
 **My Take**  
 
@@ -71,35 +70,31 @@ If i get stuck systematically going over each of the possible data structures be
 * **U**nnecessary Work
 * **D**uplicated Work
 
-```
-Walk through your brute force with BUD
-optimization or try some of these ideas:
-
-> Look for any unused info.You usually
-  need all the information in a problem.
-
-> Solve it manually on anexample, then
-  reverse engineer your thought process. 
-  How did you solve it?
-
-> Solve it "incorrectly" and then think about
-  why the algorithm fails. Can you fix those issues?
-
-> Make a time vs space tradeoff. Hash tables are
-  especially useful!
-```
+> Walk through your brute force with BUD
+> optimization or try some of these ideas:
+> 
+> * Look for any unused info.You usually
+>   need all the information in a problem.
+> 
+> * Solve it manually on anexample, then
+>   reverse engineer your thought process. 
+>   How did you solve it?
+> 
+> * Solve it "incorrectly" and then think about
+>   why the algorithm fails. Can you fix those issues?
+> 
+> * Make a time vs space tradeoff. Hash tables are
+>   especially useful!
 
 ### 5. Walkthrough
 
-```
-Now that you have an optimal solution, walk through your approach in detail. Make sure you understand each detail before you start coding.
-```
+> Now that you have an optimal solution, walk through your approach in detail. 
+> Make sure you understand each detail before you start coding.
 
 ### 6. Implement
 
-```
-Your goal is to write beautiful code. Modularize your code from the beginning and refactor to clean up anything that isn't beautiful.
-```
+> Your goal is to write beautiful code. Modularize your code from the beginning 
+> and refactor to clean up anything that isn't beautiful.
 
 ### 7. Test
 
